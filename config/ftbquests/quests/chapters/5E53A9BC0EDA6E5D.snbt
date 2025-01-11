@@ -112,7 +112,6 @@
 			dependencies: ["15351ED9820C1C90"]
 			description: ["&6Печь&r необходима для переплавки различных ресурсов."]
 			id: "7CA023B662360C6A"
-			size: 1.2d
 			tasks: [{
 				id: "348453F9297D05FB"
 				item: "minecraft:furnace"
@@ -123,7 +122,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7CA023B662360C6A"]
+			dependencies: ["5E03D8EFC425A9CD"]
 			description: ["&6Плавильная печь&r быстрее плавит руду."]
 			id: "459270456C29E625"
 			rewards: [{
@@ -137,32 +136,11 @@
 				type: "item"
 			}]
 			title: "&bПлавильная печь"
-			x: 5.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["7A3F3E23A0387DE6"]
-			description: ["Создав каменную кирку, я могу добыть новый ресурс - &6Железо&r."]
-			id: "050CD68574E6F1E6"
-			rewards: [{
-				count: 2
-				id: "739F2AEC115952AA"
-				item: "minecraft:raw_iron"
-				random_bonus: 4
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "648F73C385016935"
-				item: "minecraft:raw_iron"
-				type: "item"
-			}]
-			title: "&b4х Рудное железо"
-			x: 8.0d
+			x: 11.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["050CD68574E6F1E6"]
+			dependencies: ["7B28F014655A139A"]
 			description: [
 				"Рудное железо я могу переплавить в железные слитки."
 				""
@@ -199,7 +177,7 @@
 				}
 			]
 			title: "&bЖелезо"
-			x: 9.5d
+			x: 14.0d
 			y: 0.0d
 		}
 		{
@@ -212,7 +190,6 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			size: 1.2d
 			tasks: [{
 				id: "185BB79D41DAAEE3"
 				item: {
@@ -225,7 +202,7 @@
 				type: "item"
 			}]
 			title: "&bЖелезная кирка"
-			x: 11.0d
+			x: 15.5d
 			y: 0.0d
 		}
 		{
@@ -259,8 +236,8 @@
 				}
 			]
 			title: "&bАлмаз"
-			x: 11.5d
-			y: 1.0d
+			x: 16.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["16B75CEDF776927E"]
@@ -270,7 +247,6 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			size: 1.2d
 			tasks: [{
 				id: "766A9A03267F9409"
 				item: {
@@ -283,8 +259,8 @@
 				type: "item"
 			}]
 			title: "&bАлмазная кирка"
-			x: 12.5d
-			y: 1.0d
+			x: 17.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["39C60726C5C4150F"]
@@ -303,8 +279,8 @@
 				type: "item"
 			}]
 			title: "&b4х Рудное золото"
-			x: 11.5d
-			y: -1.0d
+			x: 16.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6BA446FB38C2AED4"]
@@ -323,8 +299,8 @@
 				type: "item"
 			}]
 			title: "&b4х Золотой слиток"
-			x: 12.5d
-			y: -1.0d
+			x: 17.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["16B75CEDF776927E"]
@@ -341,8 +317,8 @@
 				type: "item"
 			}]
 			title: "&bАлмазный рюкзак"
-			x: 12.0d
-			y: 2.5d
+			x: 16.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
@@ -359,7 +335,7 @@
 				type: "item"
 			}]
 			title: "&bЖелезный рюкзак"
-			x: 9.5d
+			x: 14.0d
 			y: 1.5d
 		}
 		{
@@ -376,8 +352,8 @@
 				type: "item"
 			}]
 			title: "&bЗолотой рюкзак"
-			x: 13.0d
-			y: -2.5d
+			x: 18.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3BC47498DF613B04"]
@@ -540,15 +516,22 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			tasks: [{
-				count: 4L
-				id: "3999CB54B648B1CC"
-				item: "minecraft:raw_copper"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 4L
+					id: "3999CB54B648B1CC"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "229702B59A330209"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+			]
 			title: "&b4х Рудная медь"
 			x: 8.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["53A87DE6F28197DB"]
@@ -561,8 +544,8 @@
 				type: "item"
 			}]
 			title: "&b4х Медный слиток"
-			x: 8.0d
-			y: -3.5d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
@@ -593,7 +576,7 @@
 				}
 			]
 			title: "&bЖелезные хранилища"
-			x: 9.5d
+			x: 14.0d
 			y: -1.5d
 		}
 		{
@@ -624,8 +607,8 @@
 				}
 			]
 			title: "&bЗолотые хранилища"
-			x: 12.0d
-			y: -2.5d
+			x: 17.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["16B75CEDF776927E"]
@@ -655,8 +638,8 @@
 				}
 			]
 			title: "&bАлмазные хранилища"
-			x: 11.0d
-			y: 2.5d
+			x: 15.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3BC47498DF613B04"]
@@ -694,14 +677,13 @@
 				type: "item"
 			}]
 			title: "&bМедная печь"
-			x: 7.5d
-			y: -5.0d
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
 			description: ["Медный молот необходим мне для создания различных пластин."]
 			id: "43DAF8E59F58AE77"
-			size: 1.2d
 			tasks: [{
 				id: "6D1FF20C4AD5E7C9"
 				item: {
@@ -714,8 +696,8 @@
 				type: "item"
 			}]
 			title: "&bМедный молот"
-			x: 8.5d
-			y: -5.0d
+			x: 9.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6741CCCE0EF6A545"]
@@ -740,7 +722,7 @@
 				}
 			]
 			title: "Метеорит"
-			x: 13.0d
+			x: 19.0d
 			y: 2.0d
 		}
 		{
@@ -752,8 +734,19 @@
 				item: "sacred_logistics:meteorite_charm"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 20.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["459270456C29E625"]
+			id: "7B28F014655A139A"
+			tasks: [{
+				id: "774F14228435B8F4"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
 		}
 	]
 	title: "&bПервые шаги"
