@@ -1,0 +1,4 @@
+// 1.19.2	2025-01-11T19:41:55.5563093	LootTables
+3e7cbb0f5e3526d5e1731031fd4a37dd39befd69 data/mm/loot_tables/blocks/oven.json
+e30e483dea1b17ce5cd5be9e1217583f505cfdd8 data/mm/loot_tables/blocks/oven_item_input.json
+54438adb35a43c3c142df465345b12c87b73cc9b data/mm/loot_tables/blocks/oven_item_output.json

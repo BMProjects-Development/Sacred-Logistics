@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mm:block/oven",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mm:block/oven",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "mm:block/oven"
+    },
+    "facing=west": {
+      "model": "mm:block/oven",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"id": "oven_item",
+	"controllerIds": "mm:oven",
+	"name": "Oven Item",
+	"type": "mm:item",
+	"config": {
+		"rows": 3,
+		"columns": 3
+	}
+}

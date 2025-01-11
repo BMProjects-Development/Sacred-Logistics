@@ -1,4 +1,7 @@
 {
+  "mm": {
+    "controller_progress": true
+  },
   "minecraft": {
     "block_inventory.detailed_amount": 54,
     "furnace": true,
@@ -65,6 +68,10 @@
     "camo": true,
     "semiblock": true
   },
+  "immersiveengineering": {
+    "hemp": true,
+    "multiblock_icon": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -77,6 +84,17 @@
     "adventure": true,
     "ench": true,
     "spawner": true
+  },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
+  "custommachinery": {
+    "machine_component_provider": true
   },
   "ae2": {
     "part_icon": true,

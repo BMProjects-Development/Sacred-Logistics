@@ -1,0 +1,7 @@
+// 1.19.2	2025-01-11T19:41:55.5576247	Block States: mm
+8f669ed545b29088060b3fecef436a152e05fd2e assets/mm/blockstates/oven.json
+8af363b19726d6870a336f69348e9d2c1f02c575 assets/mm/blockstates/oven_item_input.json
+3edf89cf9f473f5b37add6ab4e42a18a2f119ba8 assets/mm/blockstates/oven_item_output.json
+5216d481bc0becea8907e6141d3687b91772b953 assets/mm/models/block/oven.json
+9e548fecec0a97d27e4b2a5167447781bd090280 assets/mm/models/block/oven_item_input.json
+62fcf788b9a11cd87c0d0567d72967990aefa897 assets/mm/models/block/oven_item_output.json

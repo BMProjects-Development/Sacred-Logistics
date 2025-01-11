@@ -1,0 +1,37 @@
+{
+  "name": "Oven structure",
+  "controllerIds": "mm:oven",
+  "layout": [
+    [
+      "111",
+      "111",
+      "111"
+    ],
+    [
+      "111",
+      "111",
+      "111"
+    ],
+    [
+      "111",
+      "213",
+      "1C1"
+    ],
+    [
+      "111",
+      "111",
+      "111"
+    ]
+  ],
+  "key": {
+    "1": {
+      "block": "minecraft:cobblestone"
+    },
+    "2": {
+      "block": "mm:oven_item_input"
+    },
+    "3": {
+      "block": "mm:oven_item_output"
+    }
+  }
+}
