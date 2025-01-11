@@ -1,0 +1,55 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "11"
+	group: ""
+	id: "6BC8AD2AEF4B2272"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6741CCCE0EF6A545"]
+			id: "252624E7573EBBB9"
+			tasks: [
+				{
+					id: "28E8FB535981B03A"
+					item: "allthemodium:raw_allthemodium"
+					type: "item"
+				}
+				{
+					id: "1A4D79D8EEF89E20"
+					item: "allthemodium:allthemodium_dust"
+					type: "item"
+				}
+			]
+			title: "&bВсемодий "
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["252624E7573EBBB9"]
+			id: "56DE8FACE0972F7D"
+			tasks: [{
+				id: "5038F67A59E50A48"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			title: "&bВсемодиевый слиток"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["56DE8FACE0972F7D"]
+			id: "44F9A5EDA9697FFF"
+			tasks: [{
+				id: "2F4A202544CB4C53"
+				item: "allthemodium:teleport_pad"
+				type: "item"
+			}]
+			title: "&bТелепортационная панель"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "11"
+}

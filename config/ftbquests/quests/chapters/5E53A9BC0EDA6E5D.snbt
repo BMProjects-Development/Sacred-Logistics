@@ -530,37 +530,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6741CCCE0EF6A545"]
-			id: "252624E7573EBBB9"
-			tasks: [
-				{
-					id: "28E8FB535981B03A"
-					item: "allthemodium:raw_allthemodium"
-					type: "item"
-				}
-				{
-					id: "1A4D79D8EEF89E20"
-					item: "allthemodium:allthemodium_dust"
-					type: "item"
-				}
-			]
-			title: "&bВсемодий "
-			x: 13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["252624E7573EBBB9"]
-			id: "56DE8FACE0972F7D"
-			tasks: [{
-				id: "5038F67A59E50A48"
-				item: "allthemodium:allthemodium_ingot"
-				type: "item"
-			}]
-			title: "&bВсемодиевый слиток"
-			x: 14.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["7A3F3E23A0387DE6"]
 			description: ["Создав каменную кирку, я могу добыть новый ресурс - &6Медь&r."]
 			id: "53A87DE6F28197DB"
@@ -707,18 +676,6 @@
 			title: "&bЯщик"
 			x: 1.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["56DE8FACE0972F7D"]
-			id: "44F9A5EDA9697FFF"
-			tasks: [{
-				id: "2F4A202544CB4C53"
-				item: "allthemodium:teleport_pad"
-				type: "item"
-			}]
-			title: "&bТелепортационная панель"
-			x: 16.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
