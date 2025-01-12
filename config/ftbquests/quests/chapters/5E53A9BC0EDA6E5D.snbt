@@ -121,7 +121,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5E03D8EFC425A9CD"]
+			dependencies: ["123666B1211969F0"]
 			description: ["&6Плавильная печь&r быстрее плавит руду."]
 			id: "459270456C29E625"
 			rewards: [{
@@ -135,11 +135,14 @@
 				type: "item"
 			}]
 			title: "&bПлавильная печь"
-			x: 11.0d
-			y: 0.0d
+			x: 11.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["7B28F014655A139A"]
+			dependencies: [
+				"2369CA9DBD2F90EB"
+				"3A3319B189F5C53A"
+			]
 			description: [
 				"Рудное железо я могу переплавить в железные слитки."
 				""
@@ -176,7 +179,7 @@
 				}
 			]
 			title: "&bЖелезо"
-			x: 14.0d
+			x: 13.5d
 			y: 0.0d
 		}
 		{
@@ -201,7 +204,7 @@
 				type: "item"
 			}]
 			title: "&bЖелезная кирка"
-			x: 15.5d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -235,7 +238,7 @@
 				}
 			]
 			title: "&bАлмаз"
-			x: 16.0d
+			x: 15.5d
 			y: 1.5d
 		}
 		{
@@ -258,7 +261,7 @@
 				type: "item"
 			}]
 			title: "&bАлмазная кирка"
-			x: 17.5d
+			x: 17.0d
 			y: 2.0d
 		}
 		{
@@ -278,7 +281,7 @@
 				type: "item"
 			}]
 			title: "&b4х Рудное золото"
-			x: 16.0d
+			x: 15.5d
 			y: -1.5d
 		}
 		{
@@ -298,7 +301,7 @@
 				type: "item"
 			}]
 			title: "&b4х Золотой слиток"
-			x: 17.5d
+			x: 17.0d
 			y: -2.0d
 		}
 		{
@@ -316,7 +319,7 @@
 				type: "item"
 			}]
 			title: "&bАлмазный рюкзак"
-			x: 16.5d
+			x: 16.0d
 			y: 3.0d
 		}
 		{
@@ -335,7 +338,7 @@
 			}]
 			title: "&bЖелезный рюкзак"
 			x: 14.0d
-			y: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0131D6E4A04B280F"]
@@ -351,7 +354,7 @@
 				type: "item"
 			}]
 			title: "&bЗолотой рюкзак"
-			x: 18.0d
+			x: 17.5d
 			y: -3.5d
 		}
 		{
@@ -412,8 +415,8 @@
 				type: "item"
 			}]
 			title: "&bКоптильня"
-			x: 5.5d
-			y: -1.5d
+			x: 6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
@@ -515,19 +518,12 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			tasks: [
-				{
-					count: 4L
-					id: "3999CB54B648B1CC"
-					item: "minecraft:raw_copper"
-					type: "item"
-				}
-				{
-					id: "229702B59A330209"
-					item: "minecraft:raw_iron"
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 4L
+				id: "3999CB54B648B1CC"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
 			title: "&b4х Рудная медь"
 			x: 8.0d
 			y: 0.0d
@@ -576,7 +572,7 @@
 			]
 			title: "&bЖелезные хранилища"
 			x: 14.0d
-			y: -1.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0131D6E4A04B280F"]
@@ -606,7 +602,7 @@
 				}
 			]
 			title: "&bЗолотые хранилища"
-			x: 17.0d
+			x: 16.5d
 			y: -3.5d
 		}
 		{
@@ -637,7 +633,7 @@
 				}
 			]
 			title: "&bАлмазные хранилища"
-			x: 15.5d
+			x: 15.0d
 			y: 3.0d
 		}
 		{
@@ -721,7 +717,7 @@
 				}
 			]
 			title: "Метеорит"
-			x: 19.0d
+			x: 18.5d
 			y: 2.0d
 		}
 		{
@@ -733,19 +729,65 @@
 				item: "sacred_logistics:meteorite_charm"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 2.0d
+			x: 20.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5E03D8EFC425A9CD"]
+			id: "123666B1211969F0"
+			tasks: [{
+				id: "3B2AAC2043D621E3"
+				title: "Примитивный сборочный механизм"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["459270456C29E625"]
-			id: "7B28F014655A139A"
+			id: "3A3319B189F5C53A"
 			tasks: [{
-				id: "774F14228435B8F4"
-				item: "minecraft:iron_ingot"
+				id: "562B94286B15C05C"
+				title: "Примитивная дуговая печь"
+				type: "checkmark"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["123666B1211969F0"]
+			id: "7FDCA13F8063F47C"
+			tasks: [{
+				id: "0D2D66DEDC631356"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
-			x: 12.5d
-			y: 0.0d
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7FDCA13F8063F47C"]
+			id: "2369CA9DBD2F90EB"
+			tasks: [
+				{
+					id: "3DD9F44371D69AC5"
+					item: "immersiveengineering:cokebrick"
+					type: "item"
+				}
+				{
+					id: "1EACEC8113880A78"
+					item: "immersiveengineering:coal_coke"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 1.5d
 		}
 	]
 	title: "&bПервые шаги"
