@@ -1,4 +1,9 @@
-// 1.19.2	2025-01-12T14:48:35.5288688	LootTables
+// 1.19.2	2025-01-12T17:32:35.5812033	LootTables
+79153cab1b32d4ae93ffbfab3b054649e86783be data/mm/loot_tables/blocks/aether_mining_drill.json
+5e9728f2ab392a9e69cf780d6f7861b3015fae76 data/mm/loot_tables/blocks/aether_mining_drill_energy_input.json
+da934537d7773adb822695868191a23d1b26074a data/mm/loot_tables/blocks/aether_mining_drill_energy_output.json
+01c518d2ba47fdf6b7fd267de080350ba974bf5a data/mm/loot_tables/blocks/aether_mining_drill_item_input.json
+f714114ace0bf70f4e0507daf4183fca6b843cdc data/mm/loot_tables/blocks/aether_mining_drill_item_output.json
 3e7cbb0f5e3526d5e1731031fd4a37dd39befd69 data/mm/loot_tables/blocks/oven.json
 e30e483dea1b17ce5cd5be9e1217583f505cfdd8 data/mm/loot_tables/blocks/oven_item_input.json
 54438adb35a43c3c142df465345b12c87b73cc9b data/mm/loot_tables/blocks/oven_item_output.json

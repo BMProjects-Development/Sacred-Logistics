@@ -1,4 +1,9 @@
-// 1.19.2	2025-01-12T14:48:35.5288688	Item Models: mm
+// 1.19.2	2025-01-12T17:32:35.5792003	Item Models: mm
+80127f7875c8df53720d0843537eea679a8f23ac assets/mm/models/item/aether_mining_drill.json
+12852b70a0287f86650d723d2e1434cda6728f36 assets/mm/models/item/aether_mining_drill_energy_input.json
+d59a7ea8f99ddd585ecadc2dfeef5ae835a72f04 assets/mm/models/item/aether_mining_drill_energy_output.json
+439d9061e486bc8c35f08a98bbf6bd62d3b1a50f assets/mm/models/item/aether_mining_drill_item_input.json
+1c09bb7211fef1685499f822b61abbafb89d6f87 assets/mm/models/item/aether_mining_drill_item_output.json
 dd59e99468ce7cee18e1ef8d2398b443a6eb26ba assets/mm/models/item/oven.json
 e21c33c9ab6bc9db384863ad13d84d4b658d70aa assets/mm/models/item/oven_item_input.json
 581e44e545f23d5f7659e755c04bddce4f45c0f8 assets/mm/models/item/oven_item_output.json

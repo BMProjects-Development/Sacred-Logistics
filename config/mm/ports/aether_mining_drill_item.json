@@ -1,0 +1,10 @@
+{
+	"id": "aether_mining_drill_item",
+	"controllerIds": "mm:aether_mining_drill",
+	"name": "Aether Mining Drill Item",
+	"type": "mm:item",
+	"config": {
+		"rows": 3,
+		"columns": 3
+	}
+}

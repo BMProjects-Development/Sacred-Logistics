@@ -1,0 +1,11 @@
+{
+  "id": "aether_mining_drill_energy",
+  "controllerIds": "mm:aether_mining_drill",
+  "name": "Aether Mining Drill Energy",
+  "type": "mm:energy",
+  "config": {
+    "capacity": 1000000,
+    "maxReceive": 1000,
+    "maxExtract": 1000
+  }
+}

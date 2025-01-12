@@ -28,7 +28,8 @@
     "fog_start": 100,
     "multi_dimension_fog_control": false,
     "dimensionFogDistance": {
-      "minecraft:overworld": 0
+      "minecraft:overworld": 0,
+      "aether:the_aether": 0
     },
     "use_linear_flat_color_blender": false,
     "light_updates": true,

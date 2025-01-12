@@ -1,0 +1,29 @@
+{
+  "ticks": 400,
+  "structureId": "sacredlogistics_machines:aether_mining_drill",
+  "conditions": [
+	{
+	  "type": "mm:dimension",
+      "dimension": "aether:the_aether"
+	}
+  ],
+  "inputs": [
+	{
+      "type": "mm:input/consume",
+      "ingredient": {
+        "type": "mm:energy",
+        "amount": 10000
+      }
+    }
+  ],
+  "outputs": [
+    {
+      "type": "mm:output/simple",
+      "ingredient": {
+        "type": "mm:item",
+        "item": "allthemodium:raw_allthemodium",
+        "count": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mm:block/aether_mining_drill",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "mm:block/aether_mining_drill",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "mm:block/aether_mining_drill"
+    },
+    "facing=west": {
+      "model": "mm:block/aether_mining_drill",
+      "y": 90
+    }
+  }
+}

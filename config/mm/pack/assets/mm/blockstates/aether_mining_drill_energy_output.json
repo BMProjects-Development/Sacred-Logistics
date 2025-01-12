@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/aether_mining_drill_energy_output"
+    }
+  }
+}

@@ -1,7 +1,12 @@
 {
   "values": [
+    "mm:aether_mining_drill",
     "mm:oven",
     "mm:primitive_assembly_machine",
+    "mm:aether_mining_drill_energy_input",
+    "mm:aether_mining_drill_energy_output",
+    "mm:aether_mining_drill_item_input",
+    "mm:aether_mining_drill_item_output",
     "mm:oven_item_input",
     "mm:oven_item_output",
     "mm:primitive_assembly_machine_energy_input",

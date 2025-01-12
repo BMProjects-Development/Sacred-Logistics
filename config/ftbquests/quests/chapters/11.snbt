@@ -50,6 +50,16 @@
 			x: 2.0d
 			y: 0.0d
 		}
+		{
+			id: "3D82A4F1ED49F6BB"
+			tasks: [{
+				dimension: "aether:the_aether"
+				id: "6C088DCFF0742D9D"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
 	]
 	title: "11"
 }
