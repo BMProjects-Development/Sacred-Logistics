@@ -1,0 +1,11 @@
+{
+  "id": "primitive_assembly_machine_energy",
+  "controllerIds": "mm:primitive_assembly_machine",
+  "name": "Primitive Assembly Machine Energy",
+  "type": "mm:energy",
+  "config": {
+    "capacity": 1000000,
+    "maxReceive": 1000,
+    "maxExtract": 1000
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/primitive_assembly_machine_energy_input"
+    }
+  }
+}

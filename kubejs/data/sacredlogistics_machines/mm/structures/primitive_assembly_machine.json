@@ -1,0 +1,71 @@
+{
+  "name": "Primitive Assembly Machine structure",
+  "controllerIds": "mm:primitive_assembly_machine",
+  "layout": [
+    [
+       "     ",
+	   " 666 ",
+       " 666 ",
+       " 666 ",
+	   "     "
+    ],
+	[
+      "71117",
+      "11111",
+      "11111",
+	  "11111",
+	  "71117"
+    ],
+    [
+       "7   7",
+	   " 555 ",
+       " 555 ",
+       " 555 ",
+	   "7   7"
+    ],
+    [
+      "7   7", 
+	  " 555 ",
+      " 253 ",
+      " 5C5 ",
+	  "7   7"
+    ],
+    [
+      "7   7", 
+	  " 555 ",
+      " 455 ",
+      " 555 ",
+	  "7   7"
+    ],
+    [
+      "71117",
+      "11111",
+      "11111",
+	  "11111",
+	  "71117"
+    ]
+  ],
+  "key": {
+    "1": {
+      "block": "minecraft:polished_deepslate"
+    },
+    "2": {
+      "block": "mm:primitive_assembly_machine_item_input"
+    },
+    "3": {
+      "block": "mm:primitive_assembly_machine_item_output"
+    },
+	"4": {
+		"block": "mm:primitive_assembly_machine_energy_input"
+	},
+	"5": {
+		"block": "quark:polished_calcite"
+	},
+	"6": {
+		"block": "minecraft:waxed_cut_copper_slab"
+	},
+	"7": {
+		"block": "minecraft:spruce_fence"
+	}
+  }
+}

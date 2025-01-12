@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "mm:primitive_assembly_machine_energy_input"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

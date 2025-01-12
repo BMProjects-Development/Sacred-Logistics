@@ -1,6 +1,6 @@
 {
   "ticks": 300,
-  "structureId": "sacredlogistics:oven",
+  "structureId": "sacredlogistics_machines:oven",
   "inputs": [
     {
       "type": "mm:input/consume",

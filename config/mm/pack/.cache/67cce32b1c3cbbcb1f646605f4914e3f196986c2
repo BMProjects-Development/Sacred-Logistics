@@ -1,4 +1,9 @@
-// 1.19.2	2025-01-11T19:41:55.5563093	LootTables
+// 1.19.2	2025-01-12T14:48:35.5288688	LootTables
 3e7cbb0f5e3526d5e1731031fd4a37dd39befd69 data/mm/loot_tables/blocks/oven.json
 e30e483dea1b17ce5cd5be9e1217583f505cfdd8 data/mm/loot_tables/blocks/oven_item_input.json
 54438adb35a43c3c142df465345b12c87b73cc9b data/mm/loot_tables/blocks/oven_item_output.json
+e1bc9da0e4031b3ed247f944e696a238dff3b0af data/mm/loot_tables/blocks/primitive_assembly_machine.json
+03cdea736c02f1e8b02daf72119b37f0d79288f2 data/mm/loot_tables/blocks/primitive_assembly_machine_energy_input.json
+2ebea5525c461dfa649a4441eb2b36ed7631818d data/mm/loot_tables/blocks/primitive_assembly_machine_energy_output.json
+3afaa97b320dcc7aa1a5e529699f8d5f544a1b3b data/mm/loot_tables/blocks/primitive_assembly_machine_item_input.json
+acdd959cfd5fcc9f4fecd4434bbb5223fe91da50 data/mm/loot_tables/blocks/primitive_assembly_machine_item_output.json

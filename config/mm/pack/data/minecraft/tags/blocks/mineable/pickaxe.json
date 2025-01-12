@@ -1,7 +1,12 @@
 {
   "values": [
     "mm:oven",
+    "mm:primitive_assembly_machine",
     "mm:oven_item_input",
-    "mm:oven_item_output"
+    "mm:oven_item_output",
+    "mm:primitive_assembly_machine_energy_input",
+    "mm:primitive_assembly_machine_energy_output",
+    "mm:primitive_assembly_machine_item_input",
+    "mm:primitive_assembly_machine_item_output"
   ]
 }

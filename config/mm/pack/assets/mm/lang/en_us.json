@@ -2,5 +2,10 @@
   "block.mm.oven": "Oven",
   "block.mm.oven_item_input": "Oven Item Input",
   "block.mm.oven_item_output": "Oven Item Output",
+  "block.mm.primitive_assembly_machine": "Primitive Assembly Machine",
+  "block.mm.primitive_assembly_machine_energy_input": "Primitive Assembly Machine Energy Input",
+  "block.mm.primitive_assembly_machine_energy_output": "Primitive Assembly Machine Energy Output",
+  "block.mm.primitive_assembly_machine_item_input": "Primitive Assembly Machine Item Input",
+  "block.mm.primitive_assembly_machine_item_output": "Primitive Assembly Machine Item Output",
   "item.mm.blueprint": "Blueprint"
 }

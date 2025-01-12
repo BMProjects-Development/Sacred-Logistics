@@ -1,4 +1,9 @@
-// 1.19.2	2025-01-11T19:41:55.5553057	Item Models: mm
+// 1.19.2	2025-01-12T14:48:35.5288688	Item Models: mm
 dd59e99468ce7cee18e1ef8d2398b443a6eb26ba assets/mm/models/item/oven.json
 e21c33c9ab6bc9db384863ad13d84d4b658d70aa assets/mm/models/item/oven_item_input.json
 581e44e545f23d5f7659e755c04bddce4f45c0f8 assets/mm/models/item/oven_item_output.json
+046517baf47e2fe37c467f48d55eab03dfeb028a assets/mm/models/item/primitive_assembly_machine.json
+4b269532e203eb8cfbc91ca4be9f700221c80601 assets/mm/models/item/primitive_assembly_machine_energy_input.json
+0ce381e1cbb3cbe2d9ae52c44998378a5ca7a2a3 assets/mm/models/item/primitive_assembly_machine_energy_output.json
+d53580526cbec77b045140a8366488856e402602 assets/mm/models/item/primitive_assembly_machine_item_input.json
+fb42174c244fac7e5493f6b7a05200bc9b2947ee assets/mm/models/item/primitive_assembly_machine_item_output.json

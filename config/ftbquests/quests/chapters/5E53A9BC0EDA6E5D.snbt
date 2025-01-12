@@ -22,7 +22,6 @@
 				item: "minecraft:apple"
 				type: "item"
 			}]
-			size: 1.2d
 			subtitle: "Главный рабочий стол!"
 			tasks: [{
 				id: "5CE947F135239979"
