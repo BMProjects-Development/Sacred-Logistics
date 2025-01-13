@@ -789,6 +789,39 @@
 			x: 13.0d
 			y: 1.5d
 		}
+		{
+			dependencies: ["459270456C29E625"]
+			id: "0B639D84AEC3622C"
+			tasks: [{
+				id: "1A0FC25F36F29D90"
+				item: "mm_mining:str_ore_smelter"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7FDCA13F8063F47C"]
+			id: "5A6A30D1C93A56CD"
+			tasks: [{
+				id: "792CA675687914DC"
+				item: "immersiveengineering:alloybrick"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A6A30D1C93A56CD"]
+			id: "520BE914C32AD15D"
+			tasks: [{
+				id: "06933F16397277F3"
+				item: "alltheores:brass_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
 	]
 	title: "&bПервые шаги"
 }
