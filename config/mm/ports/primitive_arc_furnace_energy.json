@@ -1,0 +1,11 @@
+{
+  "id": "primitive_arc_furnace_energy",
+  "controllerIds": "mm:primitive_arc_furnace",
+  "name": "Primitive Arc Furnace Energy",
+  "type": "mm:energy",
+  "config": {
+    "capacity": 1000000,
+    "maxReceive": 1000,
+    "maxExtract": 1000
+  }
+}

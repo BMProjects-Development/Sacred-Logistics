@@ -1,4 +1,4 @@
-// 1.19.2	2025-01-12T17:32:35.5792003	Item Models: mm
+// 1.19.2	2025-01-13T19:17:28.5582855	Item Models: mm
 80127f7875c8df53720d0843537eea679a8f23ac assets/mm/models/item/aether_mining_drill.json
 12852b70a0287f86650d723d2e1434cda6728f36 assets/mm/models/item/aether_mining_drill_energy_input.json
 d59a7ea8f99ddd585ecadc2dfeef5ae835a72f04 assets/mm/models/item/aether_mining_drill_energy_output.json
@@ -7,6 +7,13 @@ d59a7ea8f99ddd585ecadc2dfeef5ae835a72f04 assets/mm/models/item/aether_mining_dri
 dd59e99468ce7cee18e1ef8d2398b443a6eb26ba assets/mm/models/item/oven.json
 e21c33c9ab6bc9db384863ad13d84d4b658d70aa assets/mm/models/item/oven_item_input.json
 581e44e545f23d5f7659e755c04bddce4f45c0f8 assets/mm/models/item/oven_item_output.json
+c13de3eb7c4199ce8882eafbbcd248ee38d4cb27 assets/mm/models/item/primitive_arc_furnace.json
+287ac7b3d7306ae39b6563800106f658e41bbff5 assets/mm/models/item/primitive_arc_furnace_energy_input.json
+0fc70945382acea8886843ce33e2a669a4b0bb05 assets/mm/models/item/primitive_arc_furnace_energy_output.json
+06964443a18c3b118ecae640cf706671f0ad583d assets/mm/models/item/primitive_arc_furnace_fluid_input.json
+247d314c9e4a0542e521ae1092f321a2a4dd2ead assets/mm/models/item/primitive_arc_furnace_fluid_output.json
+5804508edc224aa23455f55ace8efe276feea0d1 assets/mm/models/item/primitive_arc_furnace_item_input.json
+43bd41fa6a709fdb07b462e40259c623fa69144b assets/mm/models/item/primitive_arc_furnace_item_output.json
 046517baf47e2fe37c467f48d55eab03dfeb028a assets/mm/models/item/primitive_assembly_machine.json
 4b269532e203eb8cfbc91ca4be9f700221c80601 assets/mm/models/item/primitive_assembly_machine_energy_input.json
 0ce381e1cbb3cbe2d9ae52c44998378a5ca7a2a3 assets/mm/models/item/primitive_assembly_machine_energy_output.json

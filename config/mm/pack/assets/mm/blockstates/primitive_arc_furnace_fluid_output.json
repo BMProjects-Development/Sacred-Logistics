@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/primitive_arc_furnace_fluid_output"
+    }
+  }
+}

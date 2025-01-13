@@ -1,0 +1,11 @@
+{
+  "id": "primitive_arc_furnace_fluid",
+  "controllerIds": "mm:primitive_arc_furnace",
+  "name": "Primitive Arc Furnace Fluid",
+  "type": "mm:fluid",
+  "config": {
+    "rows": 3,
+    "columns": 3,
+    "slotCapacity": 1000
+  }
+}
