@@ -184,146 +184,6 @@
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
-			description: ["Улучшенная кирка, с помощью котрой я могу добыть новые ресурсы - &6Золото&r и &6Алмазы&r."]
-			id: "39C60726C5C4150F"
-			rewards: [{
-				count: 4
-				id: "303141C243781D48"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			tasks: [{
-				id: "185BB79D41DAAEE3"
-				item: {
-					Count: 1b
-					id: "minecraft:iron_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "&bЖелезная кирка"
-			x: 14.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["39C60726C5C4150F"]
-			id: "16B75CEDF776927E"
-			rewards: [{
-				id: "17A303D2EAE7ADD8"
-				item: "minecraft:diamond"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 3L
-					id: "577BC5577F0F2498"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "3133F0D25ED47054"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:plates/diamond"
-						}
-					}
-					title: "2х Алмазная пластина"
-					type: "item"
-				}
-			]
-			title: "&bАлмаз"
-			x: 15.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["16B75CEDF776927E"]
-			id: "6741CCCE0EF6A545"
-			rewards: [{
-				id: "5195D7AE287E8303"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "766A9A03267F9409"
-				item: {
-					Count: 1b
-					id: "minecraft:diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "&bАлмазная кирка"
-			x: 17.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["39C60726C5C4150F"]
-			id: "6BA446FB38C2AED4"
-			rewards: [{
-				count: 2
-				id: "4B1F1B556F1E57FF"
-				item: "minecraft:raw_gold"
-				random_bonus: 4
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "6CDC1970683039D9"
-				item: "minecraft:raw_gold"
-				type: "item"
-			}]
-			title: "&b4х Рудное золото"
-			x: 15.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6BA446FB38C2AED4"]
-			id: "0131D6E4A04B280F"
-			rewards: [{
-				count: 4
-				id: "17D27EF3374E1080"
-				item: "minecraft:gold_ingot"
-				random_bonus: 4
-				type: "item"
-			}]
-			tasks: [{
-				count: 4L
-				id: "72525BCBC5E30BA0"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			title: "&b4х Золотой слиток"
-			x: 17.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["16B75CEDF776927E"]
-			hide_dependency_lines: false
-			id: "5201109824769517"
-			rewards: [{
-				id: "67567457A58142AA"
-				table_id: 7015058020314785297L
-				type: "random"
-			}]
-			tasks: [{
-				id: "04DFDB94649A9F42"
-				item: "sophisticatedbackpacks:diamond_backpack"
-				type: "item"
-			}]
-			title: "&bАлмазный рюкзак"
-			x: 16.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["73D8A15D7A0E9FA2"]
 			description: ["Улучшенная версия обычного рюкзака."]
 			id: "5D24178A87E70FF2"
 			rewards: [{
@@ -337,25 +197,8 @@
 				type: "item"
 			}]
 			title: "&bЖелезный рюкзак"
-			x: 13.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["0131D6E4A04B280F"]
-			id: "67E8EEA1F2BB22D4"
-			rewards: [{
-				id: "26D38C0F54302091"
-				table_id: 7015058020314785297L
-				type: "random"
-			}]
-			tasks: [{
-				id: "399E6998EBFAFD77"
-				item: "sophisticatedbackpacks:gold_backpack"
-				type: "item"
-			}]
-			title: "&bЗолотой рюкзак"
-			x: 17.5d
-			y: -3.5d
+			x: 11.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3BC47498DF613B04"]
@@ -567,70 +410,8 @@
 				}
 			]
 			title: "&bЖелезные хранилища"
-			x: 13.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0131D6E4A04B280F"]
-			id: "340F3ACDA734D0CF"
-			tasks: [
-				{
-					id: "72FC07CD059EC7DD"
-					item: {
-						Count: 1b
-						id: "sophisticatedstorage:gold_chest"
-						tag: {
-							woodType: "oak"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0FE280F25FCE6D8B"
-					item: {
-						Count: 1b
-						id: "sophisticatedstorage:gold_barrel"
-						tag: {
-							woodType: "oak"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&bЗолотые хранилища"
-			x: 16.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["16B75CEDF776927E"]
-			id: "264482D66BC208C2"
-			tasks: [
-				{
-					id: "032F03423BC2FD45"
-					item: {
-						Count: 1b
-						id: "sophisticatedstorage:diamond_chest"
-						tag: {
-							woodType: "oak"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0DEBE2F78C2784DD"
-					item: {
-						Count: 1b
-						id: "sophisticatedstorage:diamond_barrel"
-						tag: {
-							woodType: "oak"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&bАлмазные хранилища"
-			x: 15.0d
-			y: 3.0d
+			x: 11.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3BC47498DF613B04"]
@@ -650,44 +431,6 @@
 			title: "&bЯщик"
 			x: 1.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["6741CCCE0EF6A545"]
-			id: "68397160ED2B2FDD"
-			rewards: [{
-				id: "5273DA5EF1812109"
-				item: "sacred_logistics:raw_meteorite"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 2L
-					id: "4902098CC8DD050B"
-					item: "sacred_logistics:raw_meteorite"
-					type: "item"
-				}
-				{
-					id: "61CBC38316992AFF"
-					item: "sacred_logistics:meteorite_ingot"
-					type: "item"
-				}
-			]
-			title: "Метеорит"
-			x: 18.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["68397160ED2B2FDD"]
-			description: ["Необходимо носить в инвентаре, чтобы метеориты не падали. "]
-			id: "74A04658DE474922"
-			tasks: [{
-				id: "0DD3BE0F3534E831"
-				item: "sacred_logistics:meteorite_charm"
-				type: "item"
-			}]
-			x: 20.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
@@ -737,17 +480,6 @@
 		}
 		{
 			dependencies: ["459270456C29E625"]
-			id: "0B639D84AEC3622C"
-			tasks: [{
-				id: "1A0FC25F36F29D90"
-				item: "mm_mining:str_ore_smelter"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["459270456C29E625"]
 			id: "5A6A30D1C93A56CD"
 			tasks: [{
 				id: "792CA675687914DC"
@@ -778,6 +510,105 @@
 			}]
 			x: 8.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["520BE914C32AD15D"]
+			id: "4C8B30EBB6159035"
+			tasks: [
+				{
+					id: "36D17E1EC120F4E4"
+					item: "eidolon:brazier"
+					type: "item"
+				}
+				{
+					id: "4E43FCFCDF17C5F9"
+					item: "eidolon:stone_hand"
+					type: "item"
+				}
+				{
+					id: "7D51F10A351592F1"
+					item: "eidolon:soul_shard"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["520BE914C32AD15D"]
+			id: "46CE126776C401DD"
+			tasks: [{
+				id: "56203773D4426864"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"46CE126776C401DD"
+				"4C8B30EBB6159035"
+			]
+			id: "50AB28071533DAE8"
+			tasks: [{
+				id: "04E281315878F104"
+				item: "eidolon:arcane_gold_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4003AB732A4A3499"]
+			id: "7686F44B71B08E12"
+			tasks: [{
+				id: "43F1DD2902A2C4D3"
+				title: "Слиток нержавеющего железа"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73D8A15D7A0E9FA2"]
+			id: "28731E5C19596804"
+			tasks: [
+				{
+					id: "771D4237DA56BF39"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+				{
+					id: "441F7C65F481573C"
+					item: "handcrafted:kitchen_hood_pipe"
+					type: "item"
+				}
+			]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28731E5C19596804"]
+			id: "4003AB732A4A3499"
+			tasks: [{
+				id: "473FDCD723DFFD0B"
+				title: "Примитивная дуговая печь"
+				type: "checkmark"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["459270456C29E625"]
+			id: "1CB3CFD6862F6948"
+			tasks: [{
+				id: "2D7E7ED032CF5C8D"
+				item: "generatorgalore:copper_generator"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
 		}
 	]
 	title: "&bПервые шаги"
