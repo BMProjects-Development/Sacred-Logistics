@@ -1075,6 +1075,51 @@
 			x: 17.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["129B005C1422EC81"]
+			id: "6BF831859E17514D"
+			tasks: [
+				{
+					id: "247BE81D3D81B9EC"
+					item: "naturesaura:gold_fiber"
+					type: "item"
+				}
+				{
+					id: "3B0DAAE614828E64"
+					item: "naturesaura:gold_leaf"
+					type: "item"
+				}
+				{
+					id: "555DF581103A6607"
+					item: "naturesaura:gold_powder"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BF831859E17514D"]
+			id: "393549CF38F374F5"
+			tasks: [{
+				id: "17657E2EE1DDCC05"
+				item: "naturesaura:token_joy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["393549CF38F374F5"]
+			id: "63A0A121B457DA36"
+			tasks: [{
+				id: "51F7B529F1C205C8"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.0d
+		}
 	]
 	title: "&bНачало технологий"
 }

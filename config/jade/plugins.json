@@ -1,4 +1,7 @@
 {
+  "enderchests": {
+    "hud": true
+  },
   "mm": {
     "controller_progress": true
   },
@@ -80,6 +83,9 @@
     "registry_name": "OFF",
     "mod_name": true
   },
+  "mcjtylib": {
+    "jadeaddons": true
+  },
   "apotheosis": {
     "adventure": true,
     "ench": true,
@@ -135,6 +141,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "hammerlib": {
+    "root": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
@@ -145,6 +154,11 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
   "pipez": {
     "pipe": true
   },
@@ -153,17 +167,6 @@
     "altar": true,
     "mortar": true,
     "cauldron": true
-  },
-  "create": {
-    "filter": true,
-    "backtank_capacity": true,
-    "goggles.requires_goggles": true,
-    "goggles": false,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
   },
   "waystones": {
     "waystone": true
