@@ -602,13 +602,87 @@
 		{
 			dependencies: ["459270456C29E625"]
 			id: "1CB3CFD6862F6948"
-			tasks: [{
-				id: "2D7E7ED032CF5C8D"
-				item: "generatorgalore:copper_generator"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D7E7ED032CF5C8D"
+					item: "generatorgalore:copper_generator"
+					type: "item"
+				}
+				{
+					id: "15748565528C65BC"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "3026C5613539A302"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["1CB3CFD6862F6948"]
+			id: "290A032610620B21"
+			tasks: [{
+				id: "3B6EF18F782F9EDF"
+				title: "Промышленный медный генератор"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["50AB28071533DAE8"]
+			id: "4B82BFEA4E5AEACD"
+			tasks: [{
+				id: "532AE8F75EA3A0CA"
+				title: "Примитивный структурный блок"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4B82BFEA4E5AEACD"]
+			id: "202C49E483951E84"
+			tasks: [{
+				id: "53E02DB5E03C0353"
+				title: "Составной примитивный сборочный механизм"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["202C49E483951E84"]
+			id: "2EFF6E8F16E752CA"
+			tasks: [
+				{
+					id: "4522A521C3C112D1"
+					item: "mm_mining:str_miner_coal"
+					type: "item"
+				}
+				{
+					id: "339F53AAC41BB466"
+					item: "mm_mining:str_miner_iron"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["202C49E483951E84"]
+			id: "3CB7F6C05F6BFEE4"
+			tasks: [{
+				id: "10ECCB84560FE955"
+				item: "mm_mining:str_ore_smelter"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -9.5d
 		}
 	]
 	title: "&bПервые шаги"
