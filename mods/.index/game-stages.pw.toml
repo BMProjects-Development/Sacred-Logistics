@@ -1,0 +1,16 @@
+filename = 'GameStages-Forge-1.19.2-11.1.4.jar'
+name = 'Game Stages'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '89962c946ff5db7eeebb7aef78f76e9369e86700'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4396244
+project-id = 268655

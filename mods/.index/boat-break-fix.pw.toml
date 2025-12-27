@@ -1,0 +1,46 @@
+filename = 'BoatBreakFix-Universal-1.0.2.jar'
+name = 'Boat Break Fix [Neo/Forge/Fabric/Quilt]'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.17',
+    '1.17-Snapshot',
+    '1.17.1',
+    '1.18',
+    '1.18-Snapshot',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19-Snapshot',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.3-Snapshot',
+    '1.19.4',
+    '1.19.4-Snapshot',
+    '1.20',
+    '1.20-Snapshot',
+    '1.20.1',
+    '1.20.2',
+    '1.20.2-Snapshot',
+    '1.20.3',
+    '1.20.3-Snapshot',
+    '1.20.4',
+    '1.20.5',
+    '1.20.5-Snapshot',
+    '1.20.6',
+    '1.21',
+    '1.21-Snapshot',
+    '1.21.1'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f0bc583479532b7a83cded5ac86f0b3622c69558'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4791722
+project-id = 709585

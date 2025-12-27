@@ -1,0 +1,16 @@
+filename = 'betterstats-2.2.2+1.19.2.jar'
+name = 'Better Statistics Screen'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'bf112a2358904efac58aa0c46b0a5325765e104d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4413139
+project-id = 667464

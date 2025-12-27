@@ -1,0 +1,16 @@
+filename = 'botarium-forge-1.19.2-1.9.2.jar'
+name = 'Botarium'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c6ac7dc45f5a6f3e099b9b23510506ab07ae5bdf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5118248
+project-id = 704113

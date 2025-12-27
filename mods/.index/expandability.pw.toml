@@ -1,0 +1,16 @@
+filename = 'expandability-7.0.0.jar'
+name = 'ExpandAbility'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f37d5044e25abcedf9d4adb86793df942528772d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3984029
+project-id = 465066

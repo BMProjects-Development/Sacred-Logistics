@@ -1,0 +1,16 @@
+filename = 'AutoRegLib-1.8.2-55.jar'
+name = 'AutoRegLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '342cac5511fe7009a260bc0a25fee777179ba530'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4100299
+project-id = 250363

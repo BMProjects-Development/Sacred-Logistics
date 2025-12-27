@@ -1,0 +1,16 @@
+filename = 'JER-Integration-4.5.0.jar'
+name = 'JER Integration'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '82b5a4e535c29fac86a63431d08b41a6b09e7fd1'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4866945
+project-id = 506948

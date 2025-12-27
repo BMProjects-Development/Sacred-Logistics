@@ -1,0 +1,16 @@
+filename = 'letsdo-meadow-forge-1.2.4.jar'
+name = "[Let's Do] Meadow"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd40f7dbc0a02b995936febbed0b2639d4e99e2ce'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4641936
+project-id = 821483

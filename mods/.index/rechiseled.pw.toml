@@ -1,0 +1,16 @@
+filename = 'rechiseled-1.1.6-forge-mc1.19.2.jar'
+name = 'Rechiseled'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd87ba1d9c17cbaf68a5d39f011421b4025134141'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5286283
+project-id = 558998

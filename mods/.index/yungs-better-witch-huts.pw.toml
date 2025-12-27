@@ -1,0 +1,16 @@
+filename = 'YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar'
+name = "YUNG's Better Witch Huts (Forge/NeoForge)"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'c1a2d60217e127d5cf6683bae6b3dfa5c1afa284'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4031226
+project-id = 631401

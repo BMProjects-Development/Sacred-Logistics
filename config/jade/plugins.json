@@ -1,10 +1,4 @@
 {
-  "enderchests": {
-    "hud": true
-  },
-  "mm": {
-    "controller_progress": true
-  },
   "minecraft": {
     "block_inventory.detailed_amount": 54,
     "furnace": true,
@@ -33,15 +27,15 @@
     "entity_health": true,
     "energy_storage": true,
     "entity_armor.max_for_render": 40,
-    "breaking_progress": true,
     "enchantment_power": true,
+    "breaking_progress": true,
     "tnt_stability": true,
     "villager_profession": true,
     "mob_breeding": true,
     "entity_health.icons_per_line": 10,
     "item_frame": true,
-    "fluid.detailed": false,
     "crop_progress": true,
+    "fluid.detailed": false,
     "total_enchantment_power": true,
     "potion_effects": true,
     "command_block": true,
@@ -52,16 +46,21 @@
     "mob_spawner": true,
     "redstone": true
   },
-  "treechop": {
-    "plugin": true,
-    "show_tree_block_counts": true,
-    "show_num_chops_remaining": true
+  "entangled": {
+    "entangled_block_component": true
   },
   "tombstone": {
     "graves": true
   },
-  "entangled": {
-    "entangled_block_component": true
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
   },
   "pneumaticcraft": {
     "pneumatic": true,
@@ -71,9 +70,14 @@
     "camo": true,
     "semiblock": true
   },
-  "immersiveengineering": {
-    "hemp": true,
-    "multiblock_icon": true
+  "pipez": {
+    "pipe": true
+  },
+  "reliquary": {
+    "pedestal": true,
+    "altar": true,
+    "mortar": true,
+    "cauldron": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -83,27 +87,10 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "mcjtylib": {
-    "jadeaddons": true
-  },
   "apotheosis": {
     "adventure": true,
     "ench": true,
     "spawner": true
-  },
-  "lootr": {
-    "info": true
-  },
-  "integrateddynamicscompat": {
-    "proxy": true,
-    "mechanical_squeezer": true,
-    "mechanical_drying_basin": true,
-    "drying_basin": true,
-    "part": true,
-    "squeezer": true
-  },
-  "custommachinery": {
-    "machine_component_provider": true
   },
   "ae2": {
     "part_icon": true,
@@ -122,53 +109,5 @@
     "jar": true,
     "bee_attributes": true,
     "productive_bee": true
-  },
-  "extendedcrafting": {
-    "elite_auto_table": true,
-    "ender_crafter": true,
-    "basic_auto_table": true,
-    "flux_crafter": true,
-    "advanced_table": true,
-    "auto_ender_crafter": true,
-    "ultimate_table": true,
-    "ultimate_auto_table": true,
-    "elite_table": true,
-    "basic_table": true,
-    "crafting_core": true,
-    "advanced_auto_table": true,
-    "compressor": true
-  },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
-  "hammerlib": {
-    "root": true
-  },
-  "mekanism": {
-    "infuse_type": true,
-    "gas": true,
-    "remove_builtin": true,
-    "pigment": true,
-    "fluid": true,
-    "slurry": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
-  },
-  "pipez": {
-    "pipe": true
-  },
-  "reliquary": {
-    "pedestal": true,
-    "altar": true,
-    "mortar": true,
-    "cauldron": true
-  },
-  "waystones": {
-    "waystone": true
   }
 }

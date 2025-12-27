@@ -1,0 +1,16 @@
+filename = 'supermartijn642corelib-1.1.18-forge-mc1.19.2.jar'
+name = "SuperMartijn642's Core Lib"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '05c586b43d0ff7cdd2cfff08e7324fc9dd6c1853'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6034711
+project-id = 454372

@@ -1,0 +1,16 @@
+filename = 'assemblylinemachines-1.19.2-1.4.11.jar'
+name = 'Assembly Line Machines'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'da5b971a7a3df2d9df95db398597062c0de0121b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3964948
+project-id = 388282

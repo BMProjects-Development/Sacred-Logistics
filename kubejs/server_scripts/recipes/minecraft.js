@@ -541,7 +541,4 @@ ServerEvents.recipes(event => {
 	)
 	
 	
-	event.remove({output: 'minecraft:blast_furnace'})
-	
-	
 })

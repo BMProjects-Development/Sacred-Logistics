@@ -1,0 +1,16 @@
+filename = 'melody_forge_1.0.1_MC_1.19.2.jar'
+name = 'Melody'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0f00b9164b105d78e696fa6bda421005e39b15d7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4983999
+project-id = 938643

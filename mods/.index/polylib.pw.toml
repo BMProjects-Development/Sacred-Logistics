@@ -1,0 +1,16 @@
+filename = 'polylib-forge-1900.0.3-build.144.jar'
+name = 'PolyLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fa06d40f0c1e3a3e0da1abb1137c4cc171d93792'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5406379
+project-id = 576589

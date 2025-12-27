@@ -1,0 +1,16 @@
+filename = 'simplemagnets-1.1.12-forge-mc1.19.2.jar'
+name = 'Simple Magnets'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '04924ffe890e599698a697670ca43b3a44bc311a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5822758
+project-id = 394140

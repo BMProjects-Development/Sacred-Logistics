@@ -1,0 +1,16 @@
+filename = 'netherportalfix-forge-1.19-10.0.1.jar'
+name = 'NetherPortalFix'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '56f4cecf220a965d50dc96c26d0fb4563ecaf6f4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4412699
+project-id = 241160

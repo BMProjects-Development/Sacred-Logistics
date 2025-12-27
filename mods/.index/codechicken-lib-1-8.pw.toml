@@ -1,0 +1,16 @@
+filename = 'CodeChickenLib-1.19.2-4.3.2.490-universal.jar'
+name = 'CodeChicken Lib 1.8.+'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '684294eeb2a11a89482fc8742e82c9fbac7a2257'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4965330
+project-id = 242818

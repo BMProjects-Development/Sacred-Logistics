@@ -1,0 +1,16 @@
+filename = 'Powah-4.0.11.jar'
+name = 'Powah! (Rearchitected)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ec519d65781740679e71ac17cc1247591e53655b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4729361
+project-id = 633483

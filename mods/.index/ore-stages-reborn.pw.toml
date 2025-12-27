@@ -1,0 +1,16 @@
+filename = 'sdmorestages-1.19.2-0.5.1.jar'
+name = 'SDM Ore Stages'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6ae50fa1b3952c4f639abaafc44bb03f0c5ec7ed'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5589242
+project-id = 901507

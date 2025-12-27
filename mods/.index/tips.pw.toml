@@ -1,0 +1,16 @@
+filename = 'Tips-Forge-1.19.2-8.0.27.jar'
+name = 'Tips'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9f959040b75390690dc3553654d30d4b2fefd5fc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4277194
+project-id = 306549

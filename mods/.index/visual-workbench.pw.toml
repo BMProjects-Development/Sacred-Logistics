@@ -1,0 +1,16 @@
+filename = 'VisualWorkbench-v4.2.4-1.19.2-Forge.jar'
+name = 'Visual Workbench'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fcaee8ed15ce4d9597f6b6c3d7ef22443e0e94f6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4455250
+project-id = 500273

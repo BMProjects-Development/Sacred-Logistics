@@ -1,0 +1,16 @@
+filename = 'saturn-mc1.19.2-0.1.4.jar'
+name = 'Saturn'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '053ff233cf7a3d25f38237c01b6617ef2e719eb5'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5161845
+project-id = 670986

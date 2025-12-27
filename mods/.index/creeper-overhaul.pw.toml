@@ -1,0 +1,16 @@
+filename = 'creeperoverhaul-2.0.9-forge.jar'
+name = 'Creeper Overhaul'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4047044f8e4bf3861da007a9b924ce2bffe6f852'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4444675
+project-id = 561625

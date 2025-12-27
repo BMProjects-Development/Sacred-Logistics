@@ -1,0 +1,16 @@
+filename = 'konkrete_forge_1.8.0_MC_1.19-1.19.2.jar'
+name = 'Konkrete'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '07104e7697fc0d9dc8bb2addb252cdaf1f7a973c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5028409
+project-id = 410295

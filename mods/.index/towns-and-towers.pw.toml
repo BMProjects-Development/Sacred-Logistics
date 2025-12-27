@@ -1,0 +1,16 @@
+filename = 'Towns-and-Towers-v.1.10-_FORGE-1.19.2_.jar'
+name = 'Towns and Towers'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cbf11b607e1096f45aa8018e2e306403b8e2db00'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4086903
+project-id = 626761

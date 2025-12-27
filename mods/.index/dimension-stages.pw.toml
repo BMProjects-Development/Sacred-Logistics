@@ -1,0 +1,16 @@
+filename = 'DimensionStages-1.19.2-4.0.4.jar'
+name = 'Dimension Stages'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '03af5c8770bab3fb51a97c565fb0f9af721b30de'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4459586
+project-id = 269398

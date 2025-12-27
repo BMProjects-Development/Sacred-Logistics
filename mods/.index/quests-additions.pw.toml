@@ -1,0 +1,16 @@
+filename = 'questsadditions-1.19.2-1.4.2.jar'
+name = 'Quests Additions (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'b71b6d2e39fd7f2d172a2a3b77c2ad7d558c2acc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4525499
+project-id = 580129

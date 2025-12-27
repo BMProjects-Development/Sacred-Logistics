@@ -1,0 +1,16 @@
+filename = 'letsdo-candlelight-forge-1.1.9.jar'
+name = "Legacy: [Let's Do] Candlelight"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '466a17d55975dbb424cc98268fc44cd33c73cbd6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4813591
+project-id = 846962

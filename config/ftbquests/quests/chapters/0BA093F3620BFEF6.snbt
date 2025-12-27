@@ -5,18 +5,92 @@
 	group: "724CB10F5936E1B7"
 	icon: "assemblylinemachines:pure_steel_gear"
 	id: "0BA093F3620BFEF6"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 0.65d
-		hover: [ ]
-		image: "assemblylinemachines:item/pure_steel_ingot"
-		rotation: 38.0d
-		width: 0.65d
-		x: 6.5d
-		y: -1.0d
-	}]
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.65d
+			hover: [ ]
+			image: "assemblylinemachines:item/pure_steel_ingot"
+			rotation: -28.0d
+			width: 0.65d
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.65d
+			hover: [ ]
+			image: "assemblylinemachines:item/pure_steel_ingot"
+			rotation: 38.0d
+			width: 0.65d
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.65d
+			hover: [ ]
+			image: "assemblylinemachines:item/pure_gold_ingot"
+			rotation: 28.0d
+			width: 0.65d
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.65d
+			hover: [ ]
+			image: "assemblylinemachines:item/pure_iron_ingot"
+			rotation: -28.0d
+			width: 0.65d
+			x: 3.5d
+			y: -2.25d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "assemblylinemachines:item/energized_gold_plate"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.5d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "assemblylinemachines:item/wooden_board"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "assemblylinemachines:item/mystium_plate"
+			rotation: 0.0d
+			width: 2.0d
+			x: 24.0d
+			y: -1.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -129,8 +203,8 @@
 				}
 			]
 			title: "Дробление ресурсов"
-			x: 2.0d
-			y: -1.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5ACF0D4B6651C107"]
@@ -157,11 +231,11 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
-			y: -1.0d
+			x: 3.5d
+			y: -1.5d
 		}
 		{
-			dependencies: ["56D2505D31C96954"]
+			dependencies: ["77411DD073E41360"]
 			description: ["Переплавив &3железный ил&r я могу получить новый материал - &fочищенное железо&r."]
 			id: "2C2F3D5E6DB72ECB"
 			tasks: [{
@@ -170,11 +244,11 @@
 				item: "assemblylinemachines:pure_iron_ingot"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
-			dependencies: ["6BA446FB38C2AED4"]
+			dependencies: ["5ACF0D4B6651C107"]
 			description: ["Теперь, используя &6рудное золото&r я могу получать &6золотую пыль&r! А из неё &6золотой ил&r."]
 			id: "129B005C1422EC81"
 			tasks: [
@@ -198,8 +272,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 1.0d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["129B005C1422EC81"]
@@ -211,8 +285,8 @@
 				item: "assemblylinemachines:pure_gold_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.0d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["446C755EE2D35DB4"]
@@ -238,8 +312,8 @@
 				}
 			]
 			title: "Новое лезвие"
-			x: 10.0d
-			y: 0.0d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2C2F3D5E6DB72ECB"]
@@ -256,17 +330,18 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: [
-				"2A2B2645398BCE1D"
-				"60A6C7B775F3B924"
+				"2C08B57517493E44"
+				"6059F731870DB6C3"
 			]
 			description: ["Теперь, смешав &fжелезную&r и &8угольную&r пыль я смогу создать &8стальную пыль&r, жди меня стальной век!"]
 			id: "7D41ADDD7FFBF035"
 			shape: "tech_square"
+			size: 1.25d
 			tasks: [{
 				count: 2L
 				id: "770D539CDEB34D7F"
@@ -281,7 +356,7 @@
 				type: "item"
 			}]
 			title: "Стальной век"
-			x: 11.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -312,11 +387,11 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: -1.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["5E3AC9A728F3BA44"]
+			dependencies: ["7D41ADDD7FFBF035"]
 			description: ["Теперь, когда у меня есть сталь, я могу создать рукоятку для выработки кинетической энергии."]
 			id: "63860B0D0133E837"
 			tasks: [
@@ -332,8 +407,8 @@
 				}
 			]
 			title: "Кинетическая энергия"
-			x: 18.5d
-			y: -0.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["63860B0D0133E837"]
@@ -348,7 +423,7 @@
 				item: "assemblylinemachines:kinetic_grinder"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 9.0d
 			y: 0.0d
 		}
 		{
@@ -361,7 +436,7 @@
 				item: "assemblylinemachines:wooden_board"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 9.5d
 			y: 1.0d
 		}
 		{
@@ -373,7 +448,7 @@
 				item: "assemblylinemachines:wooden_fluid_tank"
 				type: "item"
 			}]
-			x: 21.5d
+			x: 10.5d
 			y: 1.0d
 		}
 		{
@@ -400,8 +475,8 @@
 				}
 			]
 			title: "Новая мешалка"
-			x: 21.5d
-			y: -1.0d
+			x: 11.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3B377F248DC18422"]
@@ -413,8 +488,8 @@
 				item: "assemblylinemachines:steel_rod"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -1.0d
+			x: 10.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["66B0DF6AADAB7C2B"]
@@ -431,8 +506,8 @@
 				}
 				type: "item"
 			}]
-			x: 20.0d
-			y: -2.5d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4E397B62C9341385"]
@@ -444,8 +519,8 @@
 				item: "assemblylinemachines:pure_iron_plate"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -3.5d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["292D30C65D6E79C6"]
@@ -457,8 +532,8 @@
 				item: "assemblylinemachines:pure_iron_gear"
 				type: "item"
 			}]
-			x: 21.5d
-			y: -3.5d
+			x: 13.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["57FF20D32CBEB078"]
@@ -470,8 +545,8 @@
 				item: "assemblylinemachines:empowered_coal"
 				type: "item"
 			}]
-			x: 22.5d
-			y: -1.5d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -496,8 +571,8 @@
 					type: "item"
 				}
 			]
-			x: 22.5d
-			y: -3.0d
+			x: 13.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4BA670CF441AAC35"]
@@ -514,8 +589,8 @@
 				}
 				type: "item"
 			}]
-			x: 21.5d
-			y: -5.0d
+			x: 13.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["01383BAF8FBAE80A"]
@@ -531,8 +606,8 @@
 				item: "assemblylinemachines:black_granite"
 				type: "item"
 			}]
-			x: 23.5d
-			y: -3.0d
+			x: 15.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6D5C68105A5B22C9"]
@@ -544,8 +619,8 @@
 				item: "assemblylinemachines:energy_pipe"
 				type: "item"
 			}]
-			x: 23.5d
-			y: -1.5d
+			x: 15.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3F6BB8B1E5B23BE8"]
@@ -556,8 +631,8 @@
 				item: "assemblylinemachines:crankmill"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 0.0d
+			x: 15.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -571,7 +646,7 @@
 				item: "assemblylinemachines:electric_purifier"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 17.0d
 			y: 0.0d
 		}
 		{
@@ -584,7 +659,7 @@
 				item: "assemblylinemachines:pure_steel_ingot"
 				type: "item"
 			}]
-			x: 25.5d
+			x: 18.5d
 			y: 0.0d
 		}
 		{
@@ -597,7 +672,7 @@
 				item: "assemblylinemachines:pure_steel_gear"
 				type: "item"
 			}]
-			x: 27.5d
+			x: 20.0d
 			y: 0.0d
 		}
 		{
@@ -609,7 +684,7 @@
 				item: "assemblylinemachines:conduction_component"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 20.5d
 			y: -1.5d
 		}
 		{
@@ -625,7 +700,7 @@
 				item: "assemblylinemachines:temperature_regulator"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 20.5d
 			y: 1.5d
 		}
 		{
@@ -639,7 +714,7 @@
 				item: "assemblylinemachines:alloy_smelter"
 				type: "item"
 			}]
-			x: 28.5d
+			x: 21.0d
 			y: 0.0d
 		}
 		{
@@ -659,7 +734,7 @@
 				item: "assemblylinemachines:mystium_ingot"
 				type: "item"
 			}]
-			x: 31.0d
+			x: 24.0d
 			y: -1.0d
 		}
 		{
@@ -672,7 +747,7 @@
 				item: "assemblylinemachines:mystium_blend"
 				type: "item"
 			}]
-			x: 30.0d
+			x: 22.5d
 			y: -0.5d
 		}
 		{
@@ -685,7 +760,7 @@
 				item: "assemblylinemachines:energized_gold_ingot"
 				type: "item"
 			}]
-			x: 30.0d
+			x: 22.5d
 			y: 0.5d
 		}
 		{
@@ -698,7 +773,7 @@
 				item: "assemblylinemachines:electrified_netherite_blend"
 				type: "item"
 			}]
-			x: 31.0d
+			x: 24.0d
 			y: 1.0d
 		}
 		{
@@ -710,7 +785,7 @@
 				item: "assemblylinemachines:pneumatic_compressor"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 20.5d
 			y: -3.0d
 		}
 		{
@@ -723,402 +798,68 @@
 				item: "assemblylinemachines:energized_gold_plate"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 20.5d
 			y: -4.5d
 		}
 		{
-			dependencies: ["2C2F3D5E6DB72ECB"]
-			description: ["Улучшенная кирка, с помощью котрой я могу добыть новые ресурсы - &6Золото&r и &6Алмазы&r."]
-			id: "39C60726C5C4150F"
-			rewards: [{
-				count: 4
-				id: "303141C243781D48"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
+			dependencies: ["1F24B9ADBE67E4F6"]
+			id: "6D644BECFE9B0E86"
 			tasks: [{
-				id: "185BB79D41DAAEE3"
+				id: "55472DCA58C1641A"
 				item: {
 					Count: 1b
-					id: "minecraft:iron_pickaxe"
+					id: "assemblylinemachines:mystium_pickaxe"
 					tag: {
 						Damage: 0
 					}
 				}
 				type: "item"
 			}]
-			title: "&bЖелезная кирка"
-			x: 6.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["39C60726C5C4150F"]
-			id: "6BA446FB38C2AED4"
-			rewards: [{
-				count: 2
-				id: "4B1F1B556F1E57FF"
-				item: "minecraft:raw_gold"
-				random_bonus: 4
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 4L
-					id: "6CDC1970683039D9"
-					item: "minecraft:raw_gold"
-					type: "item"
-				}
-				{
-					id: "76D919901D162EDB"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-			]
-			title: "&b4х Рудное золото"
-			x: 7.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["6BA446FB38C2AED4"]
-			id: "340F3ACDA734D0CF"
-			tasks: [
-				{
-					id: "72FC07CD059EC7DD"
-					item: {
-						Count: 1b
-						id: "sophisticatedstorage:gold_chest"
-						tag: {
-							woodType: "oak"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0FE280F25FCE6D8B"
-					item: {
-						Count: 1b
-						id: "sophisticatedstorage:gold_barrel"
-						tag: {
-							woodType: "oak"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&bЗолотые хранилища"
-			x: 6.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["6BA446FB38C2AED4"]
-			id: "67E8EEA1F2BB22D4"
-			rewards: [{
-				id: "26D38C0F54302091"
-				table_id: 7015058020314785297L
-				type: "random"
-			}]
-			tasks: [{
-				id: "399E6998EBFAFD77"
-				item: "sophisticatedbackpacks:gold_backpack"
-				type: "item"
-			}]
-			title: "&bЗолотой рюкзак"
-			x: 7.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["39C60726C5C4150F"]
-			id: "16B75CEDF776927E"
-			rewards: [{
-				id: "17A303D2EAE7ADD8"
-				item: "minecraft:diamond"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 3L
-					id: "577BC5577F0F2498"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "3133F0D25ED47054"
-					item: {
-						Count: 1b
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:plates/diamond"
-						}
-					}
-					title: "2х Алмазная пластина"
-					type: "item"
-				}
-			]
-			title: "&bАлмаз"
-			x: 7.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["16B75CEDF776927E"]
-			id: "6741CCCE0EF6A545"
-			rewards: [{
-				id: "5195D7AE287E8303"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			tasks: [{
-				id: "766A9A03267F9409"
-				item: {
-					Count: 1b
-					id: "minecraft:diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "&bАлмазная кирка"
-			x: 6.5d
+			x: 24.0d
 			y: -2.5d
 		}
 		{
-			dependencies: ["16B75CEDF776927E"]
-			hide_dependency_lines: false
-			id: "5201109824769517"
-			rewards: [{
-				id: "67567457A58142AA"
-				table_id: 7015058020314785297L
-				type: "random"
-			}]
+			dependencies: ["6D644BECFE9B0E86"]
+			id: "252624E7573EBBB9"
+			tasks: [
+				{
+					id: "28E8FB535981B03A"
+					item: "allthemodium:raw_allthemodium"
+					type: "item"
+				}
+				{
+					id: "1A4D79D8EEF89E20"
+					item: "allthemodium:allthemodium_dust"
+					type: "item"
+				}
+			]
+			title: "&bВсемодий "
+			x: 23.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["252624E7573EBBB9"]
+			id: "56DE8FACE0972F7D"
 			tasks: [{
-				id: "04DFDB94649A9F42"
-				item: "sophisticatedbackpacks:diamond_backpack"
+				id: "5038F67A59E50A48"
+				item: "allthemodium:allthemodium_ingot"
 				type: "item"
 			}]
-			title: "&bАлмазный рюкзак"
-			x: 7.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["16B75CEDF776927E"]
-			id: "264482D66BC208C2"
-			tasks: [
-				{
-					id: "032F03423BC2FD45"
-					item: {
-						Count: 1b
-						id: "sophisticatedstorage:diamond_chest"
-						tag: {
-							woodType: "oak"
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0DEBE2F78C2784DD"
-					item: {
-						Count: 1b
-						id: "sophisticatedstorage:diamond_barrel"
-						tag: {
-							woodType: "oak"
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&bАлмазные хранилища"
-			x: 6.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6741CCCE0EF6A545"]
-			id: "68397160ED2B2FDD"
-			rewards: [{
-				id: "5273DA5EF1812109"
-				item: "sacred_logistics:raw_meteorite"
-				random_bonus: 2
-				type: "item"
-			}]
-			tasks: [
-				{
-					count: 2L
-					id: "4902098CC8DD050B"
-					item: "sacred_logistics:raw_meteorite"
-					type: "item"
-				}
-				{
-					id: "61CBC38316992AFF"
-					item: "sacred_logistics:meteorite_ingot"
-					type: "item"
-				}
-			]
-			title: "Метеорит"
-			x: 7.0d
+			title: "&bВсемодиевый слиток"
+			x: 23.0d
 			y: -4.0d
 		}
 		{
-			dependencies: ["68397160ED2B2FDD"]
-			description: ["Необходимо носить в инвентаре, чтобы метеориты не падали. "]
-			id: "74A04658DE474922"
+			dependencies: ["56DE8FACE0972F7D"]
+			id: "44F9A5EDA9697FFF"
 			tasks: [{
-				id: "0DD3BE0F3534E831"
-				item: "sacred_logistics:meteorite_charm"
+				id: "2F4A202544CB4C53"
+				item: "allthemodium:teleport_pad"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["77411DD073E41360"]
-			id: "56D2505D31C96954"
-			tasks: [{
-				id: "3680B99B6505BE73"
-				title: "Плавильня чистого металла"
-				type: "checkmark"
-			}]
-			x: 3.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["6059F731870DB6C3"]
-			id: "60A6C7B775F3B924"
-			tasks: [{
-				id: "3E3BD685E9D8DAFF"
-				item: "immersiveengineering:dust_coke"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6059F731870DB6C3"]
-			id: "2A2B2645398BCE1D"
-			tasks: [{
-				id: "55DAA543D2B3344D"
-				title: "Утепленная дуговая печь"
-				type: "checkmark"
-			}]
-			x: 10.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["7D41ADDD7FFBF035"]
-			id: "0CFACD7BB166B40F"
-			tasks: [{
-				id: "39BE475613B95945"
-				item: "eidolon:pewter_inlay"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0CFACD7BB166B40F"]
-			id: "310BCD9DCE794D1F"
-			tasks: [{
-				id: "663440919E6D80E5"
-				item: "eidolon:worktable"
-				type: "item"
-			}]
-			x: 13.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["310BCD9DCE794D1F"]
-			id: "569A850709D2B86B"
-			tasks: [{
-				id: "14C578C8A69AAD53"
-				title: "Базовый структурный блок"
-				type: "checkmark"
-			}]
-			x: 14.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["569A850709D2B86B"]
-			id: "0AE43CB545885FA3"
-			tasks: [{
-				id: "45721F6C5E4C84C6"
-				title: "Вечный сборочный механизм"
-				type: "checkmark"
-			}]
-			x: 15.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["0AE43CB545885FA3"]
-			id: "4CAAA36BEAE86B20"
-			tasks: [{
-				id: "6587E2914D877B4F"
-				item: {
-					Count: 1b
-					id: "gateways:gate_pearl"
-					tag: {
-						gateway: "gateways:zombie_gate_small"
-					}
-				}
-				type: "item"
-			}]
-			x: 16.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4CAAA36BEAE86B20"]
-			id: "5E3AC9A728F3BA44"
-			tasks: [{
-				id: "573992D258219BA3"
-				title: "Базовый сборочный механизм"
-				type: "checkmark"
-			}]
-			x: 17.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["129B005C1422EC81"]
-			id: "6BF831859E17514D"
-			tasks: [
-				{
-					id: "247BE81D3D81B9EC"
-					item: "naturesaura:gold_fiber"
-					type: "item"
-				}
-				{
-					id: "3B0DAAE614828E64"
-					item: "naturesaura:gold_leaf"
-					type: "item"
-				}
-				{
-					id: "555DF581103A6607"
-					item: "naturesaura:gold_powder"
-					type: "item"
-				}
-			]
-			x: 8.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6BF831859E17514D"]
-			id: "393549CF38F374F5"
-			tasks: [{
-				id: "17657E2EE1DDCC05"
-				item: "naturesaura:token_joy"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["393549CF38F374F5"]
-			id: "63A0A121B457DA36"
-			tasks: [{
-				id: "51F7B529F1C205C8"
-				item: "naturesaura:nature_altar"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 5.0d
+			title: "&bТелепортационная панель"
+			x: 24.0d
+			y: -4.5d
 		}
 	]
 	title: "&bНачало технологий"

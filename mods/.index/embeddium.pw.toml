@@ -1,0 +1,16 @@
+filename = 'embeddium-0.3.18.1+mc1.19.2.jar'
+name = 'Embeddium'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e5e2884a8700251f85573bd412cacd13229045f9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5539178
+project-id = 908741

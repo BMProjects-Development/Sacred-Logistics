@@ -1,0 +1,16 @@
+filename = 'EnderStorage-1.19.2-2.10.1.181-universal.jar'
+name = 'Ender Storage 1.8.+'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a73e637ec8f4f1cdd71a8d86eae0f9da278725e6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3951059
+project-id = 245174

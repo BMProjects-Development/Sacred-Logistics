@@ -1,0 +1,16 @@
+filename = 'YungsBetterNetherFortresses-1.19.2-Forge-1.0.6.jar'
+name = "YUNG's Better Nether Fortresses (Forge/NeoForge)"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ff51cb8ccbe1d40054c2e2296a55db6af2d43108'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4655719
+project-id = 817651

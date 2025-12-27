@@ -1,0 +1,16 @@
+filename = 'AkashicTome-1.6-26.jar'
+name = 'Akashic Tome'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fe133686472513c598223d9fb14ef320dd7d6f6b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5599470
+project-id = 250577

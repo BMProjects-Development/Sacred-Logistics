@@ -1,0 +1,16 @@
+filename = 'item-filters-forge-1902.2.9-build.51.jar'
+name = 'Item Filters'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '22f8d4fd363b62d96e5b54c73b8dfbdef54a91a6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4553326
+project-id = 309674

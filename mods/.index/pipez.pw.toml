@@ -1,0 +1,16 @@
+filename = 'pipez-forge-1.19.2-1.2.16.jar'
+name = 'Pipez'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'alpha'
+
+[download]
+hash = '816ab3cf8ba32cf3736dbca2fca950e1841400f8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5550814
+project-id = 443900

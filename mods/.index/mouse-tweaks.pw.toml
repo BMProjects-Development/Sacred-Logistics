@@ -1,0 +1,16 @@
+filename = 'MouseTweaks-forge-mc1.19-2.23.jar'
+name = 'Mouse Tweaks'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9d6e76a331c0598edb6293dc658af2d1672864b4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3871353
+project-id = 60089

@@ -1,0 +1,16 @@
+filename = 'letsdo-bakery-forge-1.0.6.jar'
+name = "Legacy: [Let's Do] Bakery"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3e6192bc35ceb492f953f4c195189e2d165877bd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4780907
+project-id = 886559

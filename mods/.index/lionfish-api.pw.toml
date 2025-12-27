@@ -1,0 +1,16 @@
+filename = 'lionfishapi-1.8.jar'
+name = 'Lionfish API'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a558231433ff18d89b836a535625b85b47934657'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5314835
+project-id = 1001614

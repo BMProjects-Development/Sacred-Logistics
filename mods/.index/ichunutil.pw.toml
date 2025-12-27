@@ -1,0 +1,16 @@
+filename = 'iChunUtil-1.19.2-Forge-1.0.3.jar'
+name = 'iChunUtil'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '426a59abf3696edf4804b6a8db6bbedaaa7183eb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6000486
+project-id = 229060

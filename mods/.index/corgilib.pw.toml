@@ -1,0 +1,16 @@
+filename = 'CorgiLib-forge-1.19.2-1.0.0.34.jar'
+name = 'CorgiLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '9006deecb4c35a0f137ebfea1fa1a1295615f398'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4554111
+project-id = 693313

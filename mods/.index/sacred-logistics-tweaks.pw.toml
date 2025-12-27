@@ -1,0 +1,16 @@
+filename = 'sacred_logistics-1.1.0.jar'
+name = 'Sacred Logistics Tweaks'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f02d8ea8d9655941989173b4aa5e75ce7c8a1ac0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5634707
+project-id = 1074429

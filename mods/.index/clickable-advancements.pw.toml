@@ -1,0 +1,16 @@
+filename = 'clickadv-1.19.2-3.6.jar'
+name = 'Clickable advancements[Forge/Fabric]'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1fc55b67a81c805e235c308cd7d07fc74ec4cf04'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4887000
+project-id = 511733

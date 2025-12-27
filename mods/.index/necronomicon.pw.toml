@@ -1,0 +1,41 @@
+filename = 'Necronomicon-Forge-1.4.2.jar'
+name = 'Necronomicon API'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [
+    '1.17',
+    '1.17-Snapshot',
+    '1.17.1',
+    '1.18',
+    '1.18-Snapshot',
+    '1.18.1',
+    '1.18.2',
+    '1.19',
+    '1.19-Snapshot',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.3-Snapshot',
+    '1.19.4',
+    '1.19.4-Snapshot',
+    '1.20',
+    '1.20-Snapshot',
+    '1.20.1',
+    '1.20.2',
+    '1.20.2-Snapshot',
+    '1.20.3',
+    '1.20.3-Snapshot',
+    '1.20.4',
+    '1.20.5-Snapshot'
+]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '8d518d4e32054c86783f26ce024c774ef8fa1861'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5091310
+project-id = 586157

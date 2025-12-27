@@ -1,0 +1,16 @@
+filename = 'YungsBetterJungleTemples-1.19.2-Forge-1.0.1.jar'
+name = "YUNG's Better Jungle Temples (Forge/NeoForge)"
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a2ea85d9a87331bcf9c65fb35092a01d3a74d071'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4742920
+project-id = 897669

@@ -1,0 +1,16 @@
+filename = 'artifacts-1.19.2-5.0.6.jar'
+name = 'Artifacts'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '2638eb4b82894fa3904a02728eef2b2404852a3e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5384768
+project-id = 312353

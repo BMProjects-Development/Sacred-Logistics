@@ -1,0 +1,16 @@
+filename = 'HealthOverlay-1.19.2-7.2.1.jar'
+name = 'Health Overlay (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1a8e9e6f36707c2c5b3806e0096c5764550e2862'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4288082
+project-id = 368223

@@ -1,0 +1,16 @@
+filename = 'octolib-1.19.2-0.3.jar'
+name = 'OctoLib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd3bb0c6b02743d2a75165ef7da19390e97338dbb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5175975
+project-id = 916747

@@ -1,0 +1,16 @@
+filename = 'embeddiumplus-1.19.2-v1.2.13.jar'
+name = 'Chloride (Embeddium++/Sodium++)'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1e84612e48d30ed82751c52c57a6038ffb86645d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5344502
+project-id = 931925

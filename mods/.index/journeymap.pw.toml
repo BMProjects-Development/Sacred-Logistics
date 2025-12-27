@@ -1,0 +1,16 @@
+filename = 'journeymap-1.19.2-5.9.8-forge.jar'
+name = 'JourneyMap'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a6d578414e119c93dd2529d2b006b289b3a0c245'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5208387
+project-id = 32274

@@ -284,12 +284,33 @@
 			dependencies: ["56B246B4FB90E8D2"]
 			description: ["Для создания сверхчистого титанового слитка необходимо вставить улучшение: &6Усиленная фильтрация&r."]
 			id: "47B628E949CB1419"
-			rewards: [{
-				auto: "invisible"
-				command: "/gamestage add @a nether false"
-				id: "16175E6A1CF14592"
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/gamestage add @a nether false"
+					id: "16175E6A1CF14592"
+					team_reward: true
+					type: "command"
+				}
+				{
+					id: "216305A2C142E6B2"
+					item: {
+						Count: 1b
+						id: "relics:spatial_sign"
+						tag: {
+							abilities: {
+								seal: {
+									points: 0
+									stats: {
+										time: 3.33676d
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					count: 2L
@@ -723,6 +744,7 @@
 				auto: "invisible"
 				command: "/gamestage add @a end false"
 				id: "6E53C1C8608268FA"
+				team_reward: true
 				type: "command"
 			}]
 			tasks: [{

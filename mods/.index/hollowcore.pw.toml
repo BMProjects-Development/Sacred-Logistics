@@ -1,0 +1,16 @@
+filename = 'hc-1.19.2-1.6.3.jar'
+name = 'HollowCore'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '791f8d511d4185d409dee78088b84bdd1b5ce3d6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5580051
+project-id = 906892

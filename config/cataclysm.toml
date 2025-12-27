@@ -48,18 +48,12 @@
 	#Void Core's Cooldown
 	#Range: 0 ~ 1000000
 	VoidCoreCooldown = 160
-	#Soul Render's Timer
-	#Range: 0 ~ 1000000
-	SoulRenderCooldown = 100
-	#Gauntlet of Maelstrom's Timer
-	#Range: 0 ~ 1000000
-	gauntletofMaelstromCooldown = 80
-	#The Immolator's Timer
-	#Range: 0 ~ 1000000
-	immolatorCooldown = 300
 	#Sandstorm's Timer
 	#Range: 0 ~ 1000000
 	SandstormTimer = 160
+	#Soul Render's Timer
+	#Range: 0 ~ 1000000
+	SoulRenderCooldown = 100
 
 [Block]
 	#Cursed Tombstone Summon cooldown Minute
@@ -124,9 +118,6 @@
 	#Phantom Halberd's Damage
 	#Range: 0.0 ~ 1000000.0
 	"Phantom Halberd Damage" = 12.0
-	#Cursed Sandstorm's Damage
-	#Range: 0.0 ~ 1000000.0
-	"Cursed Sandstorm Damage" = 6.0
 
 ["Ender Guardian"]
 	#EnderGuardian's Health Multiplier

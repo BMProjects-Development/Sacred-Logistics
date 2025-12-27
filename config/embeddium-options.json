@@ -24,6 +24,6 @@
     "use_translucent_face_sorting": false
   },
   "notifications": {
-    "hide_donation_button": true
+    "hide_donation_button": false
   }
 }

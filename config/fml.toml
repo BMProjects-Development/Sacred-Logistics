@@ -5,6 +5,5 @@ splashscreen = true
 # Disables Optimized DFU client-side.
 disableOptimizedDFU = true
 defaultConfigPath = "defaultconfigs"
-# max threads for parallel loading : -1 uses Runtime#availableProcessors
 maxThreads = -1
 

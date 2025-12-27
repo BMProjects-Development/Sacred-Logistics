@@ -1,0 +1,16 @@
+filename = 'Structory_Towers_1.19.3_v1.0.2.jar'
+name = 'Structory: Towers'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '560594ce42a1fefe9121a13b4159c614507dd7eb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4441351
+project-id = 783522

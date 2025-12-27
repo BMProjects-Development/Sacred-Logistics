@@ -1,0 +1,16 @@
+filename = 'ftb-xmod-compat-forge-1.2.4.jar'
+name = 'FTB XMod Compat'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'a3afc5feb1597a332a631f117f33aea8068e6611'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5327224
+project-id = 889915

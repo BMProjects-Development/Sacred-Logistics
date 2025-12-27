@@ -1,0 +1,16 @@
+filename = 'ctov-3.2.6c.jar'
+name = "ChoiceTheorem's Overhauled Village"
+side = 'server'
+x-prismlauncher-loaders = [ 'forge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5c853c1c32ddbbbae4a41ab5150394211141703e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4793452
+project-id = 623908

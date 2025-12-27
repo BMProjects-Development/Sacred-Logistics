@@ -1,0 +1,16 @@
+filename = 'ftbbackups2-forge-1.19.2-1.0.23.jar'
+name = 'FTB Backups 2'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2', '1.19.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0bb6588070d13e9812cca3f12ec449dc17bae539'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4834398
+project-id = 622737

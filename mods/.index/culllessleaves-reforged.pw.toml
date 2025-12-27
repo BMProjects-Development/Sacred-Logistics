@@ -1,0 +1,16 @@
+filename = 'CullLessLeaves-Reforged-1.0.5.jar'
+name = 'CullLessLeaves Reforged (Unofficial)'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cfe0a277f6d536e03cfa3b07fee1c58dafe9fcef'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4451885
+project-id = 840788

@@ -1,0 +1,16 @@
+filename = 'KryptonReforged-0.2.1.jar'
+name = 'Krypton Reforged'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '70bdaa1c0935dd2a303292f0705d7cbec5e4d2f3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4606519
+project-id = 549394

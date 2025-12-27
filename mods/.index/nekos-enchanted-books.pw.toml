@@ -1,0 +1,16 @@
+filename = 'NekosEnchantedBooks-1.19-2.0.3.jar'
+name = "Neko's Enchanted Books"
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '67ccf8b5daf2671fecec35660ca42685a5aee769'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6180640
+project-id = 441114

@@ -1,0 +1,16 @@
+filename = 'sophisticatedbackpacks-1.19.2-3.20.2.1035.jar'
+name = 'Sophisticated Backpacks'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ac5fe5f2146c6074e29fe859e5d755ef712e85e7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5194759
+project-id = 422301

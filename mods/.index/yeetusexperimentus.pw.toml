@@ -1,0 +1,16 @@
+filename = 'yeetusexperimentus-1.0.1-build.2+mc1.19.1.jar'
+name = 'Yeetus Experimentus'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.1', '1.19.2', '1.19.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '18fb59ed7b6ff320b532e76e7f3607a70345dc02'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3909789
+project-id = 635427

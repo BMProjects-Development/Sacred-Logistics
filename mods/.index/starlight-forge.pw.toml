@@ -1,0 +1,16 @@
+filename = 'starlight-1.1.1+forge.cf5b10b.jar'
+name = 'Starlight (Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3d80b848c966841deeeba70305e38a29b7e3788d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3836016
+project-id = 526854

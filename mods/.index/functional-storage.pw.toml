@@ -1,0 +1,16 @@
+filename = 'functionalstorage-1.19.2-1.1.10.jar'
+name = 'Functional Storage'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '382a9564095fef725e64bd9da05aee0b6d3b0f58'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4992914
+project-id = 556861

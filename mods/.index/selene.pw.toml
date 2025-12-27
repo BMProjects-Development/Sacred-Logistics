@@ -1,0 +1,16 @@
+filename = 'moonlight-1.19.2-2.3.7-forge.jar'
+name = 'Moonlight Lib'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '088769d428106abf7c9de9bb8729b291cfa35392'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5567102
+project-id = 499980

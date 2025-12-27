@@ -1,0 +1,16 @@
+filename = 'elevatorid-1.19.2-1.8.10.jar'
+name = 'OpenBlocks Elevator'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '4cefcf45e8045171f60034390d517c0f8d7b1a6d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4859577
+project-id = 250832

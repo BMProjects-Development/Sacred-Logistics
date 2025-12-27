@@ -1,0 +1,16 @@
+filename = 'naturalist-forge-4.0.3-1.19.2.jar'
+name = 'Naturalist Lite'
+side = 'server'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ae25d47fe399a2560128d3c85ea1e4dba5be3c05'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4847008
+project-id = 627986

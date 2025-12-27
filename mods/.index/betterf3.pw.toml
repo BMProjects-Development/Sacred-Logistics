@@ -1,0 +1,16 @@
+filename = 'BetterF3-4.0.1-Forge-1.19.2.jar'
+name = 'BetterF3'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '8a97dd1faaa6f2365434b6f5ff910eecc991e22f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4863555
+project-id = 401648

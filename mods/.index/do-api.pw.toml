@@ -1,0 +1,16 @@
+filename = 'doapi-1.1.0b.jar'
+name = "[Let's Do] API "
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '3be69b24454d1af75d6b386825f5d50a5388732c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4676882
+project-id = 864599
