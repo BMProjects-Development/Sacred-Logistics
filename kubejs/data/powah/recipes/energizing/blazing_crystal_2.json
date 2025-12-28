@@ -1,0 +1,12 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "minecraft:blaze_rod"},
+	{"item": "powah:steel_energized"}
+  ],
+  "energy": 90000,
+  "result": {
+	"item": "powah:crystal_blazing",
+	"count": 2
+  }
+}

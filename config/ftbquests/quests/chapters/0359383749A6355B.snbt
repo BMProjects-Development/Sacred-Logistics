@@ -608,6 +608,7 @@
 			dependencies: ["517306437EB2836A"]
 			id: "7678382736BE52D7"
 			tasks: [{
+				count: 36L
 				id: "29FA2F3D9FD2D7BD"
 				item: "powah:reactor_starter"
 				type: "item"
@@ -620,6 +621,7 @@
 			id: "7663DF779EB90F69"
 			size: 0.75d
 			tasks: [{
+				count: 36L
 				id: "4107695487DD9080"
 				item: "powah:reactor_basic"
 				type: "item"
@@ -812,6 +814,7 @@
 			id: "765F5DEDA42D561D"
 			size: 0.75d
 			tasks: [{
+				count: 36L
 				id: "5FEB27E916EF92E1"
 				item: "powah:reactor_hardened"
 				type: "item"
@@ -824,6 +827,7 @@
 			id: "79C342D0D23CCD1C"
 			size: 0.75d
 			tasks: [{
+				count: 36L
 				id: "1F0B253431E039EC"
 				item: "powah:reactor_blazing"
 				type: "item"
@@ -836,6 +840,7 @@
 			id: "7696EF5208FA0867"
 			size: 0.75d
 			tasks: [{
+				count: 36L
 				id: "4D7D3AD3DEA3EF26"
 				item: "powah:reactor_niotic"
 				type: "item"
@@ -848,6 +853,7 @@
 			id: "39E770019A5241C1"
 			size: 0.75d
 			tasks: [{
+				count: 36L
 				id: "67449C24781B1208"
 				item: "powah:reactor_spirited"
 				type: "item"
@@ -860,6 +866,7 @@
 			id: "11CE85EEDE3B210B"
 			size: 0.75d
 			tasks: [{
+				count: 36L
 				id: "17189FE78660FF0C"
 				item: "powah:reactor_nitro"
 				type: "item"

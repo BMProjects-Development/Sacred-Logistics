@@ -1,0 +1,13 @@
+{
+  "type": "powah:energizing",
+  "ingredients": [
+	{"item": "minecraft:emerald"},
+	{"item": "minecraft:redstone_block"},
+	{"item": "powah:crystal_niotic"}
+  ],
+  "energy": 1000000,
+  "result": {
+	"item": "powah:crystal_spirited",
+	"count": 2
+  }
+}
