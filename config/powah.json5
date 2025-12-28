@@ -18,17 +18,50 @@
 		"lens_of_ender": true,
 		// List of fluids used in the Magmator.
 		"magmatic_fluids": {
-			"minecraft:lava": 10000
+			"minecraft:lava": 10000,
+			"pneumaticcraft:oil": 5000,
+			"pneumaticcraft:ethanol": 7500,
+			"mekanismgenerators:bioethanol": 8000,
+			"pneumaticcraft:biodiesel": 8500,
+			"pneumaticcraft:diesel": 12000,
+			"pneumaticcraft:gasoline": 13500,
+			"pneumaticcraft:kerosene": 15000,
+			"pneumaticcraft:lpg": 17500,
+			"mekanism:ethene": 11280,
+			"mekanism:fissile_fuel": 25000,
+			"mekanism:hydrogen": 80,
+			"assemblylinemachines:diesel": 10000,
+			"assemblylinemachines:gasoline": 11000,
+			"assemblylinemachines:naphtha": 7000,
+			"assemblylinemachines:oil": 5000,
+			"ad_astra:oil": 5000,
+			"ad_astra:fuel": 10000
 		},
 		// List of coolant fluids used in the Reactor and the Thermo Generator.
 		"coolant_fluids": {
-			"minecraft:water": 1
+			"minecraft:water": 1,
+			"pneumaticcraft:memory_essence": -2,
+			"assemblylinemachines:liquid_experience": -2,
+			"mekanism:sodium": -33,
+			"mekanism:water_vapor": 0,
+			"assemblylinemachines:glacier_water": -1,
+			"assemblylinemachines:condensed_void": -6,
+			"assemblylinemachines:dark_energy": -8,
+			"ad_astra:cryo_fuel": -3,
+			"minecraft:milk": 1
 		},
 		// List of heat source blocks used under Thermo Generator.
 		"heat_blocks": {
 			"minecraft:magma_block": 800,
 			"minecraft:lava": 1000,
-			"powah:blazing_crystal_block": 2800
+			"powah:blazing_crystal_block": 2800,
+			"productivebees:blazing_crystal": 3000,
+			"allthemodium:soul_lava": 5000,
+			"cataclysm:ignitium_block": 5500,
+			"ad_astra:calorite_block": 4250,
+			"ad_astra:desh_block": 3500,
+			"minecraft:campfire": 400,
+			"minecraft:soul_campfire": 600
 		},
 		// Energy produced per fuel tick in the Furnator.
 		"energy_per_fuel_tick": 30,
