@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
 	
 	event.remove({output: 'kubejs:dragon_ingot'})
 	event.shaped(
-	  Item.of('kubejs:dragon_ingot'), 
+	  Item.of('2x kubejs:dragon_ingot'), 
 	  [
 	    'MFM',
 		'ELE',

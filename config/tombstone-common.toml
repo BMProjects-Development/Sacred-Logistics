@@ -32,9 +32,6 @@
 	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
 	#Range: 0 ~ 100
 	pvp_stolen_xp = 30
-	#Knowledge of Death loss on death [0..500|default:0]
-	#Range: 0 ~ 500
-	knowledge_loss = 0
 	#The chance that some items are lost on death [0..100|default:0]
 	#Range: 0 ~ 100
 	chance_loss_on_death = 0
@@ -221,8 +218,8 @@
 
 #Options related to looted items
 [loot]
-	#Maximum xp rewarded with a Lost Page of Erdös [1..200000|default:2000]
-	#Range: 1 ~ 200000
+	#Maximum xp rewarded with a Lost Page of Erdös [100..200000|default:2000]
+	#Range: 100 ~ 200000
 	max_xp_lost_page = 2000
 
 #Allows to enable some features related to others mods
@@ -237,4 +234,18 @@
 	keep_cosmetic_armor = true
 	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
 	preserve_effects_on_return_end_conquered = true
+
+#Allows to enable special events
+[special_events]
+	#Allows Halloween [false/true|default:true]
+	allow_halloween = true
+	#Allows Christmas [false/true|default:true]
+	allow_christmas = true
+	#Allows Easter [false/true|default:true]
+	allow_easter = true
+	#Allows April Fools [false/true|default:true]
+	allow_april_fools = true
+	#Allows you to set a Special Event as permanent [NONE/APRIL_FOOLS/HALLOWEEN/CHRISTMAS/EASTER|default:NONE]
+	#Allowed Values: NONE, APRIL_FOOLS, HALLOWEEN, CHRISTMAS, EASTER
+	force_special_event = "NONE"
 

@@ -550,7 +550,7 @@
 	"Horses Swim" = true
 	"Sponge On Water Placement" = true
 	"Armed Armor Stands" = true
-	"Double Door Opening" = true
+	"Double Door Opening" = false
 	"Zombie Villagers On Normal" = true
 	"Hoe Harvesting" = true
 	Emotes = true
@@ -684,8 +684,8 @@
 		#This is done to prevent content overlap.
 		#You can turn this on to force the feature to be loaded even if the above mods are also loaded.
 		"Ignore Anti Overlap" = false
-		"Enable Doors" = true
-		"Enable Fence Gates" = true
+		"Enable Doors" = false
+		"Enable Fence Gates" = false
 
 	[tweaks.hoe_harvesting]
 		#Allowed values: [1,5]
