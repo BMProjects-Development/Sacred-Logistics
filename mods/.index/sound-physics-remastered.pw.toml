@@ -1,0 +1,16 @@
+filename = 'sound-physics-remastered-forge-1.19.2-1.4.5.jar'
+name = 'Sound Physics Remastered'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '1d908bd339d09e3f8b6a58de4c74b4a24fe1ef31'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5525251
+project-id = 535489

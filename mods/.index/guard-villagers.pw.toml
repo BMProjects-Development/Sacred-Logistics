@@ -1,0 +1,16 @@
+filename = 'guardvillagers-1.19.2-1.5.9.jar'
+name = 'Guard Villagers'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8c8d70af3eb6a1b509de8cda06d2bdfdaa17a86a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5116175
+project-id = 360203

@@ -1,0 +1,16 @@
+filename = 'doubledoors-1.19.2-5.7.jar'
+name = 'Double Doors'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6e6e84b84e61c5e0d1b81e40d667b6f37b2616a2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5334520
+project-id = 348831

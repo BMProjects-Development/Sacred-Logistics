@@ -1,0 +1,16 @@
+filename = 'JadeAddons-1.19.2-forge-3.6.0.jar'
+name = 'Jade Addons (Neo/Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ba22a39b955573dbfa0a402519a553c80dfbca46'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4850581
+project-id = 583345

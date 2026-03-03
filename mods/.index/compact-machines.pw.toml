@@ -1,0 +1,16 @@
+filename = 'compactmachines-5.1.0.jar'
+name = 'Compact Machines'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5d4fdeabe79e51572e47c63686e571c43a7aa970'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3907274
+project-id = 224218

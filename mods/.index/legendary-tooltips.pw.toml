@@ -1,0 +1,16 @@
+filename = 'LegendaryTooltips-1.19.2-forge-1.4.0.jar'
+name = 'Legendary Tooltips [Neo/Forge]'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '45ab2024300470b58f72c652ef0e69994a7606bb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4278509
+project-id = 532127

@@ -1,0 +1,16 @@
+filename = 'connectedglass-1.1.14-forge-mc1.19.2.jar'
+name = 'Connected Glass'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1c30c81e35e50f3cfe50094f02fcddb92401e367'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6811789
+project-id = 383129

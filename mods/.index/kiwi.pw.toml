@@ -1,0 +1,16 @@
+filename = 'Kiwi-1.19.2-forge-8.3.6.jar'
+name = 'Kiwi 🥝 (Neo/Forge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ea4825bb1c84f000cb08ef91dd53d0c201a60560'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5063293
+project-id = 303657

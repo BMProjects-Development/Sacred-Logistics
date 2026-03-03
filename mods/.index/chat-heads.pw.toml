@@ -1,0 +1,16 @@
+filename = 'chat_heads-0.14.2-forge-1.19.2.jar'
+name = 'Chat Heads'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '11c8b9b1c0b0cf039df7c5c06f865bdeedd2d87e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7211693
+project-id = 407206

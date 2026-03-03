@@ -1,0 +1,16 @@
+filename = 'craftingtweaks-forge-1.19.2-15.1.9.jar'
+name = 'Crafting Tweaks'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '34fb82b1a5a9e10d364bff57041e5e50f3b3d5b7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4939198
+project-id = 233071

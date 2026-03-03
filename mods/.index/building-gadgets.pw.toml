@@ -1,0 +1,16 @@
+filename = 'buildinggadgets-3.16.3-build.26+mc1.19.2.jar'
+name = 'Building Gadgets'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8c399bcb8c4d42e1d7c2c7d63977140dc6d1ab33'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5358157
+project-id = 298187
