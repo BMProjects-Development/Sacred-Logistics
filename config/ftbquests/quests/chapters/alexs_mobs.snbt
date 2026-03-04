@@ -19,9 +19,9 @@
 				"662553426D5FBBA5"
 				"03BB56AE39EB1FE5"
 			]
-			description: ["&6Пространственный резак&r может разрезать пространство."]
+			description: ["{sacred_logistics.alexs_mobs.quests0.description0}"]
 			id: "65042FBB8F397705"
-			subtitle: "Режет пространство!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests0.subtitle}"
 			tasks: [{
 				id: "3B6BE30FD535CA78"
 				item: {
@@ -38,9 +38,9 @@
 		}
 		{
 			dependencies: ["023139629C04414A"]
-			description: ["&6Жвалы червя пустоты&r выпадают при убийстве моба &aЧервь пустоты&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests1.description0}"]
 			id: "662553426D5FBBA5"
-			subtitle: "Мерзость!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests1.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "657682A616B54613"
@@ -52,9 +52,9 @@
 		}
 		{
 			dependencies: ["023139629C04414A"]
-			description: ["&6Глаз червя пустоты&r выпадает при убийстве моба &aЧервь пустоты&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests2.description0}"]
 			id: "03BB56AE39EB1FE5"
-			subtitle: "Глазик!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests2.subtitle}"
 			tasks: [{
 				id: "233C6FCDA8122B6B"
 				item: "alexsmobs:void_worm_eye"
@@ -65,10 +65,10 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Необходимо убить моба &6Червь пустоты&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests3.description0}"]
 			hide: true
 			id: "023139629C04414A"
-			subtitle: "Червяк!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests3.subtitle}"
 			tasks: [{
 				entity: "alexsmobs:void_worm"
 				id: "08B30F83E94EE639"
@@ -80,10 +80,10 @@
 		}
 		{
 			dependencies: ["65042FBB8F397705"]
-			description: ["&6Расколотый пространственный резак&r - опасная вещь."]
+			description: ["{sacred_logistics.alexs_mobs.quests4.description0}"]
 			id: "5D63076CB966AD8C"
 			shape: "tech_smooth_square"
-			subtitle: "Нестабильный!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests4.subtitle}"
 			tasks: [{
 				id: "49BF57DA66A0F7F9"
 				item: {
@@ -100,9 +100,9 @@
 		}
 		{
 			dependencies: ["08C12D59F3DAB192"]
-			description: ["&6Распылитель крови&r стреляет кровью."]
+			description: ["{sacred_logistics.alexs_mobs.quests5.description0}"]
 			id: "373A3E77E53F4428"
-			subtitle: "Стреляет!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests5.subtitle}"
 			tasks: [{
 				id: "3D8ED39D2860DD8A"
 				item: {
@@ -119,7 +119,7 @@
 		}
 		{
 			dependencies: ["57F9EC17BF08B807"]
-			description: ["&6Хоботок&r выпадает при убийстве моба &aБагровый комар&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests6.description0}"]
 			id: "08C12D59F3DAB192"
 			rewards: [{
 				count: 3
@@ -128,7 +128,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Противный предмет!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests6.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "44479EDB37F5D8F5"
@@ -140,7 +140,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Необходимо убить моба &6Багровый комар&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests7.description0}"]
 			hide: true
 			id: "57F9EC17BF08B807"
 			rewards: [{
@@ -148,7 +148,7 @@
 				type: "xp_levels"
 				xp_levels: 5
 			}]
-			subtitle: "Страшное зрелище!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests7.subtitle}"
 			tasks: [{
 				entity: "alexsmobs:crimson_mosquito"
 				id: "78D095E081C945E1"
@@ -160,9 +160,9 @@
 		}
 		{
 			dependencies: ["08C12D59F3DAB192"]
-			description: ["&6Личинка багрового комара&r получается при смешивании &aличинки&r и &aхоботка&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests8.description0}"]
 			id: "7AC9DCA9D6FB7FB2"
-			subtitle: "Мерзко!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests8.subtitle}"
 			tasks: [{
 				id: "1219C74EC57A6146"
 				item: "alexsmobs:mosquito_larva"
@@ -173,10 +173,10 @@
 		}
 		{
 			dependencies: ["7AC9DCA9D6FB7FB2"]
-			description: ["&6Таинственный червь&r появляется из &aличинки багрового комара&r в &aкапсиде&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests9.description0}"]
 			id: "085F5800DB518471"
 			shape: "tech_smooth_square"
-			subtitle: "Неизвестность!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests9.subtitle}"
 			tasks: [{
 				id: "5D330B3B8A09675A"
 				item: "alexsmobs:mysterious_worm"
@@ -192,10 +192,10 @@
 				"64BED05F81C60480"
 				"4327D4C2836718B0"
 			]
-			description: ["&6Гемолифовый бластер&r является оружием."]
+			description: ["{sacred_logistics.alexs_mobs.quests10.description0}"]
 			id: "4269A9E1CF62D653"
 			shape: "tech_smooth_square"
-			subtitle: "Стреляет!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests10.subtitle}"
 			tasks: [{
 				id: "49CE1304F686F007"
 				item: {
@@ -212,9 +212,9 @@
 		}
 		{
 			dependencies: ["0AA80D65B3B768FB"]
-			description: ["&6Искажённый мускул&r выпадает при убийстве моба &aИскажённый комар&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests11.description0}"]
 			id: "448A575184216FA7"
-			subtitle: "Мускул!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests11.subtitle}"
 			tasks: [{
 				id: "7998EBA1D4C51A5B"
 				item: "alexsmobs:warped_muscle"
@@ -225,9 +225,9 @@
 		}
 		{
 			dependencies: ["0AA80D65B3B768FB"]
-			description: ["&6Гемолифовый мешок&r выпадает при убийстве моба &aИскажённый комар&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests12.description0}"]
 			id: "64BED05F81C60480"
-			subtitle: "Мешочек!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests12.subtitle}"
 			tasks: [{
 				count: 3L
 				id: "33CD9AF8FE601178"
@@ -239,10 +239,10 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Необходимо убить моба &6Искажённый комар&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests13.description0}"]
 			hide: true
 			id: "0AA80D65B3B768FB"
-			subtitle: "Ещё один комар!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests13.subtitle}"
 			tasks: [{
 				entity: "alexsmobs:warped_mosco"
 				id: "53DCECD0A916484D"
@@ -254,9 +254,9 @@
 		}
 		{
 			dependencies: ["1A9977BCE49FE965"]
-			description: ["&6Мимикрем&r выпадает при убийстве моба &aМимикуб&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests14.description0}"]
 			id: "4327D4C2836718B0"
-			subtitle: "Материя!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests14.subtitle}"
 			tasks: [{
 				id: "1DD2F37BD6F91119"
 				item: "alexsmobs:mimicream"
@@ -267,10 +267,10 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Необходимо убить моба &6Мимикуб&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests15.description0}"]
 			hide: true
 			id: "1A9977BCE49FE965"
-			subtitle: "Кубик!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests15.subtitle}"
 			tasks: [{
 				entity: "alexsmobs:mimicube"
 				id: "006F70FDEBD65F08"
@@ -285,10 +285,10 @@
 				"1C0A3BEC6461F300"
 				"7BB1BC226316DE76"
 			]
-			description: ["&6Щит бездны&r может спасти в бою."]
+			description: ["{sacred_logistics.alexs_mobs.quests16.description0}"]
 			id: "50BF67B336520698"
 			shape: "tech_smooth_square"
-			subtitle: "Редкий предмет!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests16.subtitle}"
 			tasks: [{
 				id: "7CC9F754C9C9AA9F"
 				item: {
@@ -305,9 +305,9 @@
 		}
 		{
 			dependencies: ["1001BA1EC2F0F590"]
-			description: ["&6Акулий зуб&r выпадает при убийстве моба &aАкула-молот&r, когда она есть спрута или рыбу."]
+			description: ["{sacred_logistics.alexs_mobs.quests17.description0}"]
 			id: "1C0A3BEC6461F300"
-			subtitle: "Крепкий!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests17.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "1B524902F8BFF61C"
@@ -319,9 +319,9 @@
 		}
 		{
 			dependencies: ["1001BA1EC2F0F590"]
-			description: ["&6Зазубренный акулий зуб&r выпадает при убийстве моба &aПлащеносная акула&r, когда она есть Спрута или рыбу."]
+			description: ["{sacred_logistics.alexs_mobs.quests18.description0}"]
 			id: "7BB1BC226316DE76"
-			subtitle: "Острый!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests18.subtitle}"
 			tasks: [{
 				count: 3L
 				id: "1CE73D6E16808BB8"
@@ -333,10 +333,10 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Необходимо убить моба &6Акула-молот&r и &6Плащеносная акула&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests19.description0}"]
 			hide: true
 			id: "1001BA1EC2F0F590"
-			subtitle: "Акула!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests19.subtitle}"
 			tasks: [
 				{
 					entity: "alexsmobs:hammerhead_shark"
@@ -356,7 +356,7 @@
 		}
 		{
 			dependencies: ["67D9A09BF040E87C"]
-			description: ["&6Страддлит&r выпадает при убийстве моба &aСтраддлер&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests20.description0}"]
 			id: "19D6DEB8359F5A4A"
 			rewards: [{
 				count: 2
@@ -365,7 +365,7 @@
 				random_bonus: 3
 				type: "item"
 			}]
-			subtitle: "Новый ресурс!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests20.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "4AE61A4FD855457E"
@@ -377,10 +377,10 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Необходимо убить моба &6Страддлер&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests21.description0}"]
 			hide: true
 			id: "67D9A09BF040E87C"
-			subtitle: "Странное название!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests21.subtitle}"
 			tasks: [{
 				entity: "alexsmobs:straddler"
 				id: "25C7AE0BD32D912D"
@@ -394,7 +394,7 @@
 			dependencies: ["19D6DEB8359F5A4A"]
 			id: "30DF83086365066F"
 			shape: "tech_smooth_square"
-			subtitle: "Обычное седло!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests22.subtitle}"
 			tasks: [{
 				id: "1FCFC86090FF3207"
 				item: "alexsmobs:straddle_saddle"
@@ -407,7 +407,7 @@
 			dependencies: ["19D6DEB8359F5A4A"]
 			id: "5878B8EB47AB4A7F"
 			shape: "tech_smooth_square"
-			subtitle: "Неизвестный предмет!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests23.subtitle}"
 			tasks: [{
 				id: "0B2F7C43A2B08E07"
 				item: {
@@ -426,7 +426,7 @@
 			dependencies: ["2300B7C334827BD7"]
 			id: "761FA8E717FAD575"
 			shape: "tech_smooth_square"
-			subtitle: "Интересный блок!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests24.subtitle}"
 			tasks: [{
 				id: "2F6F6466694B4E66"
 				item: "alexsmobs:sculk_boomer"
@@ -437,14 +437,14 @@
 		}
 		{
 			dependencies: ["1732CDDA79D0555A"]
-			description: ["&6Душа визгуна&r выпадает при убийстве моба &aВизгун&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests25.description0}"]
 			id: "2300B7C334827BD7"
 			rewards: [{
 				id: "026DE5FB25522847"
 				item: "alexsmobs:skreecher_soul"
 				type: "item"
 			}]
-			subtitle: "Страшная душа!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests25.subtitle}"
 			tasks: [{
 				count: 2L
 				id: "3E26FBFC7E06B240"
@@ -456,10 +456,10 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Необходимо убить моба &6Визгун&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests26.description0}"]
 			hide: true
 			id: "1732CDDA79D0555A"
-			subtitle: "Громкий!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests26.subtitle}"
 			tasks: [{
 				entity: "alexsmobs:skreecher"
 				id: "3570209DAE36F4BF"
@@ -473,7 +473,7 @@
 			dependencies: ["3856AEBDD0FF4991"]
 			id: "08BECA83C402CEE9"
 			shape: "tech_smooth_square"
-			subtitle: "Интересный блок!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests27.subtitle}"
 			tasks: [{
 				id: "3497456BEACDCDBE"
 				item: "alexsmobs:transmutation_table"
@@ -484,14 +484,14 @@
 		}
 		{
 			dependencies: ["60ECFF5383C12583"]
-			description: ["&6Рука прозирателя&r выпадает при убийстве моба &aПрозиратель&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests28.description0}"]
 			id: "3856AEBDD0FF4991"
 			rewards: [{
 				id: "1BC3069E1EBDE639"
 				item: "alexsmobs:farseer_arm"
 				type: "item"
 			}]
-			subtitle: "Страшная рука!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests28.subtitle}"
 			tasks: [{
 				id: "14595CA22908A534"
 				item: "alexsmobs:farseer_arm"
@@ -502,10 +502,10 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Необходимо убить моба &6Прозиратель&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests29.description0}"]
 			hide: true
 			id: "60ECFF5383C12583"
-			subtitle: "Неизвестный монстр!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests29.subtitle}"
 			tasks: [{
 				entity: "alexsmobs:farseer"
 				id: "5A15CA2B0A1E6491"
@@ -517,10 +517,10 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Необходимо убить моба &6Крокодил&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests30.description0}"]
 			hide: true
 			id: "2343694DE3E03B67"
-			subtitle: "Настоящий!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests30.subtitle}"
 			tasks: [{
 				entity: "alexsmobs:crocodile"
 				id: "0FB5E9F41F799EAB"
@@ -532,7 +532,7 @@
 		}
 		{
 			dependencies: ["2343694DE3E03B67"]
-			description: ["&6Крокодилья кожа&r выпадает при убийстве моба &aКрокодил&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests31.description0}"]
 			id: "3E75D9E2E22C7708"
 			rewards: [{
 				count: 3
@@ -541,7 +541,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Вот это кожа!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests31.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "36307B47892107F8"
@@ -555,7 +555,7 @@
 			dependencies: ["3E75D9E2E22C7708"]
 			id: "5C803139CD81B0E5"
 			shape: "tech_smooth_square"
-			subtitle: "Обычная броня!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests32.subtitle}"
 			tasks: [{
 				id: "600DEC577CE47482"
 				item: {
@@ -572,10 +572,10 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Необходимо убить моба &6Многоножка&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests33.description0}"]
 			hide: true
 			id: "1D18918B51E26B91"
-			subtitle: "Имеет много ног!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests33.subtitle}"
 			tasks: [{
 				entity: "alexsmobs:centipede_body"
 				id: "1AC21E003B41FA74"
@@ -587,7 +587,7 @@
 		}
 		{
 			dependencies: ["1D18918B51E26B91"]
-			description: ["&6Ножка многоножки&r выпадает при убийстве моба &aМногоножка&r."]
+			description: ["{sacred_logistics.alexs_mobs.quests34.description0}"]
 			id: "62BEF3B14CD38D7D"
 			rewards: [{
 				count: 2
@@ -596,7 +596,7 @@
 				random_bonus: 2
 				type: "item"
 			}]
-			subtitle: "Прикольно звучит!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests34.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "2F16BB42804D21D8"
@@ -608,10 +608,10 @@
 		}
 		{
 			dependencies: ["62BEF3B14CD38D7D"]
-			description: ["&6Поножи из многоножки&r позволяют взбираться по стенам."]
+			description: ["{sacred_logistics.alexs_mobs.quests35.description0}"]
 			id: "6EC8D64A6EA6510D"
 			shape: "tech_smooth_square"
-			subtitle: "Интересный элемент брони!"
+			subtitle: "{sacred_logistics.alexs_mobs.quests35.subtitle}"
 			tasks: [{
 				id: "661660081F083FB9"
 				item: {
@@ -627,5 +627,5 @@
 			y: -4.5d
 		}
 	]
-	title: "&bНовые мобы"
+	title: "{sacred_logistics.alexs_mobs.title}"
 }

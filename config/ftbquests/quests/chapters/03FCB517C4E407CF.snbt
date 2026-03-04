@@ -46,7 +46,7 @@
 		}
 		{
 			dependencies: ["58A6DAC2644D7A3E"]
-			description: ["Мой путь к &5звездам&r начинается здесь, на Земле, с создания &6Верстака ракет&r и &6Пусковой площадки&r. Создав эти блоки я смогу, наконец, шагнуть в сторону космической эры. "]
+			description: ["{sacred_logistics.03fcb517c4e407cf.quests2.description0}"]
 			hide: true
 			id: "1CADCF40636C7EC7"
 			rewards: [{
@@ -68,7 +68,7 @@
 					type: "item"
 				}
 			]
-			title: "Начало ракетостроению"
+			title: "{sacred_logistics.03fcb517c4e407cf.quests2.title}"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -139,7 +139,7 @@
 		}
 		{
 			dependencies: ["1CADCF40636C7EC7"]
-			description: ["Покоритель космоса 1-го уровня!"]
+			description: ["{sacred_logistics.03fcb517c4e407cf.quests5.description0}"]
 			id: "5BE53FF882645428"
 			tasks: [{
 				id: "220181F25F9D1C8E"
@@ -177,7 +177,7 @@
 		}
 		{
 			dependencies: ["390E1010397E5228"]
-			description: ["Покоритель космоса 2-го уровня!"]
+			description: ["{sacred_logistics.03fcb517c4e407cf.quests7.description0}"]
 			id: "7032508DE0532020"
 			tasks: [{
 				id: "139FB5ECE62D869F"
@@ -215,7 +215,7 @@
 		}
 		{
 			dependencies: ["53739B62C39341D0"]
-			description: ["Покоритель космоса 3-го уровня!"]
+			description: ["{sacred_logistics.03fcb517c4e407cf.quests9.description0}"]
 			id: "0B6B3B3A25721C4D"
 			tasks: [{
 				id: "2F3FD6F32BE47D7A"
@@ -253,7 +253,7 @@
 		}
 		{
 			dependencies: ["1C104BDDE83D0D65"]
-			description: ["Покоритель космоса 4-го уровня!"]
+			description: ["{sacred_logistics.03fcb517c4e407cf.quests11.description0}"]
 			id: "651366CB6C96F7B3"
 			tasks: [{
 				id: "64A70AD649D02EBA"
@@ -464,10 +464,10 @@
 					type: "item"
 				}
 			]
-			title: "Люминит"
+			title: "{sacred_logistics.03fcb517c4e407cf.quests20.title}"
 			x: 12.0d
 			y: 0.0d
 		}
 	]
-	title: "&bГлавное путешествие"
+	title: "{sacred_logistics.03fcb517c4e407cf.title}"
 }

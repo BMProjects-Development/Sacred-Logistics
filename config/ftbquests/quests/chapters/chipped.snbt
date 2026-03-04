@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Красота должна быть везде."]
+			description: ["{sacred_logistics.chipped.quests0.description0}"]
 			hide: true
 			id: "2C432BFF146578AD"
 			tasks: [{
@@ -23,7 +23,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Красота должна быть везде."]
+			description: ["{sacred_logistics.chipped.quests1.description0}"]
 			hide: true
 			id: "4C8995B22FB8D909"
 			tasks: [{
@@ -36,7 +36,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Красота должна быть везде."]
+			description: ["{sacred_logistics.chipped.quests2.description0}"]
 			hide: true
 			id: "2C5D275094BD1595"
 			tasks: [{
@@ -49,7 +49,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Красота должна быть везде."]
+			description: ["{sacred_logistics.chipped.quests3.description0}"]
 			hide: true
 			id: "202BE7B352D48B0A"
 			tasks: [{
@@ -62,7 +62,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Красота должна быть везде."]
+			description: ["{sacred_logistics.chipped.quests4.description0}"]
 			hide: true
 			id: "612665DD7521CB28"
 			tasks: [{
@@ -75,7 +75,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Красота должна быть везде."]
+			description: ["{sacred_logistics.chipped.quests5.description0}"]
 			hide: true
 			id: "275FF44B977C6E40"
 			tasks: [{
@@ -87,5 +87,5 @@
 			y: 1.0d
 		}
 	]
-	title: "&bДекорации"
+	title: "{sacred_logistics.chipped.title}"
 }

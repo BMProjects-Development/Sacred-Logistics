@@ -11,9 +11,9 @@
 		{
 			dependencies: ["6BC22A684745A477"]
 			description: [
-				"Добыв немного дерева и переработав его в доски, я могу создать свой первый и главный рабочий стол - &6Верстак&r."
+				"{sacred_logistics.5e53a9bc0eda6e5d.quests0.description0}"
 				""
-				"&bОткрывает доступ к созданию огромного количества предметов.&r"
+				"{sacred_logistics.5e53a9bc0eda6e5d.quests0.description1}"
 			]
 			id: "05EB7D069C18CA1E"
 			rewards: [{
@@ -23,19 +23,19 @@
 				type: "item"
 			}]
 			size: 1.2d
-			subtitle: "Главный рабочий стол!"
+			subtitle: "{sacred_logistics.5e53a9bc0eda6e5d.quests0.subtitle}"
 			tasks: [{
 				id: "5CE947F135239979"
 				item: "minecraft:crafting_table"
 				type: "item"
 			}]
-			title: "&bВерстак"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests0.title}"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6C7F234B75D1E84F"]
-			description: ["&6Булыжник&r - первая моя твёрдая порода - позволяет создать &2Печь&r."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests1.description0}"]
 			id: "15351ED9820C1C90"
 			rewards: [{
 				count: 4
@@ -50,13 +50,13 @@
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			title: "&b4х Булыжник"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests1.title}"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: ["&6Костёр&r необходим для готовки еды."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests2.description0}"]
 			id: "601145AC00E6C07B"
 			rewards: [{
 				count: 2
@@ -70,13 +70,13 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			title: "&bКостёр"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests2.title}"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: ["&6Сундук&r необходим для хранения ресурсов."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests3.description0}"]
 			id: "3BC47498DF613B04"
 			tasks: [{
 				icon: "minecraft:chest"
@@ -88,29 +88,29 @@
 						value: "forge:chests/wooden"
 					}
 				}
-				title: "Сундук"
+				title: "{sacred_logistics.5e53a9bc0eda6e5d.quests3.tasks0.title}"
 				type: "item"
 			}]
-			title: "&bСундук"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests3.title}"
 			x: 1.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: ["&6Бочка&r необходима для хранения ресурсов."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests4.description0}"]
 			id: "40FA20B89ED9FF16"
 			tasks: [{
 				id: "73BBDA6B834F1DCE"
 				item: "minecraft:barrel"
 				type: "item"
 			}]
-			title: "&bБочка"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests4.title}"
 			x: 2.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["15351ED9820C1C90"]
-			description: ["&6Печь&r необходима для переплавки различных ресурсов."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests5.description0}"]
 			id: "7CA023B662360C6A"
 			size: 1.2d
 			tasks: [{
@@ -118,13 +118,13 @@
 				item: "minecraft:furnace"
 				type: "item"
 			}]
-			title: "&bПечь"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests5.title}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
-			description: ["&6Плавильная печь&r быстрее плавит руду."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests6.description0}"]
 			id: "459270456C29E625"
 			rewards: [{
 				id: "28602DDDC467F5E8"
@@ -136,13 +136,13 @@
 				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
-			title: "&bПлавильная печь"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests6.title}"
 			x: 5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7A3F3E23A0387DE6"]
-			description: ["Создав каменную кирку, я могу добыть новый ресурс - &6Железо&r."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests7.description0}"]
 			id: "050CD68574E6F1E6"
 			rewards: [{
 				count: 2
@@ -157,16 +157,16 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			title: "&b4х Рудное железо"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests7.title}"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["050CD68574E6F1E6"]
 			description: [
-				"Рудное железо я могу переплавить в железные слитки."
+				"{sacred_logistics.5e53a9bc0eda6e5d.quests8.description0}"
 				""
-				"Железные слитки я могу переделать в железные пластины, для создания &6Железной кирки&r."
+				"{sacred_logistics.5e53a9bc0eda6e5d.quests8.description1}"
 			]
 			id: "73D8A15D7A0E9FA2"
 			rewards: [{
@@ -176,7 +176,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
-			subtitle: "Куй железо, пока горячо!"
+			subtitle: "{sacred_logistics.5e53a9bc0eda6e5d.quests8.subtitle}"
 			tasks: [
 				{
 					count: 4L
@@ -194,17 +194,17 @@
 							value: "forge:plates/iron"
 						}
 					}
-					title: "2х Железная пластина"
+					title: "{sacred_logistics.5e53a9bc0eda6e5d.quests8.tasks1.title}"
 					type: "item"
 				}
 			]
-			title: "&bЖелезо"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests8.title}"
 			x: 9.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
-			description: ["Улучшенная кирка, с помощью котрой я могу добыть новые ресурсы - &6Золото&r и &6Алмазы&r."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests9.description0}"]
 			id: "39C60726C5C4150F"
 			rewards: [{
 				count: 4
@@ -224,7 +224,7 @@
 				}
 				type: "item"
 			}]
-			title: "&bЖелезная кирка"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests9.title}"
 			x: 11.0d
 			y: 0.0d
 		}
@@ -254,11 +254,11 @@
 							value: "forge:plates/diamond"
 						}
 					}
-					title: "2х Алмазная пластина"
+					title: "{sacred_logistics.5e53a9bc0eda6e5d.quests10.tasks1.title}"
 					type: "item"
 				}
 			]
-			title: "&bАлмаз"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests10.title}"
 			x: 11.5d
 			y: 1.0d
 		}
@@ -282,7 +282,7 @@
 				}
 				type: "item"
 			}]
-			title: "&bАлмазная кирка"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests11.title}"
 			x: 12.5d
 			y: 1.0d
 		}
@@ -302,7 +302,7 @@
 				item: "minecraft:raw_gold"
 				type: "item"
 			}]
-			title: "&b4х Рудное золото"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests12.title}"
 			x: 11.5d
 			y: -1.0d
 		}
@@ -322,7 +322,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			title: "&b4х Золотой слиток"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests13.title}"
 			x: 12.5d
 			y: -1.0d
 		}
@@ -340,13 +340,13 @@
 				item: "sophisticatedbackpacks:diamond_backpack"
 				type: "item"
 			}]
-			title: "&bАлмазный рюкзак"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests14.title}"
 			x: 12.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
-			description: ["Улучшенная версия обычного рюкзака."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests15.description0}"]
 			id: "5D24178A87E70FF2"
 			rewards: [{
 				id: "09A75C2C257EA164"
@@ -358,7 +358,7 @@
 				item: "sophisticatedbackpacks:iron_backpack"
 				type: "item"
 			}]
-			title: "&bЖелезный рюкзак"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests15.title}"
 			x: 9.5d
 			y: 1.5d
 		}
@@ -375,13 +375,13 @@
 				item: "sophisticatedbackpacks:gold_backpack"
 				type: "item"
 			}]
-			title: "&bЗолотой рюкзак"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests16.title}"
 			x: 13.0d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3BC47498DF613B04"]
-			description: ["&6Рюкзак&r необходим для хранения ресурсов во время путешествия."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests17.description0}"]
 			id: "19E0170B82D541A5"
 			rewards: [{
 				id: "6C3BE03EEF9382DB"
@@ -393,13 +393,13 @@
 				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
-			title: "&bРюкзак"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests17.title}"
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["05EB7D069C18CA1E"]
-			description: ["&6Деревянная кирка&r позволит мне добывать начальные твёрдые породы, а именно - &2Булыжник&r."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests18.description0}"]
 			id: "6C7F234B75D1E84F"
 			rewards: [{
 				count: 12
@@ -418,13 +418,13 @@
 				}
 				type: "item"
 			}]
-			title: "&bДеревянная кирка"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests18.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
-			description: ["&6Коптильня&r быстрее жарит еду."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests19.description0}"]
 			id: "4F6DDAD39A65752A"
 			rewards: [{
 				id: "172011DA52647909"
@@ -436,13 +436,13 @@
 				item: "minecraft:smoker"
 				type: "item"
 			}]
-			title: "&bКоптильня"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests19.title}"
 			x: 5.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["7CA023B662360C6A"]
-			description: ["&6Камень&r необходим для создания обновлённых инструментов."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests20.description0}"]
 			id: "59A6896A8B3C6B62"
 			rewards: [{
 				count: 4
@@ -457,13 +457,13 @@
 				item: "minecraft:stone"
 				type: "item"
 			}]
-			title: "&b4х Камень"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests20.title}"
 			x: 6.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["59A6896A8B3C6B62"]
-			description: ["&6Каменная кирка&r позволяет добывать более твёрдые каменные породы."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests21.description0}"]
 			id: "7A3F3E23A0387DE6"
 			rewards: [{
 				id: "7C839FA07E932274"
@@ -480,7 +480,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.5e53a9bc0eda6e5d.quests21.subtitle}"
 			tasks: [{
 				id: "18B428008BE10777"
 				item: {
@@ -492,16 +492,16 @@
 				}
 				type: "item"
 			}]
-			title: "&bКаменная кирка"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests21.title}"
 			x: 7.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
 			description: [
-				"Первое, что необходимо мне сделать в этом мире - добыть &6Дерево&r."
+				"{sacred_logistics.5e53a9bc0eda6e5d.quests22.description0}"
 				""
-				"&bДерево растёт практически везде, поэтому мне стоит лишь оглянуться, чтобы найти его.&r"
+				"{sacred_logistics.5e53a9bc0eda6e5d.quests22.description1}"
 			]
 			hide: true
 			id: "6BC22A684745A477"
@@ -511,7 +511,7 @@
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
-			subtitle: "Обыденность..."
+			subtitle: "{sacred_logistics.5e53a9bc0eda6e5d.quests22.subtitle}"
 			tasks: [{
 				count: 4L
 				id: "73F56FE30A64771E"
@@ -522,16 +522,16 @@
 						value: "minecraft:logs"
 					}
 				}
-				title: "Дерево"
+				title: "{sacred_logistics.5e53a9bc0eda6e5d.quests22.tasks0.title}"
 				type: "item"
 			}]
-			title: "&b4х Дерево"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests22.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7A3F3E23A0387DE6"]
-			description: ["Создав каменную кирку, я могу добыть новый ресурс - &6Медь&r."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests23.description0}"]
 			id: "53A87DE6F28197DB"
 			rewards: [{
 				count: 2
@@ -546,13 +546,13 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			title: "&b4х Рудная медь"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests23.title}"
 			x: 8.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["53A87DE6F28197DB"]
-			description: ["Рудную медь я могу переплавить в медные слитки."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests24.description0}"]
 			id: "5E03D8EFC425A9CD"
 			tasks: [{
 				count: 4L
@@ -560,13 +560,13 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			title: "&b4х Медный слиток"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests24.title}"
 			x: 8.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
-			description: ["Улучшенная версия обычных сундуков и бочек."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests25.description0}"]
 			id: "1E2E83EFB9F203F0"
 			tasks: [
 				{
@@ -592,7 +592,7 @@
 					type: "item"
 				}
 			]
-			title: "&bЖелезные хранилища"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests25.title}"
 			x: 9.5d
 			y: -1.5d
 		}
@@ -623,7 +623,7 @@
 					type: "item"
 				}
 			]
-			title: "&bЗолотые хранилища"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests26.title}"
 			x: 12.0d
 			y: -2.5d
 		}
@@ -654,7 +654,7 @@
 					type: "item"
 				}
 			]
-			title: "&bАлмазные хранилища"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests27.title}"
 			x: 11.0d
 			y: 2.5d
 		}
@@ -670,16 +670,16 @@
 						value: "functionalstorage:drawer"
 					}
 				}
-				title: "Ящики"
+				title: "{sacred_logistics.5e53a9bc0eda6e5d.quests28.tasks0.title}"
 				type: "item"
 			}]
-			title: "&bЯщик"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests28.title}"
 			x: 1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
-			description: ["Медная печь плавит немного быстрее обычной."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests29.description0}"]
 			id: "4199FB8B15A80928"
 			rewards: [{
 				count: 8
@@ -693,13 +693,13 @@
 				item: "ironfurnaces:copper_furnace"
 				type: "item"
 			}]
-			title: "&bМедная печь"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests29.title}"
 			x: 7.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["5E03D8EFC425A9CD"]
-			description: ["Медный молот необходим мне для создания различных пластин."]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests30.description0}"]
 			id: "43DAF8E59F58AE77"
 			size: 1.2d
 			tasks: [{
@@ -713,7 +713,7 @@
 				}
 				type: "item"
 			}]
-			title: "&bМедный молот"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests30.title}"
 			x: 8.5d
 			y: -5.0d
 		}
@@ -739,13 +739,13 @@
 					type: "item"
 				}
 			]
-			title: "Метеорит"
+			title: "{sacred_logistics.5e53a9bc0eda6e5d.quests31.title}"
 			x: 13.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["68397160ED2B2FDD"]
-			description: ["Необходимо носить в инвентаре, чтобы метеориты не падали. "]
+			description: ["{sacred_logistics.5e53a9bc0eda6e5d.quests32.description0}"]
 			id: "74A04658DE474922"
 			rewards: [{
 				id: "29C3E8B95B9D99FB"
@@ -761,5 +761,5 @@
 			y: 0.0d
 		}
 	]
-	title: "&bПервые шаги"
+	title: "{sacred_logistics.5e53a9bc0eda6e5d.title}"
 }

@@ -16,7 +16,7 @@
 	quests: [
 		{
 			dependencies: ["4222E4C3CB12466C"]
-			description: ["Укреплённые кирпичи используются для создания различных блоков и предметов."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests0.description0}"]
 			hide: true
 			id: "45A07D9B8081F2A0"
 			rewards: [{
@@ -46,13 +46,13 @@
 					type: "item"
 				}
 			]
-			title: "Укреплённые кирпичи"
+			title: "{sacred_logistics.6953150a66c1136b.quests0.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45A07D9B8081F2A0"]
-			description: ["Барокамера один из важнейших приборов этого мода. С помощью неё вы будете создавать различные предметы для продвижения по этому моду!"]
+			description: ["{sacred_logistics.6953150a66c1136b.quests1.description0}"]
 			id: "24D7624AB316B3C9"
 			tasks: [
 				{
@@ -71,13 +71,13 @@
 					type: "item"
 				}
 			]
-			title: "Барокамера "
+			title: "{sacred_logistics.6953150a66c1136b.quests1.title}"
 			x: 0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["29D3BB90C1AFD93D"]
-			description: ["С помощью воздушного компрессора можно вырабатывать сжатый воздух, путём сжигания топлива, главный вид \"энергии\" в этом моде!"]
+			description: ["{sacred_logistics.6953150a66c1136b.quests2.description0}"]
 			id: "11FC3733A1D623C4"
 			shape: "tech_square"
 			tasks: [{
@@ -90,7 +90,7 @@
 		}
 		{
 			dependencies: ["45A07D9B8081F2A0"]
-			description: ["С помощью труб под давлением можно передавать сжатый воздух в различные механизмы."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests3.description0}"]
 			id: "29D3BB90C1AFD93D"
 			tasks: [{
 				count: 3L
@@ -103,7 +103,7 @@
 		}
 		{
 			dependencies: ["29D3BB90C1AFD93D"]
-			description: ["С помощью гаечного пневмаключа можно забирать предметы из этого мода, закрывть/открывать трубы и т.п."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests4.description0}"]
 			id: "1B7652DB784BCFA6"
 			tasks: [{
 				id: "3B67B0A336139BEF"
@@ -115,7 +115,7 @@
 		}
 		{
 			dependencies: ["45A07D9B8081F2A0"]
-			description: ["С помощью термоперерабатывающего завода можно преобразовывать одни жидкости в другие."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests5.description0}"]
 			id: "4750ED395F4119D0"
 			tasks: [{
 				id: "0B31D8F39B8C3EE8"
@@ -127,7 +127,7 @@
 		}
 		{
 			dependencies: ["4750ED395F4119D0"]
-			description: ["Листы пластика можно получить путём затвердевания в мире. Сам пластик используется во многих крафтах на этой сборке."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests6.description0}"]
 			id: "491435ED023469B3"
 			shape: "tech_square"
 			size: 1.1d
@@ -137,13 +137,13 @@
 				item: "pneumaticcraft:plastic"
 				type: "item"
 			}]
-			title: "Листы пластика"
+			title: "{sacred_logistics.6953150a66c1136b.quests6.title}"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["45A07D9B8081F2A0"]
-			description: ["С помощью резервуара для травления можно получить печатные платы. Для этого нужно заполнить резервуар кислотой и вставить пустые печатные платы."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests7.description0}"]
 			id: "58A6DAC2644D7A3E"
 			shape: "tech_square"
 			size: 1.1d
@@ -165,7 +165,7 @@
 		}
 		{
 			dependencies: ["58A6DAC2644D7A3E"]
-			description: ["С помощью сборочного контроллера можно управлять другими сборочными машинами."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests8.description0}"]
 			id: "6D2F62AF25B42BF4"
 			tasks: [{
 				id: "737762EAC9EF87E6"
@@ -177,7 +177,7 @@
 		}
 		{
 			dependencies: ["58A6DAC2644D7A3E"]
-			description: ["С помощью программатора можно программировать дронов."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests9.description0}"]
 			id: "669D2D535CE74E00"
 			tasks: [{
 				id: "03C83A88C9CDE623"
@@ -189,7 +189,7 @@
 		}
 		{
 			dependencies: ["669D2D535CE74E00"]
-			description: ["Обычный дрон, которого можно запрограммировать почти на любое действие."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests10.description0}"]
 			id: "519DF9A53D61AED0"
 			shape: "tech_square"
 			tasks: [{
@@ -202,7 +202,7 @@
 		}
 		{
 			dependencies: ["519DF9A53D61AED0"]
-			description: ["С помощью программировоного контроллера можно заменить дронов. Чаще всего используется для масшатабных проектов, таких как - карьер!"]
+			description: ["{sacred_logistics.6953150a66c1136b.quests11.description0}"]
 			id: "0E8AA98C7E41B191"
 			tasks: [{
 				id: "261EB70DB7B17C01"
@@ -214,7 +214,7 @@
 		}
 		{
 			dependencies: ["519DF9A53D61AED0"]
-			description: ["Дрон-логистик выполняет логистические задачи."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests12.description0}"]
 			hide_dependency_lines: true
 			id: "2DC43B829EA05B7A"
 			tasks: [{
@@ -227,7 +227,7 @@
 		}
 		{
 			dependencies: ["519DF9A53D61AED0"]
-			description: ["Дрон-фермер собирает любые полностью выросшие растения."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests13.description0}"]
 			hide_dependency_lines: true
 			id: "149EEDB69FF1A900"
 			tasks: [{
@@ -240,7 +240,7 @@
 		}
 		{
 			dependencies: ["519DF9A53D61AED0"]
-			description: ["Дрон-защитник может защищать территорию от враждебных мобов."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests14.description0}"]
 			hide_dependency_lines: true
 			id: "1044D5274BE72552"
 			tasks: [{
@@ -253,7 +253,7 @@
 		}
 		{
 			dependencies: ["519DF9A53D61AED0"]
-			description: ["Дрон-собиратель собирает различные предметы в области его действия."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests15.description0}"]
 			hide_dependency_lines: true
 			id: "11740A14D6774375"
 			tasks: [{
@@ -266,7 +266,7 @@
 		}
 		{
 			dependencies: ["11FC3733A1D623C4"]
-			description: ["Продвинутая версия воздушного компрессора."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests16.description0}"]
 			id: "4558CD67EADF401F"
 			tasks: [{
 				id: "00E06C75991A6435"
@@ -278,7 +278,7 @@
 		}
 		{
 			dependencies: ["4558CD67EADF401F"]
-			description: ["С помощью электростатического компрессора можно вырабатывать сжатый воздух, путём попадания молнии в сам механизм, сделать это очень сложно!"]
+			description: ["{sacred_logistics.6953150a66c1136b.quests17.description0}"]
 			id: "1418F3518E83EC8E"
 			tasks: [{
 				id: "64CEC95B150FD320"
@@ -290,7 +290,7 @@
 		}
 		{
 			dependencies: ["11FC3733A1D623C4"]
-			description: ["С помощью жидкостного компрессра можно вырабатывать сжатый воздух, путём сжигания различных топливных жидкостей."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests18.description0}"]
 			id: "149B92FBFDBACFD9"
 			tasks: [{
 				id: "3BAF13242D11B476"
@@ -302,7 +302,7 @@
 		}
 		{
 			dependencies: ["149B92FBFDBACFD9"]
-			description: ["Продвинутая версия жидкостного компрессор."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests19.description0}"]
 			id: "02F2E3A42E301527"
 			tasks: [{
 				id: "01872EA99D3A0DBD"
@@ -314,7 +314,7 @@
 		}
 		{
 			dependencies: ["11FC3733A1D623C4"]
-			description: ["С помощью флаксового компрессора можно вырабатывать сжатый воздух, путём преобразования Forge Enegry."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests20.description0}"]
 			id: "7AAF2AC6B08EE590"
 			tasks: [{
 				id: "2C5076B668111801"
@@ -326,7 +326,7 @@
 		}
 		{
 			dependencies: ["11FC3733A1D623C4"]
-			description: ["С помощью термального компрессора можно вырабатывать сжатый воздух, путём перепада температуры."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests21.description0}"]
 			id: "06907AE75B374A5D"
 			tasks: [{
 				id: "12AD8006B73FE067"
@@ -338,7 +338,7 @@
 		}
 		{
 			dependencies: ["29D3BB90C1AFD93D"]
-			description: ["Продвинутая версия трубы под давлением.(по названию не понятно)"]
+			description: ["{sacred_logistics.6953150a66c1136b.quests22.description0}"]
 			id: "3D3C7FD61E230EAA"
 			tasks: [{
 				id: "1DE15B119386AE88"
@@ -350,7 +350,7 @@
 		}
 		{
 			dependencies: ["29D3BB90C1AFD93D"]
-			description: ["Воздушная канистра может быть использована для заправки сжатым воздухом на станции заправки."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests23.description0}"]
 			id: "268FCC2C8C81C4DC"
 			tasks: [{
 				id: "64672656C8B6F142"
@@ -362,7 +362,7 @@
 		}
 		{
 			dependencies: ["268FCC2C8C81C4DC"]
-			description: ["Улучшенная версия воздушной канисты."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests24.description0}"]
 			id: "7E3215B6AA8043DE"
 			tasks: [{
 				id: "28327A12D4A75FB3"
@@ -374,7 +374,7 @@
 		}
 		{
 			dependencies: ["24D7624AB316B3C9"]
-			description: ["Очень питательный и вкусный хлеб, обязательно попробуйте!"]
+			description: ["{sacred_logistics.6953150a66c1136b.quests25.description0}"]
 			id: "37059FDED1AD1C58"
 			tasks: [{
 				id: "7019E648626AD28F"
@@ -386,7 +386,7 @@
 		}
 		{
 			dependencies: ["268FCC2C8C81C4DC"]
-			description: ["С помощью вихревой пушки можно стрелять потоками воздуха. А с помощью них, например, можно стричь животных."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests26.description0}"]
 			id: "192E4E411B871C96"
 			tasks: [{
 				id: "474B512AFD376DFA"
@@ -398,7 +398,7 @@
 		}
 		{
 			dependencies: ["491435ED023469B3"]
-			description: ["Маркер GPS сохраняет координаты в мире. Используете в различных приборах из этого мода, например программатор и воздушная пушка."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests27.description0}"]
 			id: "73F313E9E587150D"
 			tasks: [{
 				id: "75FCE787C90773A9"
@@ -410,7 +410,7 @@
 		}
 		{
 			dependencies: ["73F313E9E587150D"]
-			description: ["С помощью воздушной пушки можно перебрасывать предметы по воздуху. Для её работы нужен маркер GPS."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests28.description0}"]
 			id: "2AA9EE59F2E904E3"
 			tasks: [{
 				id: "709677792734B917"
@@ -422,7 +422,7 @@
 		}
 		{
 			dependencies: ["4750ED395F4119D0"]
-			description: ["Очень вкусная еда, попробуйте обязательно!"]
+			description: ["{sacred_logistics.6953150a66c1136b.quests29.description0}"]
 			id: "7B1C5B1C711FACCF"
 			tasks: [{
 				id: "0068EDC53C148C07"
@@ -434,7 +434,7 @@
 		}
 		{
 			dependencies: ["45A07D9B8081F2A0"]
-			description: ["С помощью экстрактора спаунера можно извлекать ядро спаунера из спаунера. Но весьма интересным способом..."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests30.description0}"]
 			id: "4187103267BDC294"
 			tasks: [{
 				id: "04E799F7DBCD50EC"
@@ -446,7 +446,7 @@
 		}
 		{
 			dependencies: ["4187103267BDC294"]
-			description: ["С помощью пустого спаунера можно создать герметичный спаунер."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests31.description0}"]
 			id: "5F78168421BAA44A"
 			tasks: [{
 				id: "5026B896C4A9EF4C"
@@ -458,7 +458,7 @@
 		}
 		{
 			dependencies: ["5F78168421BAA44A"]
-			description: ["С помощью спаунера под давлением можно создавать мобов, используя сжатый воздух и ИГНОРИРУЯ уровень освещения!"]
+			description: ["{sacred_logistics.6953150a66c1136b.quests32.description0}"]
 			id: "1A8B1232DA3B698F"
 			shape: "tech_square"
 			tasks: [{
@@ -471,7 +471,7 @@
 		}
 		{
 			dependencies: ["4750ED395F4119D0"]
-			description: ["Ядро спаунера можно поместить в герметичный спаунер, чтобы спавнить мобов, находящихся в этом ядре."]
+			description: ["{sacred_logistics.6953150a66c1136b.quests33.description0}"]
 			id: "110F8BC45D436115"
 			tasks: [{
 				id: "6A472EB39576C1D9"
@@ -516,7 +516,7 @@
 		}
 		{
 			dependencies: ["7E3215B6AA8043DE"]
-			description: ["Огромный жидкостный резервуар позволит вам хранить до 512 вёдер любой жидкости. "]
+			description: ["{sacred_logistics.6953150a66c1136b.quests37.description0}"]
 			id: "0794E79277B6712D"
 			tasks: [{
 				id: "24843048A327DBD4"
@@ -527,5 +527,5 @@
 			y: -4.5d
 		}
 	]
-	title: "&bИгры с давлением"
+	title: "{sacred_logistics.6953150a66c1136b.title}"
 }

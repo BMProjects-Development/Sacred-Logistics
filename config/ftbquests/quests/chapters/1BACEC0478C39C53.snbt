@@ -193,7 +193,7 @@
 					type: "item"
 				}
 			]
-			title: "Ядра"
+			title: "{sacred_logistics.1bacec0478c39c53.quests15.title}"
 			x: 2.0d
 			y: 3.0d
 		}
@@ -491,5 +491,5 @@
 			y: -4.5d
 		}
 	]
-	title: "&bАвтоматизация"
+	title: "{sacred_logistics.1bacec0478c39c53.title}"
 }

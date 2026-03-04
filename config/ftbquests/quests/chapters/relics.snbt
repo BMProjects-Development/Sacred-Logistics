@@ -24,15 +24,15 @@
 	quests: [
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["С помощью &6Стола Исследователя&r можно изучать различные &aАртефакты&r. А также, заниматься улучшением этих Артефактов, чтобы более выгодно их использовать в своих целях."]
+			description: ["{sacred_logistics.relics.quests0.description0}"]
 			hide: true
 			id: "7CF84DD7C8E4B52C"
 			size: 2.0d
-			subtitle: "Изучение Артефактов!"
+			subtitle: "{sacred_logistics.relics.quests0.subtitle}"
 			tasks: [{
 				id: "6874E2AD566CAAAA"
 				item: "relics:researching_table"
-				title: "&bСтол исследователя"
+				title: "{sacred_logistics.relics.quests0.tasks0.title}"
 				type: "item"
 			}]
 			x: 0.0d
@@ -40,7 +40,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests1.description0}"]
 			hide: true
 			id: "1DAB6E68BEE32F49"
 			rewards: [{
@@ -49,7 +49,7 @@
 				xp_levels: 10
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Накладывает печать!"
+			subtitle: "{sacred_logistics.relics.quests1.subtitle}"
 			tasks: [{
 				id: "26171CCB753263DB"
 				item: {
@@ -74,7 +74,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests2.description0}"]
 			hide: true
 			id: "56030D0C8C30D040"
 			rewards: [{
@@ -83,7 +83,7 @@
 				xp_levels: 10
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Не жалеет пространство!"
+			subtitle: "{sacred_logistics.relics.quests2.subtitle}"
 			tasks: [{
 				id: "29B60FA76BCDB0E4"
 				item: {
@@ -109,7 +109,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests3.description0}"]
 			hide: true
 			id: "198724D04F45B035"
 			rewards: [{
@@ -117,7 +117,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Отражатель!"
+			subtitle: "{sacred_logistics.relics.quests3.subtitle}"
 			tasks: [{
 				id: "5572EAB2DA37C5D5"
 				item: {
@@ -144,7 +144,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests4.description0}"]
 			hide: true
 			id: "1F6BBE780BF4FCC3"
 			rewards: [{
@@ -153,7 +153,7 @@
 				xp_levels: 10
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Позволяют ходить по лаве!"
+			subtitle: "{sacred_logistics.relics.quests4.subtitle}"
 			tasks: [{
 				id: "4F5AB7DB72CFEB8D"
 				item: {
@@ -178,7 +178,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests5.description0}"]
 			hide: true
 			id: "5EF305DD3BA6F41A"
 			rewards: [{
@@ -187,7 +187,7 @@
 				xp_levels: 10
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Позволяют ходить по воде!"
+			subtitle: "{sacred_logistics.relics.quests5.subtitle}"
 			tasks: [{
 				id: "7BCEA68DC210EC7E"
 				item: {
@@ -212,7 +212,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests6.description0}"]
 			hide: true
 			id: "0E48D33939EA51FF"
 			rewards: [{
@@ -220,7 +220,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Для ночи!"
+			subtitle: "{sacred_logistics.relics.quests6.subtitle}"
 			tasks: [{
 				id: "76ACC62B5EE5859F"
 				item: {
@@ -253,7 +253,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests7.description0}"]
 			hide: true
 			id: "6E145933FCFA48DB"
 			rewards: [{
@@ -261,7 +261,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Страшный пояс!"
+			subtitle: "{sacred_logistics.relics.quests7.subtitle}"
 			tasks: [{
 				id: "7E9D674663A55A5E"
 				item: {
@@ -305,7 +305,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests8.description0}"]
 			hide: true
 			id: "44D6310965DC17F5"
 			rewards: [{
@@ -313,7 +313,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Пора охотиться!"
+			subtitle: "{sacred_logistics.relics.quests8.subtitle}"
 			tasks: [{
 				id: "54C3D9A0A4F6CF24"
 				item: {
@@ -344,7 +344,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests9.description0}"]
 			hide: true
 			id: "179D73975DFC0B8D"
 			rewards: [{
@@ -352,7 +352,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Просто пояс!"
+			subtitle: "{sacred_logistics.relics.quests9.subtitle}"
 			tasks: [{
 				id: "693D59468AB12641"
 				item: {
@@ -377,7 +377,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests10.description0}"]
 			hide: true
 			id: "4FD72EBBDE57F3AB"
 			rewards: [{
@@ -385,7 +385,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Опасно!"
+			subtitle: "{sacred_logistics.relics.quests10.subtitle}"
 			tasks: [{
 				id: "51A3CE93F3D40068"
 				item: {
@@ -416,7 +416,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests11.description0}"]
 			hide: true
 			id: "4015B58E2FA870EB"
 			rewards: [{
@@ -424,7 +424,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Яростные будни!"
+			subtitle: "{sacred_logistics.relics.quests11.subtitle}"
 			tasks: [{
 				id: "2CAB4EFD288858F5"
 				item: {
@@ -437,7 +437,7 @@
 								points: 0
 								stats: {
 									attack_speed: 0.00961d
-									heal: 1.3E-4d
+									heal: 0.00013d
 									movement_speed: 0.01914d
 								}
 							}
@@ -467,7 +467,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests12.description0}"]
 			hide: true
 			id: "4B94D3444FE6B488"
 			rewards: [{
@@ -476,7 +476,7 @@
 				xp_levels: 10
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Пора кататься на коньках!"
+			subtitle: "{sacred_logistics.relics.quests12.subtitle}"
 			tasks: [{
 				id: "18B0B2E2803BA25C"
 				item: {
@@ -508,7 +508,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests13.description0}"]
 			hide: true
 			id: "6B48F8B0CD8D2F74"
 			rewards: [{
@@ -517,7 +517,7 @@
 				xp_levels: 10
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Прямиком из бастиона!"
+			subtitle: "{sacred_logistics.relics.quests13.subtitle}"
 			tasks: [{
 				id: "6BD2F2FB120A7678"
 				item: {
@@ -542,7 +542,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests14.description0}"]
 			hide: true
 			id: "1BC2B8ECE6512026"
 			rewards: [{
@@ -550,7 +550,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Сделан из хоруса!"
+			subtitle: "{sacred_logistics.relics.quests14.subtitle}"
 			tasks: [{
 				id: "7D7EE3E3963F8764"
 				item: {
@@ -576,7 +576,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests15.description0}"]
 			hide: true
 			id: "660EFF5A1745E54E"
 			rewards: [{
@@ -584,7 +584,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Хранит стрелы!"
+			subtitle: "{sacred_logistics.relics.quests15.subtitle}"
 			tasks: [{
 				id: "0FEBE28BF77ADE0C"
 				item: {
@@ -631,7 +631,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests16.description0}"]
 			hide: true
 			id: "04804CDE32D38480"
 			rewards: [{
@@ -639,7 +639,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Из церкви!"
+			subtitle: "{sacred_logistics.relics.quests16.subtitle}"
 			tasks: [{
 				id: "4D739D2EEC0A1200"
 				item: {
@@ -665,7 +665,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests17.description0}"]
 			hide: true
 			id: "3DEB6C7C5CE42EC2"
 			rewards: [{
@@ -673,7 +673,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Это конец?"
+			subtitle: "{sacred_logistics.relics.quests17.subtitle}"
 			tasks: [{
 				id: "2F59BB96352B6D75"
 				item: {
@@ -698,7 +698,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests18.description0}"]
 			hide: true
 			id: "0F6501B2D75A8DE9"
 			rewards: [{
@@ -706,7 +706,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Реально полезная реликвия!"
+			subtitle: "{sacred_logistics.relics.quests18.subtitle}"
 			tasks: [{
 				id: "3BDEEDF8481FB6FC"
 				item: {
@@ -732,7 +732,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests19.description0}"]
 			hide: true
 			id: "322CC8DAF5DD4FDC"
 			rewards: [{
@@ -741,7 +741,7 @@
 				xp_levels: 10
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Зеркало!"
+			subtitle: "{sacred_logistics.relics.quests19.subtitle}"
 			tasks: [{
 				id: "34D68EB8380C3C63"
 				item: {
@@ -767,7 +767,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests20.description0}"]
 			hide: true
 			id: "77624EDB4C456122"
 			rewards: [{
@@ -776,7 +776,7 @@
 				xp_levels: 10
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Колют лёд!"
+			subtitle: "{sacred_logistics.relics.quests20.subtitle}"
 			tasks: [{
 				id: "1A94358B7FF5F616"
 				item: {
@@ -808,7 +808,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests21.description0}"]
 			hide: true
 			id: "0F141A5612B7529B"
 			rewards: [{
@@ -817,7 +817,7 @@
 				xp_levels: 10
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Он пылает!"
+			subtitle: "{sacred_logistics.relics.quests21.subtitle}"
 			tasks: [{
 				id: "663D7089338037EB"
 				item: {
@@ -844,7 +844,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests22.description0}"]
 			hide: true
 			id: "4C70B2424C14A5F3"
 			rewards: [{
@@ -853,7 +853,7 @@
 				xp_levels: 10
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Мешочек!"
+			subtitle: "{sacred_logistics.relics.quests22.subtitle}"
 			tasks: [{
 				id: "7D6E7C808E20BBCC"
 				item: {
@@ -902,7 +902,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests23.description0}"]
 			hide: true
 			id: "104A2E0B4377FD8A"
 			rewards: [{
@@ -910,7 +910,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Красивая реликвия!"
+			subtitle: "{sacred_logistics.relics.quests23.subtitle}"
 			tasks: [{
 				id: "4928FAEE37B4AB49"
 				item: {
@@ -946,7 +946,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests24.description0}"]
 			hide: true
 			id: "4247DB175F0D0B0C"
 			rewards: [{
@@ -955,7 +955,7 @@
 				xp_levels: 10
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Пора кататься на роликах!"
+			subtitle: "{sacred_logistics.relics.quests24.subtitle}"
 			tasks: [{
 				id: "05BFC4AF841ACA2B"
 				item: {
@@ -981,7 +981,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests25.description0}"]
 			hide: true
 			id: "5242C3D1F1F35940"
 			rewards: [{
@@ -989,7 +989,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Бесконечность!"
+			subtitle: "{sacred_logistics.relics.quests25.subtitle}"
 			tasks: [{
 				id: "13B8392D2D228D8D"
 				item: {
@@ -1014,7 +1014,7 @@
 						pieces: 10
 					}
 				}
-				title: "&bБесконечный окорок"
+				title: "{sacred_logistics.relics.quests25.tasks0.title}"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1022,7 +1022,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests26.description0}"]
 			hide: true
 			id: "54951BD86572F32C"
 			rewards: [{
@@ -1030,7 +1030,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "Для лошадей!"
+			subtitle: "{sacred_logistics.relics.quests26.subtitle}"
 			tasks: [{
 				id: "086B050BDD070D21"
 				item: {
@@ -1055,7 +1055,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests27.description0}"]
 			hide: true
 			id: "2E76563F49AA9A1E"
 			rewards: [{
@@ -1063,7 +1063,7 @@
 				type: "xp_levels"
 				xp_levels: 10
 			}]
-			subtitle: "В ней тепло!"
+			subtitle: "{sacred_logistics.relics.quests27.subtitle}"
 			tasks: [{
 				id: "395C7D6ADD64B106"
 				item: {
@@ -1091,7 +1091,7 @@
 		}
 		{
 			dependencies: ["7EA23917F7C58C5E"]
-			description: ["Узнать больше о &6реликвии&r можно на &aСтоле исследователя&r."]
+			description: ["{sacred_logistics.relics.quests28.description0}"]
 			hide: true
 			id: "11AD4404FABDB1BB"
 			rewards: [{
@@ -1100,7 +1100,7 @@
 				xp_levels: 10
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Почему только 1?"
+			subtitle: "{sacred_logistics.relics.quests28.subtitle}"
 			tasks: [{
 				id: "53145423820A770B"
 				item: {
@@ -1125,5 +1125,5 @@
 			y: 3.0d
 		}
 	]
-	title: "&bРеликвии"
+	title: "{sacred_logistics.relics.title}"
 }
