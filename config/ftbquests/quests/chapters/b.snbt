@@ -8,31 +8,31 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"1. Вы не можете плавать в воде без Ласт из мода Artifacts! "
+			"{sacred_logistics.b.quests0.description0}"
 			""
-			"2. В Аду необходимо надевать Огненные рукавицы из мода Artifacts, без них Вас будет раз в 15 секунд будет поджигать!"
+			"{sacred_logistics.b.quests0.description1}"
 			""
-			"3. Со священником нельзя торговать, пока не надето Колье с крестиком из мода Artifacts! "
+			"{sacred_logistics.b.quests0.description2}"
 			""
-			"4. Жители будут паниковать, если Вы подошли к ним без Соломенной шляпы из мода Artifacts!"
+			"{sacred_logistics.b.quests0.description3}"
 			""
-			"5. В космос (на любую планету/станцию) нельзя полететь без Монетки фортуны из мода Reliquary! "
+			"{sacred_logistics.b.quests0.description4}"
 			""
-			"6. Визера нельзя призвать, если у Вас в инвентаре нет Светящийся воды из мода Reliquary!"
+			"{sacred_logistics.b.quests0.description5}"
 			""
-			"7. В край нельзя попасть, если у Вас в инвентаре нет Медальона героя и Ангельского пера из мода Reliquary и Руки края из мода Relics! "
+			"{sacred_logistics.b.quests0.description6}"
 			""
-			"8. В любое измерение нельзя попасть, если у Вас в инвентаре нет Пространственной печати из мода Relics! "
+			"{sacred_logistics.b.quests0.description7}"
 		]
 		id: "06C92D9862D99977"
-		subtitle: "Самые важные механики в сборке!"
+		subtitle: "{sacred_logistics.b.quests0.subtitle}"
 		tasks: [{
 			id: "0E131FBF8D442DAB"
-			title: "Важные механики в сборке!"
+			title: "{sacred_logistics.b.quests0.tasks0.title}"
 			type: "checkmark"
 		}]
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "&bОсобенности"
+	title: "{sacred_logistics.b.title}"
 }

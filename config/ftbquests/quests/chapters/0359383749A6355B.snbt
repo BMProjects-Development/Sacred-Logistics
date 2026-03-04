@@ -57,7 +57,7 @@
 					type: "item"
 				}
 			]
-			title: "Диэлектрик"
+			title: "{sacred_logistics.0359383749a6355b.quests1.title}"
 			x: -2.5d
 			y: -1.5d
 		}
@@ -74,7 +74,7 @@
 		}
 		{
 			dependencies: ["4BC27B8F8CBF12A3"]
-			description: ["Новый ресурс!"]
+			description: ["{sacred_logistics.0359383749a6355b.quests3.description0}"]
 			id: "4222E4C3CB12466C"
 			tasks: [{
 				count: 4L
@@ -87,7 +87,7 @@
 		}
 		{
 			dependencies: ["4222E4C3CB12466C"]
-			description: ["Новый ресурс!"]
+			description: ["{sacred_logistics.0359383749a6355b.quests4.description0}"]
 			id: "55089144A1EAB58D"
 			tasks: [{
 				count: 4L
@@ -100,7 +100,7 @@
 		}
 		{
 			dependencies: ["55089144A1EAB58D"]
-			description: ["Новый ресурс!"]
+			description: ["{sacred_logistics.0359383749a6355b.quests5.description0}"]
 			id: "297BFFD7B579CB71"
 			tasks: [{
 				count: 2L
@@ -113,7 +113,7 @@
 		}
 		{
 			dependencies: ["297BFFD7B579CB71"]
-			description: ["Новый ресурс!"]
+			description: ["{sacred_logistics.0359383749a6355b.quests6.description0}"]
 			id: "740DC1D7FBBB85D3"
 			tasks: [{
 				count: 2L
@@ -126,7 +126,7 @@
 		}
 		{
 			dependencies: ["740DC1D7FBBB85D3"]
-			description: ["Новый ресурс!"]
+			description: ["{sacred_logistics.0359383749a6355b.quests7.description0}"]
 			id: "6188EB67616DEC14"
 			tasks: [{
 				id: "77C4F4D7ABEACD90"
@@ -165,7 +165,7 @@
 					type: "item"
 				}
 			]
-			title: "Флаксовые штучки"
+			title: "{sacred_logistics.0359383749a6355b.quests9.title}"
 			x: 4.0d
 			y: 1.5d
 		}
@@ -875,5 +875,5 @@
 			y: -0.375d
 		}
 	]
-	title: "&bЭнергия"
+	title: "{sacred_logistics.0359383749a6355b.title}"
 }

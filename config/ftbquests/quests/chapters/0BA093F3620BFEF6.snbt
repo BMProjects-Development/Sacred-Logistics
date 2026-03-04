@@ -97,9 +97,9 @@
 		{
 			dependencies: ["73D8A15D7A0E9FA2"]
 			description: [
-				"Первым делом мне необходимо создать &6Жидкостную ванну&r и &6Деревянную мешалку&r."
+				"{sacred_logistics.0ba093f3620bfef6.quests0.description0}"
 				""
-				"С помощью этих предметов я смогу смешивать некоторые ресурсы, получая тем самым новые предметы."
+				"{sacred_logistics.0ba093f3620bfef6.quests0.description1}"
 			]
 			hide: true
 			id: "5731D8BFD4BBD536"
@@ -114,7 +114,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Месиво..."
+			subtitle: "{sacred_logistics.0ba093f3620bfef6.quests0.subtitle}"
 			tasks: [
 				{
 					id: "4B5D42DFD10958F2"
@@ -133,19 +133,19 @@
 					type: "item"
 				}
 			]
-			title: "Смешивание ресурсов"
+			title: "{sacred_logistics.0ba093f3620bfef6.quests0.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5731D8BFD4BBD536"]
 			description: [
-				"Получение ила - начало моего пути &6инженера&r. Для мне нужен прочный материал - &7илистый кирпич&r."
+				"{sacred_logistics.0ba093f3620bfef6.quests1.description0}"
 				""
-				"&oДля начала нужно мне создать жидкостную ванну и смешать в ней &r&eпесок&r, &8гравий&r и &3воду&r. "
+				"{sacred_logistics.0ba093f3620bfef6.quests1.description1}"
 			]
 			id: "6513C7948A68988C"
-			subtitle: "Из ила - в князи"
+			subtitle: "{sacred_logistics.0ba093f3620bfef6.quests1.subtitle}"
 			tasks: [
 				{
 					count: 12L
@@ -166,16 +166,16 @@
 					type: "item"
 				}
 			]
-			title: "Получение ила"
+			title: "{sacred_logistics.0ba093f3620bfef6.quests1.title}"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6513C7948A68988C"]
 			description: [
-				"Время создать первую дробилку! Из &fтитана&r..."
+				"{sacred_logistics.0ba093f3620bfef6.quests2.description0}"
 				""
-				"Также вам понадобятся &6медные&r и &bалмазные&r пластины, и те самые &3илистые кирпичи&r."
+				"{sacred_logistics.0ba093f3620bfef6.quests2.description1}"
 			]
 			id: "5ACF0D4B6651C107"
 			tasks: [
@@ -202,13 +202,13 @@
 					type: "item"
 				}
 			]
-			title: "Дробление ресурсов"
+			title: "{sacred_logistics.0ba093f3620bfef6.quests2.title}"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5ACF0D4B6651C107"]
-			description: ["Теперь, используя &6рудное железо&r я могу получать &fжелезную пыль&r! А из неё &3железный ил&r."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests3.description0}"]
 			id: "77411DD073E41360"
 			tasks: [
 				{
@@ -221,7 +221,7 @@
 							value: "forge:dusts/iron"
 						}
 					}
-					title: "Железная пыль"
+					title: "{sacred_logistics.0ba093f3620bfef6.quests3.tasks0.title}"
 					type: "item"
 				}
 				{
@@ -236,7 +236,7 @@
 		}
 		{
 			dependencies: ["77411DD073E41360"]
-			description: ["Переплавив &3железный ил&r я могу получить новый материал - &fочищенное железо&r."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests4.description0}"]
 			id: "2C2F3D5E6DB72ECB"
 			tasks: [{
 				count: 4L
@@ -249,7 +249,7 @@
 		}
 		{
 			dependencies: ["5ACF0D4B6651C107"]
-			description: ["Теперь, используя &6рудное золото&r я могу получать &6золотую пыль&r! А из неё &6золотой ил&r."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests5.description0}"]
 			id: "129B005C1422EC81"
 			tasks: [
 				{
@@ -262,7 +262,7 @@
 							value: "forge:dusts/gold"
 						}
 					}
-					title: "Золотая пыль"
+					title: "{sacred_logistics.0ba093f3620bfef6.quests5.tasks0.title}"
 					type: "item"
 				}
 				{
@@ -277,7 +277,7 @@
 		}
 		{
 			dependencies: ["129B005C1422EC81"]
-			description: ["Переплавив &6железный ил&r я могу получить новый материал - &6очищенное золото&r."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests6.description0}"]
 			id: "446C755EE2D35DB4"
 			tasks: [{
 				count: 4L
@@ -290,7 +290,7 @@
 		}
 		{
 			dependencies: ["446C755EE2D35DB4"]
-			description: ["Используя немного &6золота&r и &fтитана&r, я смогу создать новое лезвие. С его помощью я смогу раздробить в порошок &8уголь&r, который мне понадобится для создания &8стали&r."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests7.description0}"]
 			id: "6059F731870DB6C3"
 			tasks: [
 				{
@@ -311,13 +311,13 @@
 					type: "item"
 				}
 			]
-			title: "Новое лезвие"
+			title: "{sacred_logistics.0ba093f3620bfef6.quests7.title}"
 			x: 5.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2C2F3D5E6DB72ECB"]
-			description: ["Сделав эту &fмешалку&r, я смогу перемешивать горячие жидкости вроде &6лавы&r."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests8.description0}"]
 			id: "2C08B57517493E44"
 			tasks: [{
 				id: "0607A549EB022B4D"
@@ -338,7 +338,7 @@
 				"2C08B57517493E44"
 				"6059F731870DB6C3"
 			]
-			description: ["Теперь, смешав &fжелезную&r и &8угольную&r пыль я смогу создать &8стальную пыль&r, жди меня стальной век!"]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests9.description0}"]
 			id: "7D41ADDD7FFBF035"
 			shape: "tech_square"
 			size: 1.25d
@@ -352,16 +352,16 @@
 						value: "forge:ingots/steel"
 					}
 				}
-				title: "Стальные слитки"
+				title: "{sacred_logistics.0ba093f3620bfef6.quests9.tasks0.title}"
 				type: "item"
 			}]
-			title: "Стальной век"
+			title: "{sacred_logistics.0ba093f3620bfef6.quests9.title}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7D41ADDD7FFBF035"]
-			description: ["Не думаю, что мне сейчас понадобится новое лезвие или мешалка, но если в будущем текущие поломаются, то стоит создать новые из стали..."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests10.description0}"]
 			id: "65E7C1C589D76C6D"
 			tasks: [
 				{
@@ -392,7 +392,7 @@
 		}
 		{
 			dependencies: ["7D41ADDD7FFBF035"]
-			description: ["Теперь, когда у меня есть сталь, я могу создать рукоятку для выработки кинетической энергии."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests11.description0}"]
 			id: "63860B0D0133E837"
 			tasks: [
 				{
@@ -406,16 +406,16 @@
 					type: "item"
 				}
 			]
-			title: "Кинетическая энергия"
+			title: "{sacred_logistics.0ba093f3620bfef6.quests11.title}"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["63860B0D0133E837"]
 			description: [
-				"Теперь я могу создать кинетическую дробилку!"
+				"{sacred_logistics.0ba093f3620bfef6.quests12.description0}"
 				""
-				"&bПримечание: слева от дробилки нужно поставить рукоятку, а справа - сундук.&r"
+				"{sacred_logistics.0ba093f3620bfef6.quests12.description1}"
 			]
 			id: "3B377F248DC18422"
 			tasks: [{
@@ -428,7 +428,7 @@
 		}
 		{
 			dependencies: ["3B377F248DC18422"]
-			description: ["Моя следующая цель - &6Резервуар&r. Для начала стоит создать несколько дощечек."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests13.description0}"]
 			id: "069E8EC5BDD603D4"
 			tasks: [{
 				count: 4L
@@ -441,7 +441,7 @@
 		}
 		{
 			dependencies: ["069E8EC5BDD603D4"]
-			description: ["Теперь осталось создать сам резервуар для хранения жидкостей."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests14.description0}"]
 			id: "0DA8BA8F68D8BCF3"
 			tasks: [{
 				id: "0D065F751E1BC633"
@@ -457,9 +457,9 @@
 				"66B0DF6AADAB7C2B"
 			]
 			description: [
-				"Теперь я могу создать &6Кинетическую мешалку&r, которая сможет выдержать высокие температуры."
+				"{sacred_logistics.0ba093f3620bfef6.quests15.description0}"
 				""
-				"Работает по аналогии с дробилкой, но снизу должен стоять резервуар. Для горячих жидкостей резервуар должен быть стальной."
+				"{sacred_logistics.0ba093f3620bfef6.quests15.description1}"
 			]
 			id: "57FF20D32CBEB078"
 			tasks: [
@@ -474,13 +474,13 @@
 					type: "item"
 				}
 			]
-			title: "Новая мешалка"
+			title: "{sacred_logistics.0ba093f3620bfef6.quests15.title}"
 			x: 11.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3B377F248DC18422"]
-			description: ["Теперь, когда у меня есть дробилка, я могу разрезать &6стальной блок&r на &6стальные стержни&r."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests16.description0}"]
 			id: "66B0DF6AADAB7C2B"
 			tasks: [{
 				count: 2L
@@ -493,7 +493,7 @@
 		}
 		{
 			dependencies: ["66B0DF6AADAB7C2B"]
-			description: ["С созданием стальных стержней я могу получить стальной молот. С ним я смогу гораздо эффективнее создавать пластины."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests17.description0}"]
 			id: "4E397B62C9341385"
 			tasks: [{
 				id: "54D1A8EBAA7725B8"
@@ -511,7 +511,7 @@
 		}
 		{
 			dependencies: ["4E397B62C9341385"]
-			description: ["Теперь я могу создать пластины из чистого железа."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests18.description0}"]
 			id: "292D30C65D6E79C6"
 			tasks: [{
 				count: 2L
@@ -524,7 +524,7 @@
 		}
 		{
 			dependencies: ["292D30C65D6E79C6"]
-			description: ["Используя несколько пластин и палку я, наконец, могу создать шестерёнку."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests19.description0}"]
 			id: "4BA670CF441AAC35"
 			tasks: [{
 				count: 2L
@@ -537,7 +537,7 @@
 		}
 		{
 			dependencies: ["57FF20D32CBEB078"]
-			description: ["Кристаллизировав &8угольную&r и &4редстоуновую&r пыль, я смогу получить усиленный кристалл."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests20.description0}"]
 			id: "7450A023B131264F"
 			tasks: [{
 				count: 2L
@@ -554,9 +554,9 @@
 				"7450A023B131264F"
 			]
 			description: [
-				"Создав коробку передач, я смогу создавать кинетическую энергию используя усиленный уголь и сразу передавать её в соседний блок. Чтобы её поставить - нажмите shift+пкм по соседнему механизму."
+				"{sacred_logistics.0ba093f3620bfef6.quests21.description0}"
 				""
-				"А используя зарядку - заряжать свои механические инструменты. Для этого поставьте над зарядкой сундук с и положите в него инструменты."
+				"{sacred_logistics.0ba093f3620bfef6.quests21.description1}"
 			]
 			id: "01383BAF8FBAE80A"
 			tasks: [
@@ -576,7 +576,7 @@
 		}
 		{
 			dependencies: ["4BA670CF441AAC35"]
-			description: ["Используя шестерёнки и стержни, я могу создать довольно мощные &6заводные инструменты&r!"]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests22.description0}"]
 			id: "31F4655BAD62A90D"
 			tasks: [{
 				id: "66200A01BBA7D1DB"
@@ -595,9 +595,9 @@
 		{
 			dependencies: ["01383BAF8FBAE80A"]
 			description: [
-				"Теперь, используя механическую кирку, я могу добыть в аду чёрный гранит. "
+				"{sacred_logistics.0ba093f3620bfef6.quests23.description0}"
 				""
-				"&bЧёрный гранит также можно добыть с метеоритов.&r"
+				"{sacred_logistics.0ba093f3620bfef6.quests23.description1}"
 			]
 			id: "6D5C68105A5B22C9"
 			tasks: [{
@@ -611,7 +611,7 @@
 		}
 		{
 			dependencies: ["6D5C68105A5B22C9"]
-			description: ["Теперь я могу создать свои первые провода для передачи энергии."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests24.description0}"]
 			id: "3F6BB8B1E5B23BE8"
 			tasks: [{
 				count: 4L
@@ -624,7 +624,7 @@
 		}
 		{
 			dependencies: ["3F6BB8B1E5B23BE8"]
-			description: ["Используя этот механизм я смогу конвертировать кинетическую энергию в электрическую, это первые шаги в &6электрический век&r!"]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests25.description0}"]
 			id: "536D4156A83E173F"
 			tasks: [{
 				id: "0E03591D83BE7D4A"
@@ -639,7 +639,7 @@
 				"3F6BB8B1E5B23BE8"
 				"536D4156A83E173F"
 			]
-			description: ["Теперь у меня достаточно ресурсов для перехода в электрический век. Время для обновить мои механизмы!"]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests26.description0}"]
 			id: "38886CCE8601EE26"
 			tasks: [{
 				id: "240A019A82BE2FDC"
@@ -651,7 +651,7 @@
 		}
 		{
 			dependencies: ["38886CCE8601EE26"]
-			description: ["Используя очиститель с &8гравием&r, &eпеском&r и &8сталью&r, я могу получить новый материал - &7очищенную сталь&r."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests27.description0}"]
 			id: "00A6BEF41504D2F0"
 			tasks: [{
 				count: 2L
@@ -664,7 +664,7 @@
 		}
 		{
 			dependencies: ["00A6BEF41504D2F0"]
-			description: ["Теперь у меня есть всё для создания очищенной стальной шестерёнки. Время создать её!"]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests28.description0}"]
 			id: "379F20173F3A2764"
 			tasks: [{
 				count: 2L
@@ -677,7 +677,7 @@
 		}
 		{
 			dependencies: ["379F20173F3A2764"]
-			description: ["Следующая моя цель - создать новый вид плавильни, для этого мне нужно создать элемент индукционный печи."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests29.description0}"]
 			id: "73095562BE268857"
 			tasks: [{
 				id: "0EFB2123DD8DE378"
@@ -690,9 +690,9 @@
 		{
 			dependencies: ["379F20173F3A2764"]
 			description: [
-				"Теперь мне стоит создать датчик температуры, ещё одну ступеньку на пути к литейному заводу!"
+				"{sacred_logistics.0ba093f3620bfef6.quests30.description0}"
 				""
-				"Правда придётся найти магму где-то под водой..."
+				"{sacred_logistics.0ba093f3620bfef6.quests30.description1}"
 			]
 			id: "2702F0FED10C5546"
 			tasks: [{
@@ -723,9 +723,9 @@
 				"69C24219EDF20D8C"
 			]
 			description: [
-				"Используя пыль из энергетического золота и мистиевый порошок я могу создать новый мистический сплав..."
+				"{sacred_logistics.0ba093f3620bfef6.quests32.description0}"
 				""
-				"&o&5Когда наука и магия пересекаются - рождается история!&r"
+				"{sacred_logistics.0ba093f3620bfef6.quests32.description1}"
 			]
 			id: "1F24B9ADBE67E4F6"
 			tasks: [{
@@ -739,7 +739,7 @@
 		}
 		{
 			dependencies: ["594A1CD7BCFEE409"]
-			description: ["Теперь, используя смеситель, я наконец могу создать мистиевую пыль, что-то среднее между наукой и магией."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests33.description0}"]
 			id: "73EF0FEFFC6A3CEF"
 			tasks: [{
 				count: 2L
@@ -752,7 +752,7 @@
 		}
 		{
 			dependencies: ["594A1CD7BCFEE409"]
-			description: ["Используя смеситель я могу зарядить золото с помощью редстоуновой пыли."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests34.description0}"]
 			id: "79B1DE6854535EF5"
 			tasks: [{
 				count: 2L
@@ -765,7 +765,7 @@
 		}
 		{
 			dependencies: ["79B1DE6854535EF5"]
-			description: ["Теперь, мне осталось раздробить энергетическое золото в пыль..."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests35.description0}"]
 			id: "69C24219EDF20D8C"
 			tasks: [{
 				count: 2L
@@ -778,7 +778,7 @@
 		}
 		{
 			dependencies: ["73095562BE268857"]
-			description: ["Теперь я могу создать пресс для создания тяжёлых пластин из разных сплавов."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests36.description0}"]
 			id: "5B87C66204C93904"
 			tasks: [{
 				id: "59618989637AC3CD"
@@ -790,7 +790,7 @@
 		}
 		{
 			dependencies: ["5B87C66204C93904"]
-			description: ["Близится новая эпоха, я думаю мне стоит переходить на более продвинутые материалы, например - заряженное золото."]
+			description: ["{sacred_logistics.0ba093f3620bfef6.quests37.description0}"]
 			id: "44144661FCE31A8E"
 			tasks: [{
 				count: 4L
@@ -833,7 +833,7 @@
 					type: "item"
 				}
 			]
-			title: "&bВсемодий "
+			title: "{sacred_logistics.0ba093f3620bfef6.quests39.title}"
 			x: 23.0d
 			y: -3.0d
 		}
@@ -845,7 +845,7 @@
 				item: "allthemodium:allthemodium_ingot"
 				type: "item"
 			}]
-			title: "&bВсемодиевый слиток"
+			title: "{sacred_logistics.0ba093f3620bfef6.quests40.title}"
 			x: 23.0d
 			y: -4.0d
 		}
@@ -857,10 +857,10 @@
 				item: "allthemodium:teleport_pad"
 				type: "item"
 			}]
-			title: "&bТелепортационная панель"
+			title: "{sacred_logistics.0ba093f3620bfef6.quests41.title}"
 			x: 24.0d
 			y: -4.5d
 		}
 	]
-	title: "&bНачало технологий"
+	title: "{sacred_logistics.0ba093f3620bfef6.title}"
 }

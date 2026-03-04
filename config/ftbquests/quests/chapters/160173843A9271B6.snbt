@@ -9,12 +9,12 @@
 	quest_links: [ ]
 	quests: [{
 		dependencies: ["5914193FB59EFE92"]
-		description: ["Предмет, к которому я шёл так долго, уже совсем рядом..."]
+		description: ["{sacred_logistics.160173843a9271b6.quests0.description0}"]
 		hide: true
 		id: "097BBFB32A4B8707"
 		shape: "tech_smooth_square"
 		size: 2.0d
-		subtitle: "Финал!"
+		subtitle: "{sacred_logistics.160173843a9271b6.quests0.subtitle}"
 		tasks: [{
 			id: "6A579FF10B6E0AF5"
 			item: "kubejs:almighty_cog"
@@ -23,5 +23,5 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "&bЭто конец..."
+	title: "{sacred_logistics.160173843a9271b6.title}"
 }

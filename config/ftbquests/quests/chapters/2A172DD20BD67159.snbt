@@ -120,7 +120,7 @@
 	quests: [
 		{
 			dependencies: ["44144661FCE31A8E"]
-			description: ["Металлургический наполнитель наполняет предметы различными элементами."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests0.description0}"]
 			hide: true
 			id: "6180ACBB10C75460"
 			tasks: [{
@@ -133,7 +133,7 @@
 		}
 		{
 			dependencies: ["6180ACBB10C75460"]
-			description: ["Наполненный сплав нужен для создания различных предметов, например, энергетический планшет или укреплённый сплав."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests1.description0}"]
 			id: "18F8BADF3A3A940A"
 			rewards: [{
 				count: 2
@@ -145,7 +145,7 @@
 				count: 4L
 				id: "615A2F78ADF8AB3B"
 				item: "mekanism:alloy_infused"
-				title: "Наполненный сплав"
+				title: "{sacred_logistics.2a172dd20bd67159.quests1.tasks0.title}"
 				type: "item"
 			}]
 			x: 1.5d
@@ -153,7 +153,7 @@
 		}
 		{
 			dependencies: ["6180ACBB10C75460"]
-			description: ["Базовая схема управления нужна для создания различных предметов, например, энергетический ранец."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests2.description0}"]
 			id: "1723DF54C9D0ABD2"
 			rewards: [{
 				count: 2
@@ -165,7 +165,7 @@
 				count: 4L
 				id: "7169853627B2CB1F"
 				item: "mekanism:basic_control_circuit"
-				title: "Базовая схема управления"
+				title: "{sacred_logistics.2a172dd20bd67159.quests2.tasks0.title}"
 				type: "item"
 			}]
 			x: -1.5d
@@ -209,7 +209,7 @@
 		}
 		{
 			dependencies: ["18F8BADF3A3A940A"]
-			description: ["Укреплённый сплав нужен для создания различных предметов, например, атомный сплав."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests6.description0}"]
 			id: "7B8698296BD33830"
 			rewards: [{
 				count: 2
@@ -221,7 +221,7 @@
 				count: 4L
 				id: "66E181F2E08502E0"
 				item: "mekanism:alloy_reinforced"
-				title: "Укреплённый сплав"
+				title: "{sacred_logistics.2a172dd20bd67159.quests6.tasks0.title}"
 				type: "item"
 			}]
 			x: 3.5d
@@ -229,7 +229,7 @@
 		}
 		{
 			dependencies: ["7B8698296BD33830"]
-			description: ["Атомный сплав нужен для создания различных предметов, например, атомный разборщик или робит."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests7.description0}"]
 			id: "11050ADBB656B7A9"
 			rewards: [{
 				count: 2
@@ -241,7 +241,7 @@
 				count: 4L
 				id: "165D337065300296"
 				item: "mekanism:alloy_atomic"
-				title: "Атомный сплав"
+				title: "{sacred_logistics.2a172dd20bd67159.quests7.tasks0.title}"
 				type: "item"
 			}]
 			x: 5.5d
@@ -260,7 +260,7 @@
 		}
 		{
 			dependencies: ["1723DF54C9D0ABD2"]
-			description: ["С помощью камеры обогащения можно создать герметичную реакционную камеру!"]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests9.description0}"]
 			id: "1C1D3D5708D4769D"
 			tasks: [{
 				id: "6D13429EF7FAB4C7"
@@ -272,7 +272,7 @@
 		}
 		{
 			dependencies: ["1723DF54C9D0ABD2"]
-			description: ["Обычный дробитель, но с его помощью можно создать биотопливо."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests10.description0}"]
 			id: "3996D88998A59692"
 			tasks: [{
 				id: "1C9DF171AFA6F104"
@@ -412,7 +412,7 @@
 		}
 		{
 			dependencies: ["11050ADBB656B7A9"]
-			description: ["Атомный разборщик - это достаточно быстрый и эффективный способ добычи породы."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests22.description0}"]
 			id: "57E1DC0354EC699E"
 			tasks: [{
 				id: "6B4644AFE203FA8C"
@@ -430,9 +430,9 @@
 		}
 		{
 			dependencies: ["11050ADBB656B7A9"]
-			description: ["Робит нужен для создания цифрового шахтёра."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests23.description0}"]
 			id: "42C5A63D73A8582E"
-			subtitle: "Какой он милый :3"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests23.subtitle}"
 			tasks: [{
 				id: "14731F3A93378EB1"
 				item: "mekanism:robit"
@@ -443,7 +443,7 @@
 		}
 		{
 			dependencies: ["42C5A63D73A8582E"]
-			description: ["С помощью цифрового шахтёра можно добывать огромное количество предметов."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests24.description0}"]
 			id: "60EE8E02C7FF07FA"
 			tasks: [{
 				id: "4C2E2F95A3CF585F"
@@ -455,7 +455,7 @@
 		}
 		{
 			dependencies: ["3996D88998A59692"]
-			description: ["С помощью биотоплива можно создать субстрат или биогенератор."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests25.description0}"]
 			id: "0B955855C4C3CBD0"
 			rewards: [{
 				count: 2
@@ -467,7 +467,7 @@
 				count: 8L
 				id: "4860F0CE17077701"
 				item: "mekanism:bio_fuel"
-				title: "Биотопливо"
+				title: "{sacred_logistics.2a172dd20bd67159.quests25.tasks0.title}"
 				type: "item"
 			}]
 			x: -1.0d
@@ -475,7 +475,7 @@
 		}
 		{
 			dependencies: ["1C1D3D5708D4769D"]
-			description: ["С помощью герметичной реакционной камеры можно создавать различные вещи, например, гранула плутония или субстрат."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests26.description0}"]
 			id: "600160396D9769C4"
 			tasks: [{
 				id: "271F76625EAC0F04"
@@ -490,7 +490,7 @@
 				"600160396D9769C4"
 				"0B955855C4C3CBD0"
 			]
-			description: ["С помощью субстрата можно создать полиэтилен или же субстрат."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests27.description0}"]
 			id: "75F645B49BCCB0E7"
 			rewards: [{
 				count: 2
@@ -502,7 +502,7 @@
 				count: 4L
 				id: "7A2884A99D35A150"
 				item: "mekanism:substrate"
-				title: "Субстрат"
+				title: "{sacred_logistics.2a172dd20bd67159.quests27.tasks0.title}"
 				type: "item"
 			}]
 			x: -1.5d
@@ -521,7 +521,7 @@
 		}
 		{
 			dependencies: ["600160396D9769C4"]
-			description: ["С помощью грунулы плутония можно создать SPS корпус или вторичный делящийся фрагмент."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests29.description0}"]
 			id: "4A45B94832C285FC"
 			rewards: [{
 				id: "7FBB096776E13113"
@@ -532,7 +532,7 @@
 				count: 4L
 				id: "40A41EB3BD1540BA"
 				item: "mekanism:pellet_plutonium"
-				title: "Гранула плутония"
+				title: "{sacred_logistics.2a172dd20bd67159.quests29.tasks0.title}"
 				type: "item"
 			}]
 			x: -2.5d
@@ -551,7 +551,7 @@
 		}
 		{
 			dependencies: ["75F645B49BCCB0E7"]
-			description: ["С помощью полиэтилена можно создать полиэтиленовый стержень или лист."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests31.description0}"]
 			id: "2DB3767FCECE4A5D"
 			rewards: [{
 				count: 2
@@ -563,7 +563,7 @@
 				count: 8L
 				id: "46882680E19D30BB"
 				item: "mekanism:hdpe_pellet"
-				title: "Полиэтилен"
+				title: "{sacred_logistics.2a172dd20bd67159.quests31.tasks0.title}"
 				type: "item"
 			}]
 			x: -1.5d
@@ -571,7 +571,7 @@
 		}
 		{
 			dependencies: ["2DB3767FCECE4A5D"]
-			description: ["С помощью полиэтиленового листа можно создать много различных вещей. Например, солнечный нейтронный активатор."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests32.description0}"]
 			id: "620D3DFFFAE8EA9D"
 			rewards: [{
 				count: 2
@@ -583,7 +583,7 @@
 				count: 4L
 				id: "60A778A36A8B7849"
 				item: "mekanism:hdpe_sheet"
-				title: "Полиэтиленовый лист"
+				title: "{sacred_logistics.2a172dd20bd67159.quests32.tasks0.title}"
 				type: "item"
 			}]
 			x: -0.5d
@@ -591,7 +591,7 @@
 		}
 		{
 			dependencies: ["620D3DFFFAE8EA9D"]
-			description: ["Просто укреплённые элитры."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests33.description0}"]
 			id: "73744CE605416C9A"
 			tasks: [{
 				id: "0A4780E25A69C5F7"
@@ -609,7 +609,7 @@
 		}
 		{
 			dependencies: ["620D3DFFFAE8EA9D"]
-			description: ["С помощью солнечного нейтронного активатора можно создать полоний или тритий."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests34.description0}"]
 			id: "404CF433B71A64AF"
 			tasks: [{
 				id: "3ECC247BEF89A4FB"
@@ -621,7 +621,7 @@
 		}
 		{
 			dependencies: ["404CF433B71A64AF"]
-			description: ["С помощью гранулы полония можно создать нечно подобное МЭ системы!"]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests35.description0}"]
 			id: "1FB8A258A95FA1AE"
 			rewards: [{
 				id: "0C88DD5BA776288D"
@@ -632,7 +632,7 @@
 				count: 4L
 				id: "418869F36C2624BF"
 				item: "mekanism:pellet_polonium"
-				title: "Гранула полония"
+				title: "{sacred_logistics.2a172dd20bd67159.quests35.tasks0.title}"
 				type: "item"
 			}]
 			x: 1.5d
@@ -640,7 +640,7 @@
 		}
 		{
 			dependencies: ["404CF433B71A64AF"]
-			description: ["С помощью гранулы антиматерии можно создать много различных вещей."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests36.description0}"]
 			id: "4A9A1FB727ADDA00"
 			rewards: [{
 				count: 2
@@ -652,7 +652,7 @@
 				count: 4L
 				id: "3F39B495E6C5C4C2"
 				item: "mekanism:pellet_antimatter"
-				title: "Гранула антиматерии"
+				title: "{sacred_logistics.2a172dd20bd67159.quests36.tasks0.title}"
 				type: "item"
 			}]
 			x: 1.5d
@@ -660,7 +660,7 @@
 		}
 		{
 			dependencies: ["4A9A1FB727ADDA00"]
-			description: ["С помощью антипротонного нуклеосинтезатора можно создавать различные вещи, например яйцо Дракона!"]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests37.description0}"]
 			id: "3F60A8C2DB8360A3"
 			tasks: [{
 				id: "373659F0AC0D2138"
@@ -672,7 +672,7 @@
 		}
 		{
 			dependencies: ["1FB8A258A95FA1AE"]
-			description: ["С помощью модификационной станции можно оснащать Meka броню различными модулями."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests38.description0}"]
 			id: "30DB8C5ED7EE8E92"
 			tasks: [{
 				id: "352D12868240C86E"
@@ -684,7 +684,7 @@
 		}
 		{
 			dependencies: ["620D3DFFFAE8EA9D"]
-			description: ["Очень хорошая броня :)"]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests39.description0}"]
 			hide_dependency_lines: true
 			id: "324BADC72E76DD44"
 			tasks: [{
@@ -703,7 +703,7 @@
 		}
 		{
 			dependencies: ["620D3DFFFAE8EA9D"]
-			description: ["Очень хорошая броня :)"]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests40.description0}"]
 			hide_dependency_lines: true
 			id: "5A779DD2AA2C8416"
 			tasks: [{
@@ -722,7 +722,7 @@
 		}
 		{
 			dependencies: ["620D3DFFFAE8EA9D"]
-			description: ["Очень хорошая броня :)"]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests41.description0}"]
 			hide_dependency_lines: true
 			id: "05E9AF0E35B075C3"
 			tasks: [{
@@ -741,7 +741,7 @@
 		}
 		{
 			dependencies: ["620D3DFFFAE8EA9D"]
-			description: ["Очень хорошая броня :)"]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests42.description0}"]
 			hide_dependency_lines: true
 			id: "1FDDC63FDDB4A756"
 			tasks: [{
@@ -1224,11 +1224,11 @@
 		}
 		{
 			dependencies: ["6180ACBB10C75460"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests83.description0}"]
 			id: "563340C6D674010A"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests83.subtitle}"
 			tasks: [{
 				id: "332E5538F3477300"
 				item: "mekanism:basic_infusing_factory"
@@ -1239,11 +1239,11 @@
 		}
 		{
 			dependencies: ["563340C6D674010A"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests84.description0}"]
 			id: "4406215F6D063279"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests84.subtitle}"
 			tasks: [{
 				id: "37FA9DED051A901C"
 				item: "mekanism:advanced_infusing_factory"
@@ -1254,11 +1254,11 @@
 		}
 		{
 			dependencies: ["4406215F6D063279"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests85.description0}"]
 			id: "022E1486EFF3C9DF"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests85.subtitle}"
 			tasks: [{
 				id: "06CC18F7331D2B3C"
 				item: "mekanism:elite_infusing_factory"
@@ -1269,11 +1269,11 @@
 		}
 		{
 			dependencies: ["022E1486EFF3C9DF"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests86.description0}"]
 			id: "4EC1046BD46CE49A"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests86.subtitle}"
 			tasks: [{
 				id: "7C225555B8C6B5E9"
 				item: "mekanism:ultimate_infusing_factory"
@@ -1284,11 +1284,11 @@
 		}
 		{
 			dependencies: ["3996D88998A59692"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests87.description0}"]
 			id: "6D354269D9998122"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests87.subtitle}"
 			tasks: [{
 				id: "58340E6006BDE58F"
 				item: "mekanism:basic_crushing_factory"
@@ -1299,11 +1299,11 @@
 		}
 		{
 			dependencies: ["6D354269D9998122"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests88.description0}"]
 			id: "50B87D922E75446A"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests88.subtitle}"
 			tasks: [{
 				id: "69DBC855A8663D68"
 				item: "mekanism:advanced_crushing_factory"
@@ -1314,11 +1314,11 @@
 		}
 		{
 			dependencies: ["50B87D922E75446A"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests89.description0}"]
 			id: "591147820127733A"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests89.subtitle}"
 			tasks: [{
 				id: "35D45D5A30658C78"
 				item: "mekanism:elite_crushing_factory"
@@ -1329,11 +1329,11 @@
 		}
 		{
 			dependencies: ["591147820127733A"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests90.description0}"]
 			id: "55873E301153A3B5"
 			shape: "tech_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests90.subtitle}"
 			tasks: [{
 				id: "16E9D6BF189C2D6F"
 				item: "mekanism:ultimate_crushing_factory"
@@ -1344,11 +1344,11 @@
 		}
 		{
 			dependencies: ["4584B5019E90652C"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests91.description0}"]
 			id: "3EB8868E1BE96301"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests91.subtitle}"
 			tasks: [{
 				id: "7CEDE93E817A4074"
 				item: "mekanism:basic_purifying_factory"
@@ -1359,11 +1359,11 @@
 		}
 		{
 			dependencies: ["3EB8868E1BE96301"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests92.description0}"]
 			id: "731EF69E5FEBF398"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests92.subtitle}"
 			tasks: [{
 				id: "651924F04929BEC7"
 				item: "mekanism:advanced_purifying_factory"
@@ -1374,11 +1374,11 @@
 		}
 		{
 			dependencies: ["731EF69E5FEBF398"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests93.description0}"]
 			id: "66285A7AC10EF98D"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests93.subtitle}"
 			tasks: [{
 				id: "7F3392A473B64A2B"
 				item: "mekanism:elite_purifying_factory"
@@ -1389,11 +1389,11 @@
 		}
 		{
 			dependencies: ["66285A7AC10EF98D"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests94.description0}"]
 			id: "34F37945F89BECA7"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests94.subtitle}"
 			tasks: [{
 				id: "1D9AB54D6F231270"
 				item: "mekanism:ultimate_purifying_factory"
@@ -1404,11 +1404,11 @@
 		}
 		{
 			dependencies: ["4C3BCF35B9802BF0"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests95.description0}"]
 			id: "5B62510A9A2D6717"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests95.subtitle}"
 			tasks: [{
 				id: "609B74BFA2282715"
 				item: "mekanism:basic_injecting_factory"
@@ -1419,11 +1419,11 @@
 		}
 		{
 			dependencies: ["5B62510A9A2D6717"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests96.description0}"]
 			id: "469630EE1386E25F"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests96.subtitle}"
 			tasks: [{
 				id: "3CE8D510CA373BA2"
 				item: "mekanism:advanced_injecting_factory"
@@ -1434,11 +1434,11 @@
 		}
 		{
 			dependencies: ["469630EE1386E25F"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests97.description0}"]
 			id: "5B410FA6FBBDF723"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests97.subtitle}"
 			tasks: [{
 				id: "4E31B2F892365E61"
 				item: "mekanism:elite_injecting_factory"
@@ -1449,11 +1449,11 @@
 		}
 		{
 			dependencies: ["5B410FA6FBBDF723"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests98.description0}"]
 			id: "2E1C6DA50E82010F"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests98.subtitle}"
 			tasks: [{
 				id: "74D342C60E331CAA"
 				item: "mekanism:ultimate_injecting_factory"
@@ -1464,11 +1464,11 @@
 		}
 		{
 			dependencies: ["1C1D3D5708D4769D"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests99.description0}"]
 			id: "462E0ED8EC92293B"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests99.subtitle}"
 			tasks: [{
 				id: "5341235D0A9F6AB1"
 				item: "mekanism:basic_enriching_factory"
@@ -1479,11 +1479,11 @@
 		}
 		{
 			dependencies: ["462E0ED8EC92293B"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests100.description0}"]
 			id: "6A9F009EEBDF1B32"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests100.subtitle}"
 			tasks: [{
 				id: "781E6F5E2B9CD7EB"
 				item: "mekanism:advanced_enriching_factory"
@@ -1494,11 +1494,11 @@
 		}
 		{
 			dependencies: ["2D2A2EA381F81800"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests101.description0}"]
 			id: "3439D0D5244D9128"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests101.subtitle}"
 			tasks: [{
 				id: "7A4007E2B3927F3E"
 				item: "mekanism:ultimate_enriching_factory"
@@ -1509,11 +1509,11 @@
 		}
 		{
 			dependencies: ["6A9F009EEBDF1B32"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests102.description0}"]
 			id: "2D2A2EA381F81800"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests102.subtitle}"
 			tasks: [{
 				id: "5BCD7AD2BF2BD164"
 				item: "mekanism:elite_enriching_factory"
@@ -1524,11 +1524,11 @@
 		}
 		{
 			dependencies: ["4BAB8552A9E3790E"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests103.description0}"]
 			id: "274D0A76ECF64703"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests103.subtitle}"
 			tasks: [{
 				id: "01B22DFEAE05B277"
 				item: "mekanism:basic_smelting_factory"
@@ -1539,11 +1539,11 @@
 		}
 		{
 			dependencies: ["274D0A76ECF64703"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests104.description0}"]
 			id: "3F2436E3B51CE449"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests104.subtitle}"
 			tasks: [{
 				id: "4EE930C581FCCA67"
 				item: "mekanism:advanced_smelting_factory"
@@ -1554,11 +1554,11 @@
 		}
 		{
 			dependencies: ["3F2436E3B51CE449"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests105.description0}"]
 			id: "6CAF0E69617959B8"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests105.subtitle}"
 			tasks: [{
 				id: "086413647D1E15C2"
 				item: "mekanism:elite_smelting_factory"
@@ -1569,11 +1569,11 @@
 		}
 		{
 			dependencies: ["6CAF0E69617959B8"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests106.description0}"]
 			id: "5F5261AF78C7AA67"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests106.subtitle}"
 			tasks: [{
 				id: "4005FA120E016684"
 				item: "mekanism:ultimate_smelting_factory"
@@ -1584,11 +1584,11 @@
 		}
 		{
 			dependencies: ["500A24F35E1EDD95"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests107.description0}"]
 			id: "6C34F14BA4D47339"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests107.subtitle}"
 			tasks: [{
 				id: "363074AA702DF324"
 				item: "mekanism:basic_compressing_factory"
@@ -1599,11 +1599,11 @@
 		}
 		{
 			dependencies: ["6C34F14BA4D47339"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests108.description0}"]
 			id: "7A7C48C569EAB04E"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests108.subtitle}"
 			tasks: [{
 				id: "584612B8EADEFEFD"
 				item: "mekanism:advanced_compressing_factory"
@@ -1614,11 +1614,11 @@
 		}
 		{
 			dependencies: ["7A7C48C569EAB04E"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests109.description0}"]
 			id: "5505326120CB7E6A"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests109.subtitle}"
 			tasks: [{
 				id: "3E6BE27A79451897"
 				item: "mekanism:elite_compressing_factory"
@@ -1629,11 +1629,11 @@
 		}
 		{
 			dependencies: ["5505326120CB7E6A"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests110.description0}"]
 			id: "753911D81D16B722"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests110.subtitle}"
 			tasks: [{
 				id: "0CC1550FDC4BD5F3"
 				item: "mekanism:ultimate_compressing_factory"
@@ -1644,11 +1644,11 @@
 		}
 		{
 			dependencies: ["137D285605596D38"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests111.description0}"]
 			id: "752AFA4125CFD463"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests111.subtitle}"
 			tasks: [{
 				id: "4A6F77AE4DFEA3F6"
 				item: "mekanism:basic_combining_factory"
@@ -1659,11 +1659,11 @@
 		}
 		{
 			dependencies: ["752AFA4125CFD463"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests112.description0}"]
 			id: "2CF1A1AE345DCE98"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests112.subtitle}"
 			tasks: [{
 				id: "794C46D58ECCD085"
 				item: "mekanism:advanced_combining_factory"
@@ -1674,11 +1674,11 @@
 		}
 		{
 			dependencies: ["2CF1A1AE345DCE98"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests113.description0}"]
 			id: "3EF0565D0EF814B0"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests113.subtitle}"
 			tasks: [{
 				id: "3DD3A142B47DEC7F"
 				item: "mekanism:elite_combining_factory"
@@ -1689,11 +1689,11 @@
 		}
 		{
 			dependencies: ["3EF0565D0EF814B0"]
-			description: ["Улучшенная версия предыдущего механизма."]
+			description: ["{sacred_logistics.2a172dd20bd67159.quests114.description0}"]
 			id: "109801B219FAA914"
 			shape: "tech_smooth_square"
 			size: 0.5d
-			subtitle: "Обновка!"
+			subtitle: "{sacred_logistics.2a172dd20bd67159.quests114.subtitle}"
 			tasks: [{
 				id: "047F4A7A1147BDFE"
 				item: "mekanism:ultimate_combining_factory"
@@ -1714,5 +1714,5 @@
 			y: -0.5d
 		}
 	]
-	title: "&bТехнический прорыв"
+	title: "{sacred_logistics.2a172dd20bd67159.title}"
 }

@@ -61,11 +61,11 @@
 		{
 			dependencies: ["1F24B9ADBE67E4F6"]
 			description: [
-				"В мире теперь появляются драконы. Странные существа... "
+				"{sacred_logistics.686a5f68a3da8ab9.quests0.description0}"
 				""
-				"Но, к сожалению, я должен убить нескольких, чтобы продолжить развивать свои технологии!"
+				"{sacred_logistics.686a5f68a3da8ab9.quests0.description1}"
 				""
-				"&bНеобходимо убить настоящего Дракона из мода IceAndFire.&r"
+				"{sacred_logistics.686a5f68a3da8ab9.quests0.description2}"
 			]
 			hide: true
 			id: "0261282B27BB7183"
@@ -75,10 +75,10 @@
 				type: "item"
 			}]
 			shape: "tech_smooth_square"
-			subtitle: "Мифические существа!"
+			subtitle: "{sacred_logistics.686a5f68a3da8ab9.quests0.subtitle}"
 			tasks: [{
 				id: "69C229238E3EE268"
-				title: "Драконы!"
+				title: "{sacred_logistics.686a5f68a3da8ab9.quests0.tasks0.title}"
 				type: "checkmark"
 			}]
 			x: -0.5d
@@ -87,12 +87,12 @@
 		{
 			dependencies: ["0261282B27BB7183"]
 			description: [
-				"Неужели я получил Сердце настоящего &6Огненного дракона&r..."
+				"{sacred_logistics.686a5f68a3da8ab9.quests1.description0}"
 				""
-				"&bСердце можно добыть, после убийства дракона.&r"
+				"{sacred_logistics.686a5f68a3da8ab9.quests1.description1}"
 			]
 			id: "3E73871818949F1F"
-			subtitle: "Сердечко :)"
+			subtitle: "{sacred_logistics.686a5f68a3da8ab9.quests1.subtitle}"
 			tasks: [{
 				id: "24C947F82E1FC158"
 				item: "iceandfire:fire_dragon_heart"
@@ -104,12 +104,12 @@
 		{
 			dependencies: ["0261282B27BB7183"]
 			description: [
-				"Неужели я получил Сердце настоящего &6Грозового дракона&r..."
+				"{sacred_logistics.686a5f68a3da8ab9.quests2.description0}"
 				""
-				"&bСердце можно добыть, после убийства дракона.&r"
+				"{sacred_logistics.686a5f68a3da8ab9.quests2.description1}"
 			]
 			id: "2649D77DC3C4D746"
-			subtitle: "Сердечко :)"
+			subtitle: "{sacred_logistics.686a5f68a3da8ab9.quests2.subtitle}"
 			tasks: [{
 				id: "6E002605616A4D4C"
 				item: "iceandfire:lightning_dragon_heart"
@@ -121,12 +121,12 @@
 		{
 			dependencies: ["0261282B27BB7183"]
 			description: [
-				"Неужели я получил Сердце настоящего &6Ледяного дракона&r..."
+				"{sacred_logistics.686a5f68a3da8ab9.quests3.description0}"
 				""
-				"&bСердце можно добыть, после убийства дракона.&r"
+				"{sacred_logistics.686a5f68a3da8ab9.quests3.description1}"
 			]
 			id: "4D8965D93C4A829F"
-			subtitle: "Сердечко :)"
+			subtitle: "{sacred_logistics.686a5f68a3da8ab9.quests3.subtitle}"
 			tasks: [{
 				id: "04044B3120168302"
 				item: "iceandfire:ice_dragon_heart"
@@ -162,7 +162,7 @@
 					type: "item"
 				}
 			]
-			title: "Огненная драконья кузня"
+			title: "{sacred_logistics.686a5f68a3da8ab9.quests4.title}"
 			x: 2.0d
 			y: -2.0d
 		}
@@ -193,7 +193,7 @@
 					type: "item"
 				}
 			]
-			title: "Ледяная драконья кузня"
+			title: "{sacred_logistics.686a5f68a3da8ab9.quests5.title}"
 			x: 2.0d
 			y: 2.0d
 		}
@@ -224,7 +224,7 @@
 					type: "item"
 				}
 			]
-			title: "Грозовая драконья кузня"
+			title: "{sacred_logistics.686a5f68a3da8ab9.quests6.title}"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -282,7 +282,7 @@
 		}
 		{
 			dependencies: ["56B246B4FB90E8D2"]
-			description: ["Для создания сверхчистого титанового слитка необходимо вставить улучшение: &6Усиленная фильтрация&r."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests11.description0}"]
 			id: "47B628E949CB1419"
 			rewards: [
 				{
@@ -342,7 +342,7 @@
 				{
 					dimension: "minecraft:the_nether"
 					id: "746874F3C56015DF"
-					title: "Посетить измерение &4Незер"
+					title: "{sacred_logistics.686a5f68a3da8ab9.quests12.tasks1.title}"
 					type: "dimension"
 				}
 			]
@@ -467,7 +467,7 @@
 					type: "item"
 				}
 			]
-			title: "Огненная броня"
+			title: "{sacred_logistics.686a5f68a3da8ab9.quests19.title}"
 			x: 13.0d
 			y: -0.5d
 		}
@@ -490,7 +490,7 @@
 		}
 		{
 			dependencies: ["541CB67295A544F5"]
-			description: ["Древние обломки появляются в Незере на высоте 7-22. Но он очень редкий, поэтому наберитесь терпения."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests21.description0}"]
 			id: "2FDCBFDEBDA4BFBA"
 			rewards: [{
 				count: 2
@@ -503,7 +503,7 @@
 					count: 4L
 					id: "7B23F9DEB8D6B58F"
 					item: "minecraft:ancient_debris"
-					title: "Древние обломки"
+					title: "{sacred_logistics.686a5f68a3da8ab9.quests21.tasks0.title}"
 					type: "item"
 				}
 				{
@@ -517,7 +517,7 @@
 		}
 		{
 			dependencies: ["2FDCBFDEBDA4BFBA"]
-			description: ["С помощью незеритового слитка можно улучшать некоторые вещи, например, броню, инструменты, сундуки и т.п."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests22.description0}"]
 			id: "1F24FA2023174B08"
 			rewards: [{
 				id: "34552D85D2E3874C"
@@ -528,7 +528,7 @@
 				count: 3L
 				id: "4521A14D94E869BB"
 				item: "minecraft:netherite_ingot"
-				title: "Незеритовый слиток"
+				title: "{sacred_logistics.686a5f68a3da8ab9.quests22.tasks0.title}"
 				type: "item"
 			}]
 			x: 9.5d
@@ -536,7 +536,7 @@
 		}
 		{
 			dependencies: ["1F24FA2023174B08"]
-			description: ["Неплохая броня с хорошей защитой."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests23.description0}"]
 			icon: {
 				Count: 1b
 				id: "minecraft:netherite_chestplate"
@@ -596,13 +596,13 @@
 					type: "item"
 				}
 			]
-			title: "Незеритовая броня"
+			title: "{sacred_logistics.686a5f68a3da8ab9.quests23.title}"
 			x: 10.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["1F24FA2023174B08"]
-			description: ["Хорошие и эффективные инструменты и оружие."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests24.description0}"]
 			id: "7CD800F7D537713F"
 			rewards: [{
 				id: "6E5F4300F585DD41"
@@ -625,7 +625,7 @@
 		}
 		{
 			dependencies: ["1F24FA2023174B08"]
-			description: ["Улучшенная версия алмазного рюкзака. Позволяет хранить больше предметов и улучшений."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests25.description0}"]
 			id: "269199E0BBE0015A"
 			tasks: [{
 				id: "46DD872666018293"
@@ -694,7 +694,7 @@
 		}
 		{
 			dependencies: ["541CB67295A544F5"]
-			description: ["Чтобы заспавнить Визера, необходимо поставить 4 блока песка душ и 3 черепа визер-скелета как на картинке. Убив этого босса вы получите &dзвезду Незера!&f"]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests30.description0}"]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "245CE482D6E6A2D7"
 			rewards: [{
@@ -704,30 +704,30 @@
 				random_bonus: 1
 				type: "item"
 			}]
-			subtitle: "Ваш первый босс!"
+			subtitle: "{sacred_logistics.686a5f68a3da8ab9.quests30.subtitle}"
 			tasks: [
 				{
 					count: 3L
 					id: "6C32CAD61BE8758B"
 					item: "minecraft:wither_skeleton_skull"
-					title: "Череп визер-скелета"
+					title: "{sacred_logistics.686a5f68a3da8ab9.quests30.tasks0.title}"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "48873F0DD7FD4E3C"
 					item: "minecraft:soul_sand"
-					title: "Песок душ"
+					title: "{sacred_logistics.686a5f68a3da8ab9.quests30.tasks1.title}"
 					type: "item"
 				}
 			]
-			title: "Визер"
+			title: "{sacred_logistics.686a5f68a3da8ab9.quests30.title}"
 			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["245CE482D6E6A2D7"]
-			description: ["&dЗвезда Незера&f выпадает с Визера. Это очень ценный предмет, который в будущем Вам понадобится в большом количестве."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests31.description0}"]
 			id: "33C1F735EFF06519"
 			tasks: [{
 				id: "51F673FEE10B1D6F"
@@ -758,23 +758,23 @@
 		}
 		{
 			dependencies: ["7BA9612B04DE3D09"]
-			description: ["&2Око Эндера&f нужно для нахождения и активации портала в &5Край&f."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests33.description0}"]
 			id: "3CE6ECDB2520ED5F"
 			shape: "tech_square"
 			size: 1.2d
-			subtitle: "Пора в Край"
+			subtitle: "{sacred_logistics.686a5f68a3da8ab9.quests33.subtitle}"
 			tasks: [
 				{
 					count: 5L
 					id: "6913BE94DB66822F"
 					item: "minecraft:ender_eye"
-					title: "Око Эндера"
+					title: "{sacred_logistics.686a5f68a3da8ab9.quests33.tasks0.title}"
 					type: "item"
 				}
 				{
 					dimension: "minecraft:the_end"
 					id: "11CEFAAD6FDFDF6E"
-					title: "Посетить измерение &5Край"
+					title: "{sacred_logistics.686a5f68a3da8ab9.quests33.tasks1.title}"
 					type: "dimension"
 				}
 			]
@@ -783,7 +783,7 @@
 		}
 		{
 			dependencies: ["702588A9DE9290B8"]
-			description: ["Неплохое украшение."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests34.description0}"]
 			id: "67BF7985D1B040E5"
 			tasks: [{
 				id: "56AD3167CF1ABDD0"
@@ -795,7 +795,7 @@
 		}
 		{
 			dependencies: ["702588A9DE9290B8"]
-			description: ["На взлёт!"]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests35.description0}"]
 			id: "3893494EE66CC691"
 			tasks: [{
 				id: "78E6BBE50ED3F6D7"
@@ -825,7 +825,7 @@
 		}
 		{
 			dependencies: ["3CE6ECDB2520ED5F"]
-			description: ["Ингридиент для крафта шалкерового ящика."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests37.description0}"]
 			id: "49E7339FCE81B389"
 			rewards: [{
 				count: 4
@@ -844,7 +844,7 @@
 		}
 		{
 			dependencies: ["49E7339FCE81B389"]
-			description: ["Переносное хранилище."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests38.description0}"]
 			id: "77BFC49B1D3ECBF9"
 			rewards: [{
 				id: "37CBD351D1C07EA2"
@@ -1222,7 +1222,7 @@
 		}
 		{
 			dependencies: ["0261282B27BB7183"]
-			description: ["После убийства своего первого Дракона, мой мир изменился и теперь в нём начал появляться новый странный ресурс - &6Хлорофит&r."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests66.description0}"]
 			id: "34E6D50A5241CFEF"
 			rewards: [{
 				id: "0F4BF0569E0D80E3"
@@ -1243,7 +1243,7 @@
 					type: "item"
 				}
 			]
-			title: "Хлорофит"
+			title: "{sacred_logistics.686a5f68a3da8ab9.quests66.title}"
 			x: -2.0d
 			y: 0.0d
 		}
@@ -1269,7 +1269,7 @@
 					type: "item"
 				}
 			]
-			title: "Багрянец"
+			title: "{sacred_logistics.686a5f68a3da8ab9.quests67.title}"
 			x: 8.0d
 			y: 4.5d
 		}
@@ -1295,7 +1295,7 @@
 					type: "item"
 				}
 			]
-			title: "Демонит"
+			title: "{sacred_logistics.686a5f68a3da8ab9.quests68.title}"
 			x: 7.0d
 			y: 4.5d
 		}
@@ -1320,7 +1320,7 @@
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "707A6B0ED548D71F"
-			subtitle: "Улучшенная версия!"
+			subtitle: "{sacred_logistics.686a5f68a3da8ab9.quests70.subtitle}"
 			tasks: [{
 				id: "41B588A5C0F5C537"
 				item: "assemblylinemachines:mkii_alloy_smelter"
@@ -1332,7 +1332,7 @@
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "71B1B75882CF5D6E"
-			subtitle: "Улучшенная версия!"
+			subtitle: "{sacred_logistics.686a5f68a3da8ab9.quests71.subtitle}"
 			tasks: [{
 				id: "59ED28754A0146F0"
 				item: "assemblylinemachines:mkii_fluid_mixer"
@@ -1344,7 +1344,7 @@
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "6E9BEE9609350537"
-			subtitle: "Улучшенная версия!"
+			subtitle: "{sacred_logistics.686a5f68a3da8ab9.quests72.subtitle}"
 			tasks: [{
 				id: "7D45CA11CE2E0490"
 				item: "assemblylinemachines:mkii_furnace"
@@ -1356,7 +1356,7 @@
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "7854111761CCC433"
-			subtitle: "Улучшенная версия!"
+			subtitle: "{sacred_logistics.686a5f68a3da8ab9.quests73.subtitle}"
 			tasks: [{
 				id: "71F48C0F8B6B721E"
 				item: "assemblylinemachines:mkii_grinder"
@@ -1368,7 +1368,7 @@
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "4C4E73546A75F50D"
-			subtitle: "Улучшенная версия!"
+			subtitle: "{sacred_logistics.686a5f68a3da8ab9.quests74.subtitle}"
 			tasks: [{
 				id: "15F8F338B60FF905"
 				item: "assemblylinemachines:mkii_pneumatic_compressor"
@@ -1380,7 +1380,7 @@
 		{
 			dependencies: ["47B628E949CB1419"]
 			id: "502273EB97B66F11"
-			subtitle: "Улучшенная версия!"
+			subtitle: "{sacred_logistics.686a5f68a3da8ab9.quests75.subtitle}"
 			tasks: [{
 				id: "31FF0F361D9EA260"
 				item: "assemblylinemachines:mkii_purifier"
@@ -1391,7 +1391,7 @@
 		}
 		{
 			dependencies: ["34E6D50A5241CFEF"]
-			description: ["Стол кузнеца необходим мне для улучшения своего снаряжения."]
+			description: ["{sacred_logistics.686a5f68a3da8ab9.quests76.description0}"]
 			id: "32FA7398CBBD72A6"
 			tasks: [{
 				id: "785B0B060E541C88"
@@ -1402,5 +1402,5 @@
 			y: 0.0d
 		}
 	]
-	title: "&bВстреча с мистикой"
+	title: "{sacred_logistics.686a5f68a3da8ab9.title}"
 }
