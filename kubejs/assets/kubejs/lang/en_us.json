@@ -761,4 +761,11 @@
     "sacred_logistics.6953150a66c1136b.title": "&bUnder Pressure",
     "sacred_logistics.160173843a9271b6.quests0.description0": "The thing I've been searching for this entire time is now within reach... ",
     "sacred_logistics.160173843a9271b6.quests0.subtitle": "Time to end this",
-    "sacred_logistics.160173843a9271b6.title": "&bThe Finale..."
+    "sacred_logistics.160173843a9271b6.title": "&bThe Finale...",
+	
+	"item.kubejs.dragon_ingot": "Dragon Ingot",
+	"item.kubejs.osmium_catalyst": "Osmium Catalyst",
+	"item.kubejs.steel_catalyst": "Steel Catalyst",
+	"item.kubejs.photocell": "Photocell",
+	"item.kubejs.quantum_processor": "Quantum Processor",
+	"item.kubejs.almighty_cog": "Almighty Cog"
