@@ -1,0 +1,36 @@
+
+["General Settings"]
+	#Enable debug message when a Miner Villager spawns
+	Debug_Spawn_Message = false
+	#Chance to spawn Miner Villager in mineshaft. Range: 0.0 (never) to 1.0 (always).
+	#Range: 0.0 ~ 1.0
+	Miner_Villager_Spawn_Rate = 0.3
+
+["Pickaxe Settings"]
+	#How many right click scans a Vein Seeker Pickaxe can perform before it fully breaks (durability cost is computed from CURRENT remaining durability / remaining scans). Changing the config only affects newly created pickaxes.
+	#Range: 1 ~ 100000
+	Vein_Seeker_Pickaxe_Total_Scans = 10
+	#Cooldown for Detonator Pickaxe actions in seconds. 0 = no cooldown.
+	#Range: 0 ~ 3600
+	Detonator_Pickaxe_Cooldown_Seconds = 2
+	#Explosion power for the Detonator Pickaxe.
+	#Range: 0.0 ~ 10.0
+	Detonator_Pickaxe_Power = 1.0
+	#Cooldown (in seconds) for Magic Vein Seeker Pickaxe right click scan. 0 = no cooldown. 
+	#Range: 0 ~ 3600
+	Vein_Seeker_Pickaxe_Cooldown = 2
+	#Radius (in blocks) for Crystal Infection Pickaxe effect.
+	#Range: 0.0 ~ 12.0
+	Crystal_Infection_Pickaxe_Radius = 3.0
+	#Chance that Amethyst's Jackpot Pickaxe replaces the normal drops with a random block's drops.
+	#Range: 0.0 ~ 1.0
+	Amethyst_Jackpot_Pickaxe_Chance = 0.2
+
+["Miner Villager AI"]
+	#Items that tempt the Miner Villager. Use item IDs like "minecraft:emerald". Empty list disables temptation entirely. Requires world reload.
+	Miner_Temptation_Items = ["minecraft:emerald", "minecraft:diamond", "minecraft:charcoal"]
+	#Enable the miner placing torches in dark areas. Requires world reload.
+	Miner_Enable_Torch_Placement_Goal = true
+	#Enable the miner panic invisibility goal when low health. Requires world reload.
+	Miner_Enable_Panic_Invisibility_Goal = true
+

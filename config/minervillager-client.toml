@@ -1,0 +1,6 @@
+
+["Client Settings"]
+	#Radius (in blocks) for Emerald Pickaxe Spot ore scan.
+	#Range: 1 ~ 32
+	Ore_Scan_Radius = 32
+

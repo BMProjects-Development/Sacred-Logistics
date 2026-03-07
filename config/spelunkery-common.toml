@@ -1,6 +1,6 @@
 
 [misc]
-	creative_tab = false
+	creative_tab = true
 	stonecutter_damage = true
 	disable_diamond_grindstone_depletion = false
 	#Range: 0 ~ 128
