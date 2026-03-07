@@ -1,0 +1,16 @@
+{
+	"type": "assemblylinemachines:purifier",
+	"part_a":{
+		"tag": "forge:dusts/mystium"
+	},
+	"part_b":{
+		"item": "sacred_logistics:demonite_ingot"
+	},
+	"tobepurified":{
+		"tag": "forge:ingots/pure_titanium"
+	},
+	"output":{
+		"item": "assemblylinemachines:attuned_titanium_ingot"
+	},
+	"time": 600
+}

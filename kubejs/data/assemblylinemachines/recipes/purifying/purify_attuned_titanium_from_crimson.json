@@ -4,7 +4,7 @@
 		"tag": "forge:dusts/mystium"
 	},
 	"part_b":{
-		"item": "mekanism:alloy_reinforced"
+		"item": "sacred_logistics:crimson_ingot"
 	},
 	"tobepurified":{
 		"tag": "forge:ingots/pure_titanium"
