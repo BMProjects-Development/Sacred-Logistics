@@ -314,7 +314,7 @@
     "sacred_logistics.reliquary.quests12.description2": "And finally, Pyromancer Staff &2will replace&r its owner's &2Flint and Steel&r.",
     "sacred_logistics.reliquary.quests12.subtitle": "Universal relic!",
     "sacred_logistics.reliquary.quests13.description0": "&6Ice Magus Rod&r is a relic that absorbs (&eSHIFT&r + &eRMB&r) snowballs from the inventory of its owner and shoots them at the enemy. It is more effective against opponents from the &cNether&r.",
-    "sacred_logistics.reliquary.quests13.subtitle": "Useful in the Nether!"
+    "sacred_logistics.reliquary.quests13.subtitle": "Useful in the Nether!",
     "sacred_logistics.reliquary.quests14.description2": "But the Glacial Staff also has an &2additional ability&r - it turns water into dense ice, and lava into obsididan, if the owner holds the staff in his hand. These blocks melt when they are outside the radius of the action of the staff.",
     "sacred_logistics.reliquary.quests14.subtitle": "An improved version of the Ice Magus Rod!",
     "sacred_logistics.reliquary.quests15.description0": "&6Infernal Tear&r is a relic that consumes (&eSHIFT&r + &eRMB&r) items that the owner has the most of in their inventory, and exchanges them for experience.",
@@ -769,3 +769,4 @@
 	"item.kubejs.photocell": "Photocell",
 	"item.kubejs.quantum_processor": "Quantum Processor",
 	"item.kubejs.almighty_cog": "Almighty Cog"
+}

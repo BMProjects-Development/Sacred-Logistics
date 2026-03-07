@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "BarMaxx",
+      "uniqueId": "d6b93210-200c-478c-afdd-8caa0af94cc0"
+    },
+    "time": 1772881107140,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "D:\\CurseForge\\Instances\\Sacred Logistics (1)\\config\\spark\\profile-2026-03-07_13.58.27.sparkprofile"
+    }
+  }
+]
