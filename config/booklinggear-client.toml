@@ -1,0 +1,42 @@
+
+["General Settings"]
+	#Enable or disable configuration screen to edit in live different Eruannie's mod settings.
+	Config_Screen = false
+	#Determines which side the banner configuration appears on. This is experimental. There’s no need to modify this value.
+	Mirrored_Banner = true
+	#Select the type of configuration button to display.
+	#Allowed Values: BOOK, BANNER
+	Button_Type = "BANNER"
+	#Turn on/off animations within the config screen.
+	Animations_Enabled = true
+	#When to show in game update notices:
+	#
+	#NONE = Never.
+	#SESSION = Once after the client starts.
+	#WORLD_JOIN = Every time you join a world/server.
+	#
+	#Allowed Values: NONE, SESSION, WORLD_JOIN
+	Update_Notices = "SESSION"
+	#Pixel offsets applied to the config buttons relative to their default locations.
+	#Positive X moves right, negative X moves left.
+	#Positive Y moves down, negative Y moves up.
+	#
+	#Range: -400 ~ 400
+	Banner_Offset_X = 0
+	#Range: -400 ~ 400
+	Banner_Offset_Y = 0
+	#Range: -400 ~ 400
+	Banner_Pause_Offset_X = 0
+	#Range: -400 ~ 400
+	Banner_Pause_Offset_Y = 0
+	#Range: -400 ~ 400
+	Book_Offset_X = 0
+	#Range: -400 ~ 400
+	Book_Offset_Y = 0
+
+["Example Config Settings"]
+	#Example color picker screen.
+	Example_Color = "00FFFF"
+	#Example list configuration.
+	Example_List = ["minecraft:grass_block", "minecraft:dirt", "minecraft:rooted_dirt"]
+
