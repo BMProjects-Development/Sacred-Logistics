@@ -14,8 +14,14 @@
 		]
 		id: "7EA23917F7C58C5E"
 		rewards: [{
-			id: "359FEAEB234DB455"
-			item: "akashictome:tome"
+			id: "12CBAD85B366DB38"
+			item: {
+				Count: 1b
+				id: "eccentrictome:tome"
+				tag: {
+					"eccentrictome:mods": { }
+				}
+			}
 			type: "item"
 		}]
 		subtitle: "{sacred_logistics.26c0412d42d0bccb.quests0.subtitle}"

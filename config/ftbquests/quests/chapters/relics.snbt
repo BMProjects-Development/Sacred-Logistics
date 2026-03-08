@@ -437,7 +437,7 @@
 								points: 0
 								stats: {
 									attack_speed: 0.00961d
-									heal: 0.00013d
+									heal: 1.3E-4d
 									movement_speed: 0.01914d
 								}
 							}
