@@ -2,7 +2,7 @@
 #General Config Section. See https://srpc.fdd-docs.com/introduction/
 [general]
 	#The Application ID of the Discord App to use
-	applicationID = "762726289341677668"
+	applicationID = "1480242287282749450"
 	#Enable/Disable the mod
 	enabled = true
 	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
@@ -40,7 +40,13 @@
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[init.buttons]]
+			label = "Join us on Discord"
+			url = "https://discord.gg/9GWKBVw3Ty"
+			
+		[[init.buttons]]
+			label = "Download on CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
 #The Main Menu event
 [main_menu]
@@ -66,7 +72,13 @@
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[main_menu.buttons]]
+			label = "Join us on Discord"
+			url = "https://discord.gg/9GWKBVw3Ty"
+			
+		[[main_menu.buttons]]
+			label = "Download on CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
 #The Server List event
 [server_list]
@@ -92,7 +104,13 @@
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[server_list.buttons]]
+			label = "Join us on Discord"
+			url = "https://discord.gg/9GWKBVw3Ty"
+			
+		[[server_list.buttons]]
+			label = "Download on CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
 #The Realms Screen event
 [realms_list]
@@ -118,7 +136,13 @@
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[realms_list.buttons]]
+			label = "Join us on Discord"
+			url = "https://discord.gg/9GWKBVw3Ty"
+			
+		[[realms_list.buttons]]
+			label = "Download on CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
 #The Join Game Event
 [join_game]
@@ -144,7 +168,13 @@
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[join_game.buttons]]
+			label = "Join us on Discord"
+			url = "https://discord.gg/9GWKBVw3Ty"
+			
+		[[join_game.buttons]]
+			label = "Download on CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
 #The Single Player Event
 [single_player]
@@ -170,7 +200,13 @@
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[single_player.buttons]]
+			label = "Join us on Discord"
+			url = "https://discord.gg/9GWKBVw3Ty"
+			
+		[[single_player.buttons]]
+			label = "Download on CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
 #The Multi Player Event
 [multi_player]
@@ -196,7 +232,13 @@
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[multi_player.buttons]]
+			label = "Join us on Discord"
+			url = "https://discord.gg/9GWKBVw3Ty"
+			
+		[[multi_player.buttons]]
+			label = "Download on CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
 #The Realms Game Event
 [realms]
@@ -222,7 +264,13 @@
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[realms.buttons]]
+			label = "Join us on Discord"
+			url = "https://discord.gg/9GWKBVw3Ty"
+			
+		[[realms.buttons]]
+			label = "Download on CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
 #The Paused Event
 [paused]
@@ -248,7 +296,13 @@
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[paused.buttons]]
+			label = "Join us on Discord"
+			url = "https://discord.gg/9GWKBVw3Ty"
+			
+		[[paused.buttons]]
+			label = "Download on CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
 #Fallback event for disabled events
 [generic]
@@ -272,7 +326,13 @@
 		#The Twitch or Youtube URL to use when type is set to STREAMING
 		streamingActivityUrl = "https://twitch.tv/twitch"
 		#List of buttons (max 2) to show on the RPC
-		buttons = []
+		[[generic.buttons]]
+			label = "Join us on Discord"
+			url = "https://discord.gg/9GWKBVw3Ty"
+			
+		[[generic.buttons]]
+			label = "Download on CurseForge"
+			url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
 #Custom Config Variables that you can use
 [custom]
@@ -310,7 +370,13 @@
 			#The Twitch or Youtube URL to use when type is set to STREAMING
 			streamingActivityUrl = "https://twitch.tv/twitch"
 			#List of buttons (max 2) to show on the RPC
-			buttons = []
+			[[dimension_overrides.buttons]]
+				label = "Join us on Discord"
+				url = "https://discord.gg/9GWKBVw3Ty"
+				
+			[[dimension_overrides.buttons]]
+				label = "Download on CurseForge"
+				url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
 	[[dimension_overrides.dimensions]]
 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
@@ -335,7 +401,13 @@
 			#The Twitch or Youtube URL to use when type is set to STREAMING
 			streamingActivityUrl = "https://twitch.tv/twitch"
 			#List of buttons (max 2) to show on the RPC
-			buttons = []
+			[[dimension_overrides.buttons]]
+				label = "Join us on Discord"
+				url = "https://discord.gg/9GWKBVw3Ty"
+				
+			[[dimension_overrides.buttons]]
+				label = "Download on CurseForge"
+				url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
 	[[dimension_overrides.dimensions]]
 		#The name of the Dimension/Biome to override. FORMAT: modid:dimension or modid:biome
@@ -360,5 +432,11 @@
 			#The Twitch or Youtube URL to use when type is set to STREAMING
 			streamingActivityUrl = "https://twitch.tv/twitch"
 			#List of buttons (max 2) to show on the RPC
-			buttons = []
+			[[dimension_overrides.buttons]]
+				label = "Join us on Discord"
+				url = "https://discord.gg/9GWKBVw3Ty"
+				
+			[[dimension_overrides.buttons]]
+				label = "Download on CurseForge"
+				url = "https://www.curseforge.com/minecraft/modpacks/sacred-logistics"
 
