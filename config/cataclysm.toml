@@ -48,12 +48,12 @@
 	#Void Core's Cooldown
 	#Range: 0 ~ 1000000
 	VoidCoreCooldown = 160
-	#Sandstorm's Timer
-	#Range: 0 ~ 1000000
-	SandstormTimer = 160
 	#Soul Render's Timer
 	#Range: 0 ~ 1000000
 	SoulRenderCooldown = 100
+	#Sandstorm's Timer
+	#Range: 0 ~ 1000000
+	SandstormTimer = 160
 
 [Block]
 	#Cursed Tombstone Summon cooldown Minute
