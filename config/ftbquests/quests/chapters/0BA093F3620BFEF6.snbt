@@ -88,7 +88,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 24.0d
-			y: -1.0d
+			y: 1.0d
 		}
 	]
 	order_index: 1
@@ -735,7 +735,7 @@
 				type: "item"
 			}]
 			x: 24.0d
-			y: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["594A1CD7BCFEE409"]
@@ -748,7 +748,7 @@
 				type: "item"
 			}]
 			x: 22.5d
-			y: -0.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["594A1CD7BCFEE409"]
@@ -761,7 +761,7 @@
 				type: "item"
 			}]
 			x: 22.5d
-			y: 0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["79B1DE6854535EF5"]
@@ -774,7 +774,7 @@
 				type: "item"
 			}]
 			x: 24.0d
-			y: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["73095562BE268857"]
@@ -815,8 +815,8 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
-			y: -2.5d
+			x: 25.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6D644BECFE9B0E86"]
@@ -834,8 +834,8 @@
 				}
 			]
 			title: "{sacred_logistics.0ba093f3620bfef6.quests39.title}"
-			x: 23.0d
-			y: -3.0d
+			x: 26.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["252624E7573EBBB9"]
@@ -846,8 +846,8 @@
 				type: "item"
 			}]
 			title: "{sacred_logistics.0ba093f3620bfef6.quests40.title}"
-			x: 23.0d
-			y: -4.0d
+			x: 28.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["56DE8FACE0972F7D"]
@@ -858,8 +858,224 @@
 				type: "item"
 			}]
 			title: "{sacred_logistics.0ba093f3620bfef6.quests41.title}"
+			x: 29.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73EF0FEFFC6A3CEF"]
+			id: "09839468C07B2A55"
+			tasks: [{
+				count: 2L
+				id: "36207D1CD5E957C0"
+				item: "experienceobelisk:cognitive_flux"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["09839468C07B2A55"]
+			id: "6EF5981D056DFB23"
+			tasks: [{
+				id: "5AE671C43B5AB3CE"
+				item: "experienceobelisk:cognitive_amalgam"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6EF5981D056DFB23"]
+			id: "1FD0020B102B78B0"
+			tasks: [{
+				id: "4060562B4D1FFA8C"
+				item: "experienceobelisk:cognitive_alloy"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6EF5981D056DFB23"]
+			id: "60FE94D7F3873736"
+			tasks: [{
+				id: "76BD760559F5975F"
+				item: "experienceobelisk:cognitive_crystal"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1FD0020B102B78B0"
+				"60FE94D7F3873736"
+			]
+			id: "32BCB72548F15946"
+			tasks: [{
+				count: 2L
+				id: "1D2856BA1A08F866"
+				item: "experienceobelisk:astute_assembly"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["32BCB72548F15946"]
+			id: "146A3FE335BB2D14"
+			tasks: [{
+				id: "6241AC1C19AD17C9"
+				item: {
+					Count: 1b
+					id: "experienceobelisk:molecular_metamorpher"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 22.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["146A3FE335BB2D14"]
+			id: "3B5D050512E40A4C"
+			tasks: [{
+				id: "5A284B8F6729F3D9"
+				item: "experienceobelisk:primordial_assembly"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3B5D050512E40A4C"]
+			id: "531931EF86E382E6"
+			tasks: [{
+				id: "45E5640D02819302"
+				item: "experienceobelisk:bibliophage"
+				type: "item"
+			}]
 			x: 24.0d
-			y: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["531931EF86E382E6"]
+			id: "5109B9C545820B68"
+			tasks: [{
+				id: "31EE4782C21CFA5E"
+				item: "experienceobelisk:infected_bookshelf"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3B5D050512E40A4C"]
+			id: "49B1434B5733C274"
+			tasks: [{
+				id: "4F98B7A6CE9D7425"
+				item: "experienceobelisk:flask_of_poseidon"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3B5D050512E40A4C"]
+			id: "53549EAB06BD8853"
+			tasks: [{
+				id: "73CDA17033523B56"
+				item: "experienceobelisk:flask_of_hades"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3B5D050512E40A4C"]
+			id: "1D85876A47556318"
+			tasks: [{
+				id: "0A75D553BB14C5C8"
+				item: "experienceobelisk:flask_of_chaos"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["32BCB72548F15946"]
+			id: "2F5CDC0217579618"
+			tasks: [{
+				id: "34E8B7C97FEA2090"
+				item: {
+					Count: 1b
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 24.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["32BCB72548F15946"]
+			id: "2B8B3B4D20366D51"
+			tasks: [{
+				id: "55B0D85A8B1A52D1"
+				item: "experienceobelisk:experience_fountain"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["60FE94D7F3873736"]
+			id: "44E66A2EBE2F6979"
+			tasks: [{
+				id: "527F11C85604FA84"
+				item: {
+					Count: 1b
+					id: "experienceobelisk:enlightened_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 23.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["60FE94D7F3873736"]
+			id: "05B5401D93CD8C31"
+			tasks: [{
+				id: "29DC6ADA6EED4DB1"
+				item: "experienceobelisk:attunement_staff"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["60FE94D7F3873736"]
+			id: "44D0A81C0B384C86"
+			tasks: [{
+				count: 4L
+				id: "1D1CC1F9623BDF0D"
+				item: "experienceobelisk:accelerator"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["44D0A81C0B384C86"]
+			id: "794088A326A4B867"
+			tasks: [{
+				id: "5A0BD7BD45520349"
+				item: "experienceobelisk:linear_accelerator"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 5.0d
 		}
 	]
 	title: "{sacred_logistics.0ba093f3620bfef6.title}"

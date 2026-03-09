@@ -1,0 +1,18 @@
+{
+	"type": "assemblylinemachines:bath",
+	"input_a":{
+		"item": "assemblylinemachines:mystium_blend"
+	},
+	"input_b":{
+		"item": "fluxnetworks:flux_dust"
+	},
+	"output":{
+		"item": "experienceobelisk:cognitive_flux",
+		"count": 2
+	},
+	"stirs": 5,
+	"fluid": "lava",
+	"mix_color": "#000000",
+	"mixer_type": "MIXER_ONLY",
+	"drain_percent": "FULL"
+}
