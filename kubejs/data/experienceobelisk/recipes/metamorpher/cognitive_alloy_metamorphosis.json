@@ -1,0 +1,21 @@
+{
+  "type": "experienceobelisk:molecular_metamorphosis",
+  "ingredient1": {
+      "item": "experienceobelisk:cognitive_flux"
+  },
+  "count1": 2,
+  "ingredient2": {
+    "item": "sacred_logistics:meteorite_ingot"
+  },
+  "count2": 1,
+  "ingredient3": {
+    "item": "experienceobelisk:dummy_sword"
+  },
+  "count3": 0,
+  "result": {
+    "item": "experienceobelisk:cognitive_alloy",
+    "count": 1
+  },
+  "cost": 16,
+  "processTime": 20
+}

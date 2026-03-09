@@ -52,9 +52,9 @@
 		},
 		// List of heat source blocks used under Thermo Generator.
 		"heat_blocks": {
-			"minecraft:lava": 1000,
-			"powah:blazing_crystal_block": 2800,
 			"minecraft:magma_block": 800,
+			"powah:blazing_crystal_block": 2800,
+			"minecraft:lava": 1000,
 			"productivebees:blazing_crystal": 3000,
 			"allthemodium:soul_lava": 5000,
 			"cataclysm:ignitium_block": 5500,

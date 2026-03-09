@@ -152,7 +152,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -164,7 +164,7 @@
 				item: "pipez:item_pipe"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -176,7 +176,7 @@
 				item: "pipez:fluid_pipe"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -188,7 +188,7 @@
 				item: "pipez:energy_pipe"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -203,7 +203,7 @@
 				item: "pipez:universal_pipe"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -0.5d
 		}
 		{
@@ -215,7 +215,7 @@
 				item: "pipez:gas_pipe"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -1.5d
 		}
 		{
@@ -229,6 +229,62 @@
 			}]
 			x: -1.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["18F8BADF3A3A940A"]
+			id: "72E394E77A09BAEC"
+			tasks: [{
+				id: "01AD32685E52F944"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_building"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18F8BADF3A3A940A"]
+			id: "5B2E6F25069695D6"
+			tasks: [{
+				id: "7AF8F3D594EC7218"
+				item: "chunkloaders:basic_chunk_loader"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5B2E6F25069695D6"]
+			id: "42B7458A036499B3"
+			tasks: [{
+				id: "6521081550DC26F7"
+				item: "chunkloaders:advanced_chunk_loader"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["42B7458A036499B3"]
+			id: "6F30A1F159BD2614"
+			tasks: [{
+				id: "75064E73235F36DB"
+				item: "chunkloaders:ultimate_chunk_loader"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
 		}
 	]
 	title: "{sacred_logistics.49438bbeec9da5b5.title}"
