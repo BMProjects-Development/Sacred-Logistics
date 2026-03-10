@@ -27,15 +27,15 @@
     "entity_health": true,
     "energy_storage": true,
     "entity_armor.max_for_render": 40,
-    "enchantment_power": true,
     "breaking_progress": true,
+    "enchantment_power": true,
     "tnt_stability": true,
     "villager_profession": true,
     "mob_breeding": true,
     "entity_health.icons_per_line": 10,
     "item_frame": true,
-    "crop_progress": true,
     "fluid.detailed": false,
+    "crop_progress": true,
     "total_enchantment_power": true,
     "potion_effects": true,
     "command_block": true,
@@ -46,11 +46,11 @@
     "mob_spawner": true,
     "redstone": true
   },
-  "entangled": {
-    "entangled_block_component": true
-  },
   "tombstone": {
     "graves": true
+  },
+  "entangled": {
+    "entangled_block_component": true
   },
   "pneumaticcraft": {
     "pneumatic": true,
@@ -76,6 +76,9 @@
   "lootr": {
     "info": true
   },
+  "custommachinery": {
+    "machine_component_provider": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -93,6 +96,21 @@
     "jar": true,
     "bee_attributes": true,
     "productive_bee": true
+  },
+  "extendedcrafting": {
+    "elite_auto_table": true,
+    "ender_crafter": true,
+    "basic_auto_table": true,
+    "flux_crafter": true,
+    "advanced_table": true,
+    "auto_ender_crafter": true,
+    "ultimate_table": true,
+    "ultimate_auto_table": true,
+    "elite_table": true,
+    "basic_table": true,
+    "crafting_core": true,
+    "advanced_auto_table": true,
+    "compressor": true
   },
   "jadeaddons": {
     "equipment_requirement": ""

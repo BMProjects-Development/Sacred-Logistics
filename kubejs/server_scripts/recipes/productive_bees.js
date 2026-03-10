@@ -80,4 +80,7 @@ ServerEvents.recipes(event => {
 	)
 	
 	
+	event.remove({id: 'productivebees:stone_chip'})
+	
+	
 })
