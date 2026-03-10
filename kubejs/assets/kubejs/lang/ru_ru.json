@@ -770,5 +770,12 @@
 	"item.kubejs.steel_catalyst": "Стальной катализатор",
 	"item.kubejs.photocell": "Фотоэлемент",
 	"item.kubejs.quantum_processor": "Квантовый процессор",
-	"item.kubejs.almighty_cog": "Всемогущая шестерёнка"
+	"item.kubejs.almighty_cog": "Всемогущая шестерёнка",
+	
+	"tooltip.kubejs.short_description0": "Удерживайте ",
+	"tooltip.kubejs.short_description1": "Ctrl ",
+	"tooltip.kubejs.short_description2": "чтобы узнать больше информации.",
+	
+	"tooltip.kubejs.flippers.description0": "Необходимы для перемещения в воде!",	
+	"tooltip.kubejs.spatial_sign.description0": "Необходима для перемещения между измерениями!"
 }
