@@ -17,6 +17,15 @@ ItemEvents.tooltip(event => {
       text.add(1, Text.translate('tooltip.kubejs.spatial_sign.description0').gray())
     }
   })
+  
+  
+  event.addAdvanced('sacred_logistics:meteorite_charm', (item, advanced, text) => {	  
+    if (!event.ctrl) {
+      text.add(1, [Text.translate('tooltip.kubejs.short_description0').gray(), Text.translate('tooltip.kubejs.short_description1').gold(), Text.translate('tooltip.kubejs.short_description2').gray()])
+    } else {
+      text.add(1, Text.translate('tooltip.kubejs.meteorite_charm.description0').gray())
+    }
+  })
 
 
 })

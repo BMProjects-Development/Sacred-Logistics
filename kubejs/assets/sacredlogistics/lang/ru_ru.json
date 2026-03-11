@@ -777,5 +777,6 @@
 	"tooltip.kubejs.short_description2": "чтобы узнать больше информации.",
 	
 	"tooltip.kubejs.flippers.description0": "Необходимы для перемещения в воде!",	
-	"tooltip.kubejs.spatial_sign.description0": "Необходима для перемещения между измерениями!"
+	"tooltip.kubejs.spatial_sign.description0": "Необходима для перемещения между измерениями!",
+	"tooltip.kubejs.meteorite_charm.description0": "Необходим для защиты от падения метеоритов!"
 }
